@@ -1,2 +1,2 @@
 # SoftUniCourse
-No one is able to beat me, stop me, of course.
+No one is able to stop me, except of course.
