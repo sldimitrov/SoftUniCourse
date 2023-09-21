@@ -1,4 +1,4 @@
-# My SoftUni Python-FundamentalsModule
+# Python Fundamentals Module
 
 -Here I'm going to post all of the exercises
 im doing.
