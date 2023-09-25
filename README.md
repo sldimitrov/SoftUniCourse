@@ -1,5 +1,12 @@
-# SoftUniCourse
-No one is able to stop me, except of course.
+# Python Fundamentals Module
 
-Hello everyone, I'm just testing this way of programing structure.
- It is very interesting for me. My hopes are high just like me.
+-Here I'm going to post all of the exercises
+im doing.
+-There are going to be some extra projects
+added. All in a way of expose the creativity
+that's inside me.
+-If you like how i code or you have any
+questions, drop a line. In case you are 
+an intermediate and you have any tips,
+again - write!
+
