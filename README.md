@@ -13,5 +13,5 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 ## Basics Module(0):
 ➡ [Click here](https://github.com/sldimitrov/Projects/tree/main/BouncingBall)
 
-## Fundamentals Module():
+## Fundamentals Module(1):
 ➡ [Click here](https://github.com/sldimitrov/Projects/tree/main/BouncingBall)
