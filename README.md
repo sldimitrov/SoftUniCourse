@@ -11,7 +11,7 @@ My University - *https://softuni.bg/* 🧑🏻‍🎓
 Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 💡🧠
 
 ## Basics Module:
-➡ [Click here](https://github.com/sldimitrov/Projects/tree/main/BouncingBall)
+➡ [Click here](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 
 ## Fundamentals Module:
 ➡ [Click here](https://github.com/sldimitrov/Projects/tree/main/BouncingBall)
