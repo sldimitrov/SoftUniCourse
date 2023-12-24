@@ -11,9 +11,11 @@ My University - *https://softuni.bg/* 💡
 Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🧠
 
 ## Basics Module - Finished:
-➡ [The Module](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+➡ [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 ➡ [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
 ## Fundamentals Module:
-➡ [Click here](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+➡ [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+➡ [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
+
