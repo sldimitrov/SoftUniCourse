@@ -4,11 +4,11 @@
 * Here I am going to upload all of my Courses from SoftUni. ✅
 * Everyone of the them follows my goal - becoming an Ultimate Python Developer! </>
 
-My name - Slavi Dimitrov⚡
+Who I am? - Slavi Dimitrov⚡
 
-My University - *https://softuni.bg/* 💡
+Where I am learning? - *https://softuni.bg/* 💡
 
-Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🧠
+Where you can find me? - Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🧠
 
 ## Basics Module - Finished:
 ➡[My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
