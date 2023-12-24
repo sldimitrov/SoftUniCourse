@@ -15,7 +15,7 @@ Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 🧠
 ➡ [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
-## Fundamentals Module:
-➡ [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
-➡ [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
+## Fundamentals Module - Finished:
+➡[My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+➡[Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
