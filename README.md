@@ -18,6 +18,6 @@ Where you can find me?
 
 
 ## Fundamentals Module - Finished:
-➡[My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
-➡[Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
+- [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+- [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
