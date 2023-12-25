@@ -2,7 +2,7 @@
  # SOFTWARE UNIVERSITY 🎓
 
 * Here I am going to upload all of my Courses from SoftUni. ✅
-* Everyone of the them follows my goal - becoming an Ultimate Python Developer! </>
+* Everyone of the them follows my goal - becoming the Ultimate Python Developer! </>
 
 Who I am? - Slavi Dimitrov⚡
 
