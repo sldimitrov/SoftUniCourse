@@ -8,7 +8,7 @@ Who I am? - Slavi Dimitrov⚡
 
 Where I am learning? - *https://softuni.bg/* 💡
 
-Where you can also find me? 
+Where you can find me? 
 - Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 
 - email - *slavidimitrov54@gmail.com* 🧠
 
