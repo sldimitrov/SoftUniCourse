@@ -13,8 +13,8 @@ Where you can find me?
 - email - *slavidimitrov54@gmail.com* 🧠
 
 ## Basics Module - Finished:
-➡[My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
-➡[Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
+- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+- [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
 ## Fundamentals Module - Finished:
