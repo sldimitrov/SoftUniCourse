@@ -21,3 +21,6 @@ Where you can find me?
 - [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
+
+## Advanced Module - Pending...
+
