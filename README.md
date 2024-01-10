@@ -12,6 +12,8 @@ Where you can find me?
 - Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 
 - email - *slavidimitrov54@gmail.com* 🧠
 
+# Software Engineering
+
 ## Basics Module - Finished:
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
@@ -22,5 +24,7 @@ Where you can find me?
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
-## Advanced Module - Pending...
+## Advanced Module - Begun
+
+# Quality Assurance 
 
