@@ -28,3 +28,5 @@ Where you can find me?
 
 # Quality Assurance 
 
+## QA Basics - Begun
+
