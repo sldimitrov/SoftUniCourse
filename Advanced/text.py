@@ -8,5 +8,6 @@ for _ in range(len(text)):
     reversed_text += removed_symbol
 
 # Print User output
-print(reversed_text)
+print(reversed_text)\
+
 
