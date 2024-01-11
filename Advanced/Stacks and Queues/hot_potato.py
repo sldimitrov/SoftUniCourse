@@ -1,19 +1,12 @@
 from collections import deque
 
 queue = deque(input().split())
-
-# Read User Input
-# Tracy Emily Daniel
-# 2
-
-moves = int(input())
-queue.reverse()
+n_toss = int(input())
 
 # Logic
 while len(queue) > 1:
-    queue.rotate(moves)
-    print(f"Removed {queue.popleft()}")
-    queue.rotate(1)
+    queue.rotate(-n_toss)
+    print(f"Removed {queue.pop()}")
 
 # Print User output
 print(f"Last is {''.join(queue)}")
