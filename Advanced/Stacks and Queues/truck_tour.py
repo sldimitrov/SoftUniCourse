@@ -1,24 +1,26 @@
 from collections import deque
 
-# Read User input
-pumps_data = deque([[int(x) for x in input().split()] for _ in range(int(input()))])
+# Read User Input with comprehension
+gas_stations = deque([[int(x) for x in input().split()] for _ in range(int(input()))])
 
-pumps_data_copy = pumps_data.copy()
-gas_in_tank = 0
+# Initialise variables
+gas_stations_copy = gas_stations.copy()
+tank = 0
 index = 0
 
 # Logic
-while pumps_data_copy:
-    petrol, distance = pumps_data.popleft()
+while gas_stations_copy:
+    petrol, distance = gas_stations_copy.popleft()
 
-    gas_in_tank += petrol
+    tank += petrol
 
-    if gas_in_tank >= distance:
-        gas_in_tank -= distance
+    if tank >= distance:
+        tank -= distance
     else:
-        pumps_data.rotate(-1)
-        pumps_data_copy = pumps_data_copy.copy()
+        gas_stations.rotate(-1)
+        gas_stations_copy = gas_stations.copy()
         index += 1
-        gas_in_tank = 0
+        tank = 0
 
+# Print User output
 print(index)
