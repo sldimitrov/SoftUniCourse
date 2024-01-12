@@ -1,5 +1,6 @@
 from collections import deque
 
+# Read User input
 queue = deque(input().split())
 n_toss = int(input())
 

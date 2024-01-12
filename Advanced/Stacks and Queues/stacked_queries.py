@@ -1,6 +1,7 @@
 # User input
 n = int(input())
 
+# Initialise a stack to store data 
 stack = []
 
 # Logic
