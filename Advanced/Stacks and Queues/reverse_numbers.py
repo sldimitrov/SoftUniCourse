@@ -1,10 +1,5 @@
-from collections import deque
+# Read User input
+numbers = input().split()
 
-reversed_list = []
-
-numbers = deque(input().split())
-
-for n in numbers.copy():
-    reversed_list.append(numbers.pop())
-
-print(*reversed_list)
+# Print User output
+print(*reversed(numbers))
