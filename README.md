@@ -30,4 +30,4 @@ Where you can find me?
 # Quality Assurance 
 
 ## QA Basics - Begun
-
+- [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/QA)
