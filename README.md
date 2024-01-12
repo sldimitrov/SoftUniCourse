@@ -25,9 +25,11 @@ Where you can find me?
 
 
 ## Advanced Module - Begun
-- [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- *Sertificate*...
 
 # Quality Assurance 
 
 ## QA Basics - Begun
-
+- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/QA)
+- *Sertificate*...
