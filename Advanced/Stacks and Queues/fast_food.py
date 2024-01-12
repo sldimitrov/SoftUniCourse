@@ -9,7 +9,7 @@ is_end = False
 biggest_order = max(orders)
 print(biggest_order)
 
-for order in orders.copy():
+for order in orders.copy():  # O(n)
     if order <= total_food:
         total_food -= order
         orders.popleft()
