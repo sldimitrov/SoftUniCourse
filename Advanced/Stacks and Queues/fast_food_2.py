@@ -15,5 +15,5 @@ while orders:
     else:
         print(f"Orders left:", order, *orders)
 
-else:
+else:  # do NOT terminates if the for loop above is being broken
     print("Orders complete ")
