@@ -31,8 +31,7 @@ Where you can find me?
 - *Sertificate*...
 
 ## OOP Module - Pending...
-- [My homeworks]
-- *Sertificate*...
+- 
 
 # Quality Assurance 
 
