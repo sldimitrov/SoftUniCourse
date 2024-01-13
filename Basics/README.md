@@ -1,4 +1,4 @@
-# Python Basics 
+# Basics Module 
 
 Python Basics is the free course with which i had started my path into Programming. It offers 
 so much value in very short time period. It lasts only 2 months and give you the perfect idea 
