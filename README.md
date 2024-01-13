@@ -13,6 +13,8 @@ Where you can find me?
 - email - *slavidimitrov54@gmail.com* 🧠
 
 # Software Engineering
+## If you want to see all of my projects:
+- [You can find here]()
 
 ## Basics Module - Finished:
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
