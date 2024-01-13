@@ -28,6 +28,10 @@ Where you can find me?
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - *Sertificate*...
 
+## OOP Module - Pending...
+- [My homeworks]()
+- *Sertificate*...
+
 # Quality Assurance 
 
 ## QA Basics - Begun
