@@ -18,4 +18,5 @@ for value in numbers:
         values_map[resulting_number] = value
 
 end = time.time()
+# Time Complexity - O(n) FAIR enough
 print(f"Time range: {end-start:10f}")
