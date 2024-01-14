@@ -10,7 +10,4 @@ My vision is clear and i want to keep solving problem after problem while achiev
 
   Becoming the best Programmer out there!
 
-I advice everyone of you who is interested in learning Python to check the following link:
-  *https://softuni.bg/trainings/4412/programming-basics-with-python-january-2024*
-
 
