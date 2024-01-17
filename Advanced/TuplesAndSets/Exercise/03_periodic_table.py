@@ -1,12 +1,11 @@
-# Read User input
-n_lines = int(input())
-
 collection = set()
-# Logic - Algorithm O(n^2) BAD
-for l in range(n_lines):
-    line = input().split()
-    for el in line:
+
+# Logic
+for l in range(int(input())):
+    for el in input().split():
         collection.add(el)
+
+# Time complexity - O(n^2)
 
 # Print User output
 print(*collection, sep='\n')
