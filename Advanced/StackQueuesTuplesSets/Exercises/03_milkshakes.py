@@ -1,10 +1,13 @@
 from collections import deque
 
-chocolate = [int(x) for x in input().split(', ')]
-cups_of_milk = deque(int(x) for x in input().split(', '))
+# Read User input
+chocolate = [int(x) for x in input().split(', ') if int(x) > 0]
+cups_of_milk = deque(int(x) for x in input().split(', ') if int(x) > 0)
 
+# Initialise a counter for the milkshakes
 counter_of_milkshakes = 0
 
+# While we have chocolate and milk and counter is lower than 5
 while chocolate and cups_of_milk and counter_of_milkshakes < 5:
     liquid = chocolate[-1]
     cup = cups_of_milk.popleft()  # popleft the cup
