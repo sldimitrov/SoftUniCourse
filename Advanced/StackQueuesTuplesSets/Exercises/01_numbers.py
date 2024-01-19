@@ -1,13 +1,10 @@
-# Read User input
 first_set = set(int(x) for x in input().split())
 second_set = set(int(x) for x in input().split())
 
-# Logic
-for i in range(int(input())):  # n times
-    action, sequence, *data = input().split()
+for i in range(int(input())):
+    action, number, *data = input().split()
 
-    command = action + ' ' + sequence
-
+    command = action + ' ' + number
     if command == "Add First":
         [first_set.add(int(el)) for el in data]
     elif command == "Add Second":
@@ -16,9 +13,10 @@ for i in range(int(input())):  # n times
         [first_set.discard(int(el)) for el in data]
     elif command == "Remove Second":
         [second_set.discard(int(el)) for el in data]
-    elif command == "Check Subset":  # Example - if a contains b print True
+    elif command == "Check Subset":
         print(first_set.issubset(second_set) or second_set.issubset(first_set))
 
-# Print User output
 print(*sorted(first_set), sep=", ")
 print(*sorted(second_set), sep=", ")
+
+
