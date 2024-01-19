@@ -1,33 +1,35 @@
 from collections import deque
 
 # Read User input
-chocolate = [int(x) for x in input().split(', ') if int(x) > 0]
-cups_of_milk = deque(int(x) for x in input().split(', ') if int(x) > 0)
+chocolates = [int(x) for x in input().split(', ')]
+cups_of_milk = deque(int(x) for x in input().split(', '))
 
-# Initialise a counter for the milkshakes
-counter_of_milkshakes = 0
+milkshakes = 0
 
-# While we have chocolate and milk and counter is lower than 5
-while chocolate and cups_of_milk and counter_of_milkshakes < 5:
-    liquid = chocolate[-1]
-    cup = cups_of_milk.popleft()  # popleft the cup
+# Logic
+while milkshakes != 5 and chocolates and cups_of_milk:
+    chocolate = chocolates.pop()
+    cup_of_milk = cups_of_milk.pop()
 
-    if liquid == cup:
-        counter_of_milkshakes += 1
-        chocolate.pop()  # remove the liquid from the list
+    if chocolate <= 0 and cup_of_milk <= 0:
+        continue
+    elif chocolate <= 0:
+        cups_of_milk.append(cup_of_milk)
+    elif cup_of_milk <= 0:
+        chocolates.append(chocolate - 5)
+        continue
+
+    if cup_of_milk == chocolate:
+        milkshakes += 1
     else:
-        cups_of_milk.append(cup)  # append it in case the liquid is not enough
-        chocolate[-1] -= 5  # decrease the chocolate value
+        cups_of_milk.append(cup_of_milk)
+        chocolates.append(chocolate - 5)
 
-if counter_of_milkshakes >= 5:
+# Print User Output
+if milkshakes == 5:
     print(f"Great! You made all the chocolate milkshakes needed!")
 else:
     print(f"Not enough milkshakes.")
-if chocolate:
-    print(f"Chocolate: {', '.join([str(x) for x in chocolate])}")
-else:
-    print(f"Chocolate: empty")
-if cups_of_milk:
-    print(f"Milk: {', '.join(str(x) for x in cups_of_milk)}")
-else:
-    print(f"Milk: empty")
+
+print(f"Chocolate: {', '.join(str(x) for x in chocolates) or 'empty'}")
+print(f"Milk: {', '.join(str(x) for x in cups_of_milk) or 'empty'}")
