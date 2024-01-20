@@ -53,7 +53,7 @@ else:
 if materials:
     print(f"Materials left: {', '.join([str(x) for x in sorted(materials, reverse= True)])}")
 if magic_levels:
-    print(f"Magic left: {', '.join([str(x) for x in sorted(magic_levels, reverse= True)])}")
+    print(f"Magic left: {', '.join([str(x) for x in sorted(magic_levels)])}")
 
 for toy in sorted(set(toys)):
     print(f"{toy}: {toys.count(toy)}")
