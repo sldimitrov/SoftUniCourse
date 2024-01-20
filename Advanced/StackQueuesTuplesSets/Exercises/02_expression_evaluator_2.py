@@ -17,7 +17,7 @@ while idx < len(expression):
 
     if element in "*/+-":
         expression[0] = functions[element](idx)
-        [expression.pop(1) for _ in range(idx)] # pop everything including the index
+        [expression.pop(1) for _ in range(idx)]  # pop everything including the index
         idx = 1
     idx += 1
 
