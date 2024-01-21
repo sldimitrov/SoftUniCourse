@@ -19,3 +19,5 @@ for row in range(0, size):
 
 # Print User output
 print(reversed_diagonal)
+
+# TODO: make faster
