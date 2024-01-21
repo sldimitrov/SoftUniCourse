@@ -1,4 +1,4 @@
-from collections import deque
+~from collections import deque
 
 # Read User input
 bullet_price = int(input())

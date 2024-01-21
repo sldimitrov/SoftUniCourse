@@ -1,5 +1,4 @@
 # One way to initialize a matrix
-
 # matrix = []
 # for i in range(3):
 #     matrix.append([])
@@ -8,8 +7,7 @@
 #
 # print(matrix)
 
-
-# # Another one
+# Initialize matrix
 # total_sum = 0
 # matrix = []
 # for i in range(3):
@@ -21,7 +19,6 @@
 #
 # print(total_sum)
 # print(matrix)
-
 
 # the length of each list
 # matrix = [[1, 2, 3], [4, 5, 6], [8, 9]]
@@ -36,3 +33,28 @@
 # [1 - 3] x 3
 # matrix = [[j for j in range(1, 4)] for i in range(3)]
 # print(matrix)
+
+# Flatten
+# matrix = [[1, 2, 3], [4, 5, 6]]  # -> [1, 2, 3, 4, 5, 6]
+# flatten = [num for sublist in matrix for num in sublist]
+# print(flatten)
+
+# for row in matrix:
+#     for el in row:
+#         flatten.append(el)
+# print(flatten)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
