@@ -24,7 +24,15 @@
 
 
 # the length of each list
-matrix = [[1, 2, 3], [4, 5, 6], [8, 9]]
-for i in range(len(matrix)):
-    print(f'list: {matrix[i]}')
-    print(f'length: {len(matrix[i])}')
+# matrix = [[1, 2, 3], [4, 5, 6], [8, 9]]
+# for i in range(len(matrix)):
+#     print(f'list: {matrix[i]}')
+#     print(f'length: {len(matrix[i])}')
+
+# creating a matrix with list comprehension
+# [0, 0] x 3
+# matrix = [[0 for j in range(2)] for i in range(3)]
+# print(matrix)
+# [1 - 3] x 3
+# matrix = [[j for j in range(1, 4)] for i in range(3)]
+# print(matrix)
