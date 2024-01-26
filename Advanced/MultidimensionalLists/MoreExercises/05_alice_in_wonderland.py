@@ -35,7 +35,7 @@ while True:
         elif matrix[pos_1][pos_2] == "." or matrix[pos_1][pos_2] == '*':
             pass
         else:
-            total_tea_collected += int(matrix[pos_1][pos_2])
+            total_tea_collected += matrix[pos_1][pos_2]
 
         alis_pos[0] = pos_1
         alis_pos[1] = pos_2
