@@ -33,14 +33,17 @@ while tea_bags < 10:
     if not (0 <= row < size and 0 <= col < size):
         break
 
+    # change the character position
     alice_pos = [row, col]
+    # take the element from the current position
     element = matrix[row][col]
+    # change its value with asterisk
     matrix[row][col] = "*"
 
-    if element == "R":
+    if element == "R":  # if there is a rabbit hole
         break
 
-    if element.isdigit():
+    if element.isdigit():  # if there is tea
         tea_bags += int(element)
 
 if tea_bags < 10:
