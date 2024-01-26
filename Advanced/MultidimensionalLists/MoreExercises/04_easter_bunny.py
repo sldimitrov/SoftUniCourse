@@ -1,18 +1,20 @@
 # Read User input
 size = int(input())
 matrix = [[int(x) if x.isdigit() else x for x in input().split()] for row in range(size)]
+mag_eggs_pos = []
+direction = None
+
+max_eggs = float("-inf")
+
 
 # Initialise directions
 directions = {
     (0, 1): "right",  # right 0
     (0, -1): "left",  # left 1
-    (-1, 0): "top",  # top 2
+    (-1, 0): "up",  # top 2
     (1, 0): "down",   # bottom 3
 }
 
-max_eggs = 0
-mag_eggs_pos = []
-direction = ''
 
 for row in range(size):
     for col in range(size):
@@ -35,7 +37,7 @@ for row in range(size):
                             break
                     else:  # if invalid position
                         break
-                if current_eggs > max_eggs:
+                if current_eggs >= max_eggs:
                     max_eggs = current_eggs
                     mag_eggs_pos = eggs_pos
                     direction = directions.get(d)
@@ -45,4 +47,4 @@ print(direction)
 [print(row) for row in mag_eggs_pos]
 print(max_eggs)
 
-# 62/100 result
+# 75/100 result
