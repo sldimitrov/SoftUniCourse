@@ -1,10 +1,12 @@
 # Defining a function
-def count_num(end_num):
+def count_num(end_num):  # PARAMETER
     """
     Print out numbers from 1 to given range
     """
-    for num in range(1, end_num+1):
+    for num in range(1, end_num + 1):
         print(num)
 
+
 # Calling the function
-count_num(12)
+
+count_num(12)  # ARGUMENT
