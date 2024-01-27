@@ -9,4 +9,5 @@ def factorial(number):
         return fact
     return inner_factorial(number)
 
+
 print(factorial(5))
