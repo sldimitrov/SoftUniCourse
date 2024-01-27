@@ -1,5 +1,5 @@
 # Defining a function
-def count_num(end_num):  # PARAMETER
+def count_num(end_num=5):  # PARAMETER
     """
     Print out numbers from 1 to given range
     """
@@ -9,4 +9,4 @@ def count_num(end_num):  # PARAMETER
 
 # Calling the function
 
-count_num(12)  # ARGUMENT
+count_num()  # ARGUMENT
