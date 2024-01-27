@@ -1,19 +1,20 @@
-def sorting_cheeses(**kwargs):
+# Define a function
+def sorting_cheeses(**kwargs) -> str:
     formatted_result = ''
 
-    sorted_result = sorted(
-                    kwargs.items(),
-                    key=lambda kvp: (-len(kvp[1]), kvp[0])
-                    )
+    sorted_dictionary = sorted(
+        kwargs.items(), key=lambda kvp: (len(kvp[1]), (kvp[0], reversed))
+    )
 
-    for kind, values in sorted_result:
+    for kind, values in sorted(sorted_dictionary, reverse=True):
         formatted_result += f"{kind}\n"
-        for value in sorted(values, reverse=True):
+        for value in values:
             formatted_result += f"{value}\n"
 
     return formatted_result
 
 
+# Test cases
 print(
     sorting_cheeses(
         Parmesan=[102, 120, 135],
