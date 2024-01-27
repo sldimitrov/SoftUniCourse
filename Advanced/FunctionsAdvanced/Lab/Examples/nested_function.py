@@ -14,14 +14,39 @@ def factorial(number):
 # print(factorial(5))
 
 # Playing with the scope of the inner function
-def a():
+# def a():
+#     def b():
+#         return 'Hello'
+#     return b
+
+
+# result = a()  # Expose inner function for the outer world
+# print(result())
+
+# # Another way to do it
+# print(a()())  # uglier
+
+
+# Lexical closures examples
+def a(num):
     def b():
-        return 'Hello'
-    return b
+        print(num)
+
+    return b()
 
 
-result = a()  # Expose inner function for the outer world
-print(result())
+a(10)
 
-# Another way to do it
-print(a()())  # uglier
+
+# Ex: 2
+def greeting(name):
+    hello = "Hello, "
+
+    def say_hi():
+        return hello + name
+
+    return say_hi  # return a pointer to the inner func.
+
+
+print(greeting("Peter")())  # syntax used to call the inner func.
+# also used within the decorators # TODO: check decorators
