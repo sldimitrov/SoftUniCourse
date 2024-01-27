@@ -7,7 +7,21 @@ def factorial(number):
         for i in range(1, n + 1):
             fact = fact * i
         return fact
+
     return inner_factorial(number)
 
 
-print(factorial(5))
+# print(factorial(5))
+
+# Playing with the scope of the inner function
+def a():
+    def b():
+        return 'Hello'
+    return b
+
+
+result = a()  # Expose inner function for the outer world
+print(result())
+
+# Another way to do it
+print(a()())  # uglier
