@@ -1,15 +1,3 @@
-# Define a function
-def valid_coordinates(coord_1: int, coord_2: int):
-    """
-    Initialise a function to check whether the given coordinates
-    are within the borders of the matrix or not.
-    returns: boolean
-    """
-    if 0 <= coord_1 < size and 0 <= coord_2 < size:
-        return True
-    return False
-
-
 # Read User input
 count_of_presents = int(input())
 size = int(input())
@@ -17,9 +5,10 @@ size = int(input())
 # Initialise variables
 matrix = []  # neighborhood
 santa_pos = []
-nice_kids_left = 0
-nice_kids_given = 0
 last_position = []
+nice_kids_total = 0
+nice_kids_given = 0
+total_presents_given = 0
 
 # Initialise the matrix
 for row in range(size):
@@ -28,8 +17,8 @@ for row in range(size):
     if 'S' in matrix[row]:
         santa_pos = [row, matrix[row].index('S')]
         matrix[row][santa_pos[1]] = '-'
-    if 'V' in matrix[row]:
-        nice_kids_left += matrix[row].count('V')
+
+    nice_kids_total += matrix[row].count('V')
 
 # Initialise directions
 directions = {
@@ -41,6 +30,7 @@ directions = {
 
 # Logic
 command = input()
+
 while command != "Christmas morning":
     # delete last position
     if last_position:
@@ -53,70 +43,64 @@ while command != "Christmas morning":
     pos_1 = santa_pos[0] + r
     pos_2 = santa_pos[1] + c
 
-    # Validate coordinates
-    if valid_coordinates(pos_1, pos_2):
+    santa_pos = [
+        pos_1,
+        pos_2
+    ]
 
-        # Good kid lives here
-        if matrix[pos_1][pos_2] == 'V':
-            count_of_presents -= 1
-            nice_kids_left -= 1
-            nice_kids_given += 1
-            matrix[pos_1][pos_2] = 'S'
-            santa_pos = [pos_1, pos_2]
+    # Good kid lives here
+    if matrix[pos_1][pos_2] == 'V':
+        count_of_presents -= 1
+        total_presents_given += 1
+        nice_kids_given += 1
 
-            # break condition
-            if not count_of_presents:  # if Santa runs out of presents
-                break
-            last_position = [pos_1, pos_2]
-            # matrix[pos_1][pos_2] = '-'  # change value
+        # break condition
+        if total_presents_given >= count_of_presents:
+            break
 
-        # Naughty kid lives here
-        elif matrix[pos_1][pos_2] == 'X':
-            santa_pos = [pos_1, pos_2]
-            matrix[pos_1][pos_2] = 'S'
-            last_position = [pos_1, pos_2]
+    # Naughty kid lives here
+    elif matrix[pos_1][pos_2] == 'X':
+        pass
 
-            # matrix[pos_1][pos_2] = '-'
+    # Everyone receive present! Cookie was found
+    elif matrix[pos_1][pos_2] == 'C':
+        matrix[santa_pos[0]][santa_pos[1]] = '-'
+        for direction, coords in directions.items():
+            # Return deer to Santa Claus after delivery
+            deer_pos_1 = pos_1
+            deer_pos_2 = pos_2
 
-        # Everyone receive present! Cookie was found
-        elif matrix[pos_1][pos_2] == 'C':
-            for direction, coords in directions.items():
-                # Return deer to Santa Claus after delivery
-                deer_pos_1 = pos_1
-                deer_pos_2 = pos_2
+            # new coordinates
+            deer_pos_1 += coords[0]
+            deer_pos_2 += coords[1]
 
-                # new coordinates
-                deer_pos_1 += coords[0]
-                deer_pos_2 += coords[1]
+            if matrix[deer_pos_1][deer_pos_2] == 'V':
+                nice_kids_given += 1
+                total_presents_given += 1
+                count_of_presents -= 1
 
-                # If coordinates are valid - deer deliver
-                if valid_coordinates(deer_pos_1, deer_pos_2):
+                if not count_of_presents:  # if Santa runs out of presents
+                    break
 
-                    if matrix[deer_pos_1][deer_pos_2] == 'V':
-                        count_of_presents -= 1
-                        nice_kids_left -= 1
-                        nice_kids_given += 1
-                        if not count_of_presents:  # if Santa runs out of presents
-                            break
-                        last_position = [pos_1, pos_2]
-                        # matrix[pos_1][pos_2] = '-'
-                    elif matrix[deer_pos_1][deer_pos_2] == 'X':
-                        last_position = [pos_1, pos_2]
-                        # matrix[pos_1][pos_2] = '-'
+            elif matrix[deer_pos_1][deer_pos_2] == 'X':
+                total_presents_given += 1
 
+            matrix[deer_pos_1][deer_pos_2] = '-'
 
+    matrix[santa_pos[0]][santa_pos[1]] = '-'
 
-    if not count_of_presents:
+    if total_presents_given >= count_of_presents:
         break
     command = input()
 
-
+matrix[santa_pos[0]][santa_pos[1]] = 'S'
 # Print User output
+if total_presents_given >= count_of_presents and nice_kids_total:
+    print("Santa ran out of presents!")
+
 [print(*row) for row in matrix]
 
-if not count_of_presents:
-    print("Santa ran out of presents!")
-if nice_kids_left <= 0:
+if nice_kids_given >= nice_kids_total:
     print(f"Good job, Santa! {nice_kids_given} happy nice kid/s.")
 else:
-    print(f"No presents for {nice_kids_left} nice kid/s.")
+    print(f"No presents for {nice_kids_total - nice_kids_given} nice kid/s.")
