@@ -1,5 +1,6 @@
-def sum_nums(a, b):
-    print(f"a is {a} and b is {b}")
+def sum_nums(**kwargs):
+    for k, v in kwargs.items():
+        print(k, v)
 
 
-sum_nums(b=2, a=1)
+sum_nums(**{'b': 1, 'c': 1, 'd': 1})
