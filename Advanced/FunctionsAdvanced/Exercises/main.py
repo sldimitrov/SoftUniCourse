@@ -1,3 +1,4 @@
+# Example of magic method
 def a():
     print(5)
 
