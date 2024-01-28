@@ -1,10 +1,9 @@
 # Define a function
 def func_executor(*funcs_data) -> str:
-
     result = []
 
     for func, args in funcs_data:
-       result.append(f"{func.__name__} - {func(*args)}")
+        result.append(f"{func.__name__} - {func(*args)}")
 
     return '\n'.join(result)
 
