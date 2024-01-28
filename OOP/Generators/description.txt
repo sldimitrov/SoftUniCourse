@@ -1,0 +1,6 @@
+Generator functions allow you to declare a function that behaves like an iterator, i.e. it can be used in a for loop.
+
+The simplification of code is a result of generator function and generator expression support provided by Python.
+
+Keep in mind that generators are a special type of iterator,
+and that containers like list and set are also iterables.
