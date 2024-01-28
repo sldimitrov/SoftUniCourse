@@ -1,0 +1,5 @@
+Keep in mind that generators are a special type of iterator,
+
+and that containers like list and set are also iterables.
+
+The uniform way in which all of these are handled adds greatly to the simplification of code.
