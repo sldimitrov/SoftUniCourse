@@ -1,3 +1,4 @@
+# Define a function
 def kwargs_length(**kwargs):
     return len(kwargs)
 

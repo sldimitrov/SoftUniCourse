@@ -1,3 +1,4 @@
+# Define a function
 def even_odd_filter(**kwargs):
     if 'odd' in kwargs:
         kwargs['odd'] = [x for x in kwargs['odd'] if x % 2 != 0]
