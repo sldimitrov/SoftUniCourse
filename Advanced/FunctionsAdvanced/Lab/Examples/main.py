@@ -1,3 +1,5 @@
+
+
 # Defining a function
 def count_num(end_num=5):  # PARAMETER
     """
@@ -10,3 +12,4 @@ def count_num(end_num=5):  # PARAMETER
 # Calling the function
 
 count_num()  # ARGUMENT
+
