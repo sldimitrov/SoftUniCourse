@@ -17,4 +17,5 @@ def print_numbers(nums):
 
 # Read the input
 numbers = [int(x) for x in input().split()]
+# Call the function
 print_numbers(numbers)
