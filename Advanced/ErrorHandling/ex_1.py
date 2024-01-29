@@ -11,3 +11,5 @@ for _ in range(n):
         print('Index error')
     except ZeroDivisionError:
         print('Zero division error')
+
+# except Exception - is not good practice
