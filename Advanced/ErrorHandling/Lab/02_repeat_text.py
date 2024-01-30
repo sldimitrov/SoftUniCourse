@@ -1,3 +1,4 @@
+
 # Read User input
 text = input()
 
