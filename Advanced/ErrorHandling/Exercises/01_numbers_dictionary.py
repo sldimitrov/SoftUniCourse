@@ -1,5 +1,22 @@
 numbers_dictionary = {}
 
+
+class KeyDoesNotMatchValue(Exception):
+    pass
+
+
+def check_key_value_matching(key: str, value: int) -> None:
+    """
+    The main logic about adding kvp(key-value pairs) is that they should match.
+    Let me show you and example of how exactly:
+    {'one': 1, 'two': 2, 'three': 3} and so on...
+
+    This functions will check whether the key matches the value and if
+    it doesn't an exception is going to be thrown - (KeyDoesNotMatchValue).
+    """
+
+
+
 # Read User input
 line = input()  # Adding numbers to the dictionary
 while line != "Search":
