@@ -52,8 +52,8 @@ line = input()
 while line != "Remove":  # Print pairs from the dictionary
     searched = line
 
-    try:  # Print a pair from the dictionary with key
-        print(numbers_dictionary[searched])
+    try:  # Take the key and access its value in order to print it to the User
+        print(f"Key {numbers_dictionary[searched]} founded!")
     except KeyError:  # if the dict does not contain the key - throw an exception
         print('Number does not exist in the dictionary!')
 
