@@ -71,4 +71,4 @@ while line != "End":  # Remove pairs from the dictionary
     line = input()
 
 # Print User output
-print(numbers_dictionary)  # - the dictionary
+print(numbers_dictionary)
