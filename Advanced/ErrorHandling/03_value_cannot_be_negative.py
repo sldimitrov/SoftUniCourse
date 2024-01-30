@@ -1,4 +1,5 @@
 # Initialise a class to be used as an exception
+
 class ValueCannotBeNegative(Exception):
     pass
 

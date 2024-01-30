@@ -13,8 +13,12 @@ def absolute_values(a: list):
         result_list.append(abs(float(number)))
     return result_list
 
-# Read User input
-float_list = input().split()
 
-# Call the function and print its result
-print(absolute_values(float_list))
+# Read User input
+while True:
+    try:
+        float_list = input().split()
+    except ValueError:
+        print('Invalid value entered!')
+    else:
+        print(absolute_values(float_list))
