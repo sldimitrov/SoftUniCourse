@@ -1,4 +1,8 @@
 numbers_dictionary = {}
+VALID_KEY_VALUE_PAIRS = {
+        'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+        'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10
+    }
 
 
 class KeyDoesNotMatchValue(Exception):
@@ -18,13 +22,8 @@ def check_key_value_matching(key: str, curr_value: int) -> None:
     This functions will check whether the key matches the value and if
     it doesn't an exception is going to be thrown - (KeyDoesNotMatchValue).
     """
-    valid_key_value_pairs = {
-        'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
-        'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10
-    }
-
     try:  # try to access the expected value
-        expected_value = valid_key_value_pairs[key]
+        expected_value = VALID_KEY_VALUE_PAIRS[key]
     except KeyError:  # if the key is not in the dictionary.keys() throw an exception
         print('Invalid key!')
     else:
@@ -37,9 +36,9 @@ line = input()  # Adding numbers to the dictionary
 while line != "Search":
     number_as_string = line  # 'one'
 
-    try:  # Check if a valid number is given
+    try:  # Check if a valid number is given and if the number_as_str matches the number_as_int at the same time
         number = int(input())
-        check_key_value_matching(number_as_string, number)
+        check_key_value_matching(number_as_string, number)  # calling a function
     except ValueError:  # Exception
         print('The variable number must be an integer!')
     else:  # if valid add - {key: value} to the dict
