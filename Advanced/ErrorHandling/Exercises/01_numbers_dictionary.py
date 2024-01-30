@@ -2,10 +2,14 @@ numbers_dictionary = {}
 
 
 class KeyDoesNotMatchValue(Exception):
+    """
+    The exception is raised when the key does not match the value in kvp.
+    This should not happen because the logic of the program is just like so.
+    """
     pass
 
 
-def check_key_value_matching(key: str, value: int) -> None:
+def check_key_value_matching(key: str, curr_value: int) -> None:
     """
     The main logic about adding kvp(key-value pairs) is that they should match.
     Let me show you and example of how exactly:
@@ -14,7 +18,18 @@ def check_key_value_matching(key: str, value: int) -> None:
     This functions will check whether the key matches the value and if
     it doesn't an exception is going to be thrown - (KeyDoesNotMatchValue).
     """
+    valid_key_value_pairs = {
+        'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+        'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10
+    }
 
+    try:  # try to access the expected value
+        expected_value = valid_key_value_pairs[key]
+    except KeyError:  # if the key is not in the dictionary.keys() throw an exception
+        print('Invalid key!')
+    else:
+        if expected_value == curr_value:  # if the expected value matches the actual one
+            print(f'Valid key-value pair added! №-{len(numbers_dictionary) + 1}')
 
 
 # Read User input
@@ -24,6 +39,7 @@ while line != "Search":
 
     try:  # Check if a valid number is given
         number = int(input())
+        check_key_value_matching(number_as_string, number)
     except ValueError:  # Exception
         print('The variable number must be an integer!')
     else:  # if valid add - {key: value} to the dict
