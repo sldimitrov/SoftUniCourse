@@ -72,7 +72,20 @@ def print_messages(func_name: str) -> None:
     print(message)
 
 
-def email_is_valid(email: str) -> bool:
+def get_email() -> str:
+    # Print info about the email validation
+    print_messages(get_email.__name__)  # pass the current function name as an argument
+
+    # Read User email
+    user_email = input("Enter your email address, please: ")
+
+    # Make validation of the email address
+    if is_email_valid(user_email):
+        # If the email is valid return it to main function
+        return user_email
+
+
+def is_email_valid(email: str) -> bool:
     """
 
     """
@@ -88,23 +101,6 @@ def email_is_valid(email: str) -> bool:
     elif email.count('@') > 1:
         raise MoreThanOneAtSymbolError("Email should contain only one At symbol!")
     return True
-
-
-def is_password_valid(password):
-    pass
-
-
-def get_email():
-    # Print info about the email validation
-    print_messages(get_email.__name__)  # pass the current function name as an argument
-
-    # Read User email
-    user_email = input("Enter your email address, please: ")
-
-    # Make validation of the email address
-    if email_is_valid(user_email):
-        # If the email is valid return it to main function
-        return user_email
 
 
 def get_password():
@@ -124,6 +120,27 @@ def get_password():
             else:
                 print('Password does not match the previous one!\n'
                       'Please try again')
+
+
+def is_password_valid(password) -> bool:
+    # Initialise a boolean in order to know if the password is valid or not
+    is_valid = True
+
+    # Check the password length
+    if not (4 < len(password) < 12):
+        is_valid = False
+
+    # Check the number of digits in it
+    number_of_digits = [x for x in password if x.isdigit()]
+    if len(number_of_digits) < 2:
+        is_valid = False
+
+    # Check if there is a capital letter in the password
+    capital_letters = [x for x in password if x.capitalize()]
+    if len(capital_letters) < 1:
+        is_valid = False
+
+    return is_valid
 
 
 def main():
@@ -146,8 +163,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
