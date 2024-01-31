@@ -18,6 +18,25 @@ class MoreThanOneAtSymbolError(Exception):
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
+def valid_input_info(data):
+    if data == "email_info":
+        print(
+            f"""
+        {'<->-<->' * 6}
+              !!!Rules about valid email!!!\n
+            (1) It must consist only 1 At symbol '@'!
+            (2) The length of its first part should
+            be more than 4 characters!
+            (3) Last but not least, the domain must
+            be one of the following: .com, .bg, .org, .net!
+        {'<->-<->' * 6}\n
+            """
+        )
+
+    elif data == "password_info":
+        pass
+
+
 def email_is_valid(email: str) -> bool:
     """
 
@@ -84,6 +103,8 @@ def main():
     """
     email = get_email()
     password = get_password()
+
+
 
 
 
