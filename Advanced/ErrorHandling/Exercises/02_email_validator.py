@@ -16,6 +16,7 @@ class InvalidDomainError(Exception):
 class MoreThanOneAtSymbolError(Exception):
     pass
 
+
 class DomainMustContainsDot(Exception):
     pass
 
@@ -138,13 +139,13 @@ def is_email_valid(email: str) -> bool:
 
     # If there is not an At symbol - throw an exception
     if '@' not in email:
-        raise MustContainAtSymbolError("Email must contain @")
+        raise MustContainAtSymbolError("Email must contain at least one 'maimunsko' A!")
 
     # Split the email into 2 parts
     name, domain = email.split('@')
 
     if '.' not in domain:
-        raise
+        raise DomainMustContainsDot("Domain must contain a dot! '.com'")
 
     # Check if the length of the first part is shorter or equal to 4 and if it is - throw an exception
     if len(name) <= 4:
@@ -156,7 +157,7 @@ def is_email_valid(email: str) -> bool:
 
     # Check if there is more than 1 At symbol - stop the program
     elif email.count('@') > 1:
-        raise MoreThanOneAtSymbolError("Email should contain only one At symbol!")
+        raise MoreThanOneAtSymbolError("Email must contain only one At symbol!")
 
     # The program was not stopped, so we have a valid email address:
     return True
@@ -238,6 +239,7 @@ def main():
     password = get_password()
 
     # Store the Data
+
 
 
 if __name__ == '__main__':
