@@ -18,9 +18,34 @@ class MoreThanOneAtSymbolError(Exception):
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
-def valid_input_info(data):
-    if data == "email_info":
-        print(
+def greeting() -> None:
+    """
+    This function is being called by the main, just after running the program.
+    We use it to call the print message function and greet the User.
+    """
+    print_messages(greeting.__name__)
+
+
+def print_messages(func_name: str) -> None:
+    message = ''
+    if func_name == "greeting":
+        message = (
+            """
+            Hello, Colleague!
+            Welcome to my improvised User Authentication Project.
+            Hope that you will like it. I will be very happy 
+            to hear or read your recension about it.
+            
+            I know we live in world of imperfection and I am sure
+            that we all have so much to improve, so please tell me:
+            
+            What do you think are my mistakes and how I should
+            improve my ways of writing or doing some things.
+            """
+        )
+
+    if func_name == "get_email":
+        message = (
             f"""
         {'<->-<->' * 6}
               !!!Rules about valid email!!!\n
@@ -28,13 +53,23 @@ def valid_input_info(data):
             (2) The length of its first part should
             be more than 4 characters!
             (3) Last but not least, the domain must
-            be one of the following: .com, .bg, .org, .net!
-        {'<->-<->' * 6}\n
+            be one of the following: {', '.join(VALID_DOMAINS)}!
+        {'<->-<->' * 6}
             """
         )
 
-    elif data == "password_info":
-        pass
+    elif func_name == "get_password":
+        message = (
+            f"""
+        {'<->-<->' * 6}
+              !!!Rules about valid password!!!\n
+            (1)
+            
+        {'<->-<->' * 6}
+            """
+        )
+
+    print(message)
 
 
 def email_is_valid(email: str) -> bool:
@@ -60,26 +95,30 @@ def is_password_valid(password):
 
 
 def get_email():
+    # Print info about the email validation
+    print_messages(get_email.__name__)  # pass the current function name as an argument
+
     # Read User email
     user_email = input("Enter your email address, please: ")
 
     # Make validation of the email address
     if email_is_valid(user_email):
+        # If the email is valid return it to main function
         return user_email
 
 
 def get_password():
-    # Read User password
-
     while True:
         # Read User password
         user_password = input("Create a password password: ")
 
         # Make validation of the password
         if is_password_valid(user_password):
+
             # Tell the User to repeat his password for security reasons
             repeat_valid_password = input("Repeat your password: ")
 
+            # If password inputted matches return the password to the main
             if user_password == repeat_valid_password:
                 return user_password
             else:
@@ -105,6 +144,8 @@ def main():
     password = get_password()
 
 
+if __name__ == '__main__':
+    main()
 
 
 
