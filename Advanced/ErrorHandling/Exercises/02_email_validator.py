@@ -27,6 +27,11 @@ def greeting() -> None:
 
 
 def print_messages(func_name: str) -> None:
+    """
+    This function is being called from many others.
+    Its purpose is to different print messages to the User,
+    depending on the function which have called it.
+    """
     message = ''
     if func_name == "greeting":
         message = (
@@ -73,6 +78,16 @@ def print_messages(func_name: str) -> None:
 
 
 def get_email() -> str:
+    """
+    This function is being called by the main in order to get
+    the email address of the user.
+
+    It also calls the 1-(print_messages) and the 2-(is_email_valid) functions
+
+    The first one prints out the email validation rules.
+
+    If the second one returns true, the function returns the email to the main.
+    """
     # Print info about the email validation
     print_messages(get_email.__name__)  # pass the current function name as an argument
 
@@ -87,7 +102,11 @@ def get_email() -> str:
 
 def is_email_valid(email: str) -> bool:
     """
+    This function is being called by the (get_email) one.
 
+    It checks if the email is invalid and if it is - the program stops.
+
+    Otherwise, it returns True
     """
     if '@' not in email:
         raise MustContainAtSymbolError("Email must contain @")
@@ -104,6 +123,15 @@ def is_email_valid(email: str) -> bool:
 
 
 def get_password():
+    """
+    This function is being called by the main in order to get
+    the password of the user.
+
+    If the password is valid, we ask the User to repeat
+    his password in the console.
+
+    If the User pass the authentication we return the password to the main
+    """
     while True:
         # Read User password
         user_password = input("Create a password password: ")
@@ -123,6 +151,11 @@ def get_password():
 
 
 def is_password_valid(password) -> bool:
+    """
+    This function check if the password given by the User is valid or not.
+    if valid: return: True,
+    if not valid: return False,
+    """
     # Initialise a boolean in order to know if the password is valid or not
     is_valid = True
 
@@ -140,7 +173,7 @@ def is_password_valid(password) -> bool:
     if len(capital_letters) < 1:
         is_valid = False
 
-    return is_valid
+    return is_valid  # boolean
 
 
 def main():
@@ -157,8 +190,11 @@ def main():
     (4) Show your self the fuck off boy
 
     """
+    # Read and Validate input
     email = get_email()
     password = get_password()
+
+    # Store the Data
 
 
 if __name__ == '__main__':
