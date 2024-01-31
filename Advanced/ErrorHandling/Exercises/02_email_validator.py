@@ -58,51 +58,29 @@ def get_password():
             # Tell the User to repeat his password for security reasons
             repeat_valid_password = input("Repeat your password: ")
 
-            """
-            1 think about where it will be good to store data about the user
-            2 what the user is going to access actually?
-            3 add encrypting of saved passwords
-            """
-
             if user_password == repeat_valid_password:
-                print("Access")
+                return user_password
+            else:
+                print('Password does not match the previous one!\n'
+                      'Please try again')
 
-            break
+
 
 
 def main():
     """
-    (1) get email - get the password - validate each one.
-    
-    (2) add the User to the database (use one for real or something for improvised)
-    
-    (3) let the user access something interesting for all that work he did
+    (1) let the user access something interesting for all that work he did
     passing all the exceptions
-    
+
+    (2) add the User to the database (use one for real or something for improvised)
+
+    (3) add encrypting of saved passwords
+
     (4) Show your self the fuck off boy
+
     """
     email = get_email()
     password = get_password()
-
-
-# command = input()
-# while command != "End":
-#     email = command
-#
-#     if '@' not in email:
-#         raise MustContainAtSymbolError("Email must contain @")
-#
-#     name, domain = email.split('@')
-#
-#     if len(name) <= 4:
-#         raise NameTooShortError("Name must be more than 4 characters!")
-#     if domain.split('.')[1] not in VALID_DOMAINS:
-#         raise InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
-#     if email.count('@') > 1:
-#         raise MoreThanOneAtSymbolError("Email should contain only one At symbol!")
-#
-#     command = input()
-
 
 
 
