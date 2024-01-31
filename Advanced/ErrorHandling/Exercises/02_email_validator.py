@@ -18,7 +18,10 @@ class MoreThanOneAtSymbolError(Exception):
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
-def valid_email(email):
+def email_is_valid(email: str) -> bool:
+    """
+
+    """
     if '@' not in email:
         raise MustContainAtSymbolError("Email must contain @")
 
@@ -33,7 +36,7 @@ def valid_email(email):
     return True
 
 
-def valid_password(password):
+def is_password_valid(password):
     pass
 
 
@@ -42,7 +45,7 @@ def get_email():
     user_email = input("Enter your email address, please: ")
 
     # Make validation of the email address
-    if valid_email(user_email):
+    if email_is_valid(user_email):
         return user_email
 
 
@@ -54,7 +57,7 @@ def get_password():
         user_password = input("Create a password password: ")
 
         # Make validation of the password
-        if valid_password(user_password):
+        if is_password_valid(user_password):
             # Tell the User to repeat his password for security reasons
             repeat_valid_password = input("Repeat your password: ")
 
@@ -65,8 +68,6 @@ def get_password():
                       'Please try again')
 
 
-
-
 def main():
     """
     (1) let the user access something interesting for all that work he did
@@ -75,6 +76,8 @@ def main():
     (2) add the User to the database (use one for real or something for improvised)
 
     (3) add encrypting of saved passwords
+
+    (4) Add description of each function
 
     (4) Show your self the fuck off boy
 
