@@ -1,3 +1,6 @@
+import time
+
+
 class NameTooShortError(Exception):
     pass
 
@@ -13,17 +16,34 @@ class InvalidDomainError(Exception):
 class MoreThanOneAtSymbolError(Exception):
     pass
 
+class DomainMustContainsDot(Exception):
+    pass
+
 
 # add extension for more
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
-def greeting() -> None:
+def greeting() -> bool:
     """
     This function is being called by the main, just after running the program.
     We use it to call the print message function and greet the User.
     """
     print_messages(greeting.__name__)
+
+    # Ask the User if he is ready to start
+    answer = input('Are you ready to start? (y/n): ')
+
+    # continue the program if he agrees
+    if answer.lower() == 'y' or answer.lower() == 'yes':
+        return True
+
+    # if the returns that he is not ready raise an exception
+    elif answer.lower() == 'n' or answer.lower() == 'no':
+        raise SystemExit
+
+    else:  # in every other case the program continues
+        print("Anyway, let's go")
 
 
 def print_messages(func_name: str) -> None:
@@ -33,6 +53,7 @@ def print_messages(func_name: str) -> None:
     depending on the function which have called it.
     """
     message = ''
+    # Print a message to greet the User
     if func_name == "greeting":
         message = (
             """
@@ -45,20 +66,26 @@ def print_messages(func_name: str) -> None:
             that we all have so much to improve, so please tell me:
             
             What do you think are my mistakes and how I should
-            improve my ways of writing or doing some things.
+            improve my ways of writing code or anything else.
             """
         )
 
+    # Print a message about Valid Email Requirements
     if func_name == "get_email":
         message = (
             f"""
         {'<->-<->' * 6}
-              !!!Rules about valid email!!!\n
+              !!!Valid Email Requirements!!!\n
             (1) It must consist only 1 At symbol '@'!
             (2) The length of its first part should
             be more than 4 characters!
             (3) Last but not least, the domain must
             be one of the following: {', '.join(VALID_DOMAINS)}!
+                   !Warning! 
+            If your email is invalid the program will
+            throw you just like an exception!
+                              !Warning!
+            
         {'<->-<->' * 6}
             """
         )
@@ -108,17 +135,30 @@ def is_email_valid(email: str) -> bool:
 
     Otherwise, it returns True
     """
+
+    # If there is not an At symbol - throw an exception
     if '@' not in email:
         raise MustContainAtSymbolError("Email must contain @")
 
+    # Split the email into 2 parts
     name, domain = email.split('@')
 
+    if '.' not in domain:
+        raise
+
+    # Check if the length of the first part is shorter or equal to 4 and if it is - throw an exception
     if len(name) <= 4:
         raise NameTooShortError("Name must be more than 4 characters!")
+
+    # Check if the last part of the domain is not in Valid Domains and if it is not - raise an exception
     elif domain.split('.')[1] not in VALID_DOMAINS:
         raise InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
+
+    # Check if there is more than 1 At symbol - stop the program
     elif email.count('@') > 1:
         raise MoreThanOneAtSymbolError("Email should contain only one At symbol!")
+
+    # The program was not stopped, so we have a valid email address:
     return True
 
 
@@ -190,6 +230,9 @@ def main():
     (4) Show your self the fuck off boy
 
     """
+    # First greet the User
+    greeting()
+
     # Read and Validate input
     email = get_email()
     password = get_password()
