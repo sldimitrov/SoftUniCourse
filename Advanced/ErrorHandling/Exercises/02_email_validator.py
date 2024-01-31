@@ -67,7 +67,7 @@ def print_messages(func_name: str) -> None:
             that we all have so much to improve, so please tell me:
             
             What do you think are my mistakes and how I should
-            improve my ways of writing code or anything else.
+            improve my ways of writing code or anything else? ;)
             """
         )
 
@@ -96,7 +96,9 @@ def print_messages(func_name: str) -> None:
             f"""
         {'<->-<->' * 6}
               !!!Rules about valid password!!!\n
-            (1)
+            (1) Must be between 4 and 12 symbols!
+            (2) At least two digits must be used!
+            (3) One capital letter also!
             
         {'<->-<->' * 6}
             """
@@ -175,7 +177,8 @@ def get_password():
     """
     while True:
         # Read User password
-        user_password = input("Create a password password: ")
+        print_messages(get_password.__name__)
+        user_password = input("Create a password: ")
 
         # Make validation of the password
         if is_password_valid(user_password):
@@ -239,7 +242,6 @@ def main():
     password = get_password()
 
     # Store the Data
-
 
 
 if __name__ == '__main__':
