@@ -28,11 +28,49 @@ def register_user(name, user_password):
     return True
 
 
-# Read Input from the User
-user_name = input('name: ')
-user_pass = input('pass: ')
+def login_user(c):
+    # c is client
+    # message = client.recv(1024).decode()
+    # client.send(input(message).encode())
+    # message = client.recv(1024).decode()
+    # client.send(input(message).encode())
+    # print(client.recv(1024).decode())
 
-# If the func returns True print out a message
-if register_user(user_name, user_pass):
-    print('User was registered.')
+    c.send("Username: ".encode())
+    username = c.recv(1024).decode()
+    c.send("Password: ".encode())
+    password = c.recv(1024)
+    password = hashlib.sha256(password).hexdigest()
+
+    conn = sqlite3.connect("userdata.db")
+    cur = conn.cursor()
+
+    cur.execute("SELECT * FROM userdata WHERE username = ? AND password = ?", (username, password))
+
+    if cur.fetchall():
+        c.send("Login successful!".encode())
+        # secrets
+        # services
+    else:
+        c.send("Login failed!".encode)
+
+
+command = input("reg or log: ")
+
+if command == "reg":
+    # Read User data
+    user_name = input('name: ')
+    user_pass = input('pass: ')
+
+    if register_user(user_name, user_pass):
+        print("User was registered.")
+
+elif command == "log":
+    login_user()
+
+else:
+    print(f"Unknown command {command}")
+
+# Read Input from the User
+
 
