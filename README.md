@@ -35,6 +35,5 @@ Where you can find me?
 
 # Quality Assurance 
 
-## QA Basics - Begun
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/QA)
-- *Sertificate*...
+## QA Basics - Pending...
+-
