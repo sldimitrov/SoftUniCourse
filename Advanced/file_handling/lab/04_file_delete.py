@@ -13,4 +13,4 @@ except FileNotFoundError:  # if it doesn't exist
 else:  # terminates only if the try is successful
     print("Which is going to be the next?")
 finally:  # terminates in each scenario
-    print("Program finished")
+    print("Program finished!")
