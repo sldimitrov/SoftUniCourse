@@ -12,7 +12,7 @@ for x in range(0, size):
 counter = size - 1
 reversed_diagonal = 0
 for row in range(0, size):
-    for col in range(size -1, -1, -1):
+    for col in range(size - 1, -1, -1):
         if col == counter:
             reversed_diagonal += matrix[row][col]
     counter -= 1
