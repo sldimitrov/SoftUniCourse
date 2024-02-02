@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/Advanced/ErrorHandling/UserAuthenticationProject/samples.py" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Advanced/ErrorHandling/UserAuthenticationProject/server.py" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Advanced/ErrorHandling/UserAuthenticationProject/test_database.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/samples.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/server.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/test_database.py" dialect="GenericSQL" />
   </component>
 </project>
