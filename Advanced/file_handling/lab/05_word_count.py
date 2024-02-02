@@ -1,22 +1,27 @@
 import os
+import re
 
-text_path = os.path.join("resources", "input.txt")
 words_path = os.path.join("resources", "words.txt")
+text_path = os.path.join("resources", "input.txt")
+output_file_path = os.path.join("resources", "output.txt")
 
-with open(text_path, "r") as file:
-    text = file.read().lower()
+with open(words_path) as f:
+    words_as_string = f.read()
+    searched_words = [word.lower() for word in words_as_string.split()]
 
-with open(words_path, "r") as file:
-    searched_words = file.read().split()
-    searched_words = [word.lower() for word in searched_words]
+with open(text_path) as f:
+    content = f.read().lower()
 
-count_of_s_words = {}
+words_count = {}
 
 for searched_word in searched_words:
-    number_of_appearance = text.count(searched_word)
-    if searched_word not in count_of_s_words.keys():
-        count_of_s_words[searched_word] = 0
-        count_of_s_words[searched_word] += number_of_appearance
+    pattern = re.compile(rf"\b{searched_word}\b")
+    result = re.findall(pattern, content)
+    words_count[searched_word] = len(result)
 
+sorted_dictionary = sorted(words_count.items(), key=lambda kvp: -kvp[1])
 
-[print(f"{key} - {value}") for key, value in sorted(count_of_s_words.items())]
+with open(output_file_path, "a") as f:
+    for word, count in sorted_dictionary:
+        f.write(f"{word} - {count}\n")
+
