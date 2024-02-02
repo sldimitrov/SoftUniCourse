@@ -55,8 +55,10 @@ def login_user(c):
         c.send("Login failed!".encode)
 
 
+# Read User input
 command = input("reg or log: ")
 
+# In case he doesn't exist in the database
 if command == "reg":
     # Read User data
     user_name = input('name: ')
@@ -65,6 +67,7 @@ if command == "reg":
     if register_user(user_name, user_pass):
         print("User was registered.")
 
+# In case he is already in the database
 elif command == "log":
     login_user()
 
