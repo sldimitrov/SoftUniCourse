@@ -230,7 +230,7 @@ def register_user() -> bool:
     conn = sqlite3.connect("userdata.db")
     cur = conn.cursor()
 
-    # Add a column to the table
+    # Add a row to the table
     cur.execute("""
     CREATE TABLE IF NOT EXISTS userdata (
         id INTEGER PRIMARY KEY,
