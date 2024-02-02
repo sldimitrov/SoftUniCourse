@@ -68,5 +68,6 @@ if command == "reg":
 elif command == "log":
     login_user()
 
+
 else:
     print(f"Unknown command {command}")

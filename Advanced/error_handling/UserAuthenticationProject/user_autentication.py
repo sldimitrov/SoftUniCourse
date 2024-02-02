@@ -30,17 +30,15 @@ class DomainMustContainsDot(Exception):
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
-def starting():
+def reg_or_log_user():
     while True:
         answer = input("Hello, User!\nDo you have an existing account? (y/n): ").lower()
         if answer == "y" or answer == "yes":
-            login_user()
-            return True
+            return "log"
         elif answer == "n" or answer == "no":
             choice = input("Would you like to create a new account? (y/n): ").lower()
             if choice == "y" or choice == "yes":
-                register_user()
-                return True
+                return "reg"
             elif choice == "n" or choice == "no":
                 raise UserDoesNotNeedService
         else:
@@ -55,6 +53,25 @@ def print_messages(func_name: str) -> None:
     depending on the function which have called it.
     """
     message = ''
+
+    if func_name == "main":
+        print(
+            """
+            Greet the user
+
+                    Hello, Colleague!
+                    Welcome to my improvised User Authentication Project.
+                    Hope that you will like it. I will be very happy 
+                    to hear or read your recension about it.
+
+                    I know we live in world of imperfection and I am sure
+                    that we all have so much to improve, so please tell me:
+
+                    What do you think my mistakes are and how I should
+                    improve my code, what else I can add? ;)
+
+            """
+        )
 
     # Print a message about Valid Email Requirements
     if func_name == "get_email":
@@ -234,7 +251,7 @@ def register_user() -> bool:
     return True
 
 
-def login_user() -> None:
+def login_user() -> bool:
     """
     This functions take and return no parameters.
     It takes User input and check for matches in the database.
@@ -256,11 +273,11 @@ def login_user() -> None:
 
     # If there is a match
     if cur.fetchall():
-        print("Login successful!")
+        return True
         # secrets
         # services
     else:  # if there is no match
-        print("Login failed!")
+        return False
 
 
 def main():
@@ -268,31 +285,26 @@ def main():
     (1) let the user access something interesting for all that work he did
     passing all the exceptions
 
-    (4) Add description of each function
-
-    (4) Show your self the fuck off boy
-
-    (5) add a counter if 5 times a password is invalid - throws an exception
+    (5) add a counter if 3 times a password is invalid - throws an exception
     """
-    # Let the User create or sign in to an account
-    starting()
+    # Get the User into the server
+    choice = reg_or_log_user()
+
+    # The case where the User need to create an account
+    if choice == "reg":
+        if register_user():
+            print("User was successfully registered!")
+    # There won't be a case reg func. return False, because we catch every of
+    # these case with exception and the program stops.
+
+    # The case where the User already has an account
+    elif choice == "log_user":
+        if login_user():
+            print("Login succeeded")
+        else:
+            print("Login failed!")
 
 
 if __name__ == '__main__':
     main()
 
-"""
-    Greet the user
-
-            Hello, Colleague!
-            Welcome to my improvised User Authentication Project.
-            Hope that you will like it. I will be very happy 
-            to hear or read your recension about it.
-            
-            I know we live in world of imperfection and I am sure
-            that we all have so much to improve, so please tell me:
-            
-            What do you think my mistakes are and how I should
-            improve my code, what else I can add? ;)
-
-"""
