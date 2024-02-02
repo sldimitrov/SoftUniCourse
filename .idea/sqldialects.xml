@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/samples.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/server.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/test_database.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/user_autentication.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/error_handling/UserAuthenticationProject/userdata.db" dialect="GenericSQL" />
   </component>
 </project>
