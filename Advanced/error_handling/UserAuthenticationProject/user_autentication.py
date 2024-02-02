@@ -1,5 +1,5 @@
 
- class NameTooShortError(Exception):
+class NameTooShortError(Exception):
     pass
 
 
@@ -42,7 +42,7 @@ def greeting() -> bool:
         raise SystemExit
 
     else:  # in every other case the program continues
-        print("Anyway, let's go")
+        print("\nAnyway, let's go")
 
 
 def print_messages(func_name: str) -> None:
@@ -64,8 +64,8 @@ def print_messages(func_name: str) -> None:
             I know we live in world of imperfection and I am sure
             that we all have so much to improve, so please tell me:
             
-            What do you think are my mistakes and how I should
-            improve my ways of writing code or anything else? ;)
+            What do you think my mistakes are and how I should
+            improve my code, what else I can add? ;)
             """
         )
 
@@ -80,11 +80,9 @@ def print_messages(func_name: str) -> None:
             be more than 4 characters!
             (3) Last but not least, the domain must
             be one of the following: {', '.join(VALID_DOMAINS)}!
-                   !Warning! 
+                       !!!Warning!!!
             If your email is invalid the program will
             throw you just like an exception!
-                              !Warning!
-            
         {'<->-<->' * 6}
             """
         )
@@ -95,9 +93,8 @@ def print_messages(func_name: str) -> None:
         {'<->-<->' * 6}
               !!!Rules about valid password!!!\n
             (1) Must be between 4 and 12 symbols!
-            (2) At least two digits must be used!
-            (3) One capital letter also!
-            
+            (2) At least two digits should be used!
+            (3) One capital letter as well!
         {'<->-<->' * 6}
             """
         )
@@ -109,11 +106,8 @@ def get_email() -> str:
     """
     This function is being called by the main in order to get
     the email address of the user.
-
     It also calls the 1-(print_messages) and the 2-(is_email_valid) functions
-
     The first one prints out the email validation rules.
-
     If the second one returns true, the function returns the email to the main.
     """
     # Print info about the email validation
@@ -139,7 +133,7 @@ def is_email_valid(email: str) -> bool:
 
     # If there is not an At symbol - throw an exception
     if '@' not in email:
-        raise MustContainAtSymbolError("Email must contain at least one 'maimunsko' A!")
+        raise MustContainAtSymbolError("Email must contain at least one '@' symbol!")
 
     # Split the email into 2 parts
     name, domain = email.split('@')
@@ -231,6 +225,7 @@ def main():
 
     (4) Show your self the fuck off boy
 
+    (5) add a counter if 5 times a password is invalid - throws an exception
     """
     # First greet the User
     greeting()
@@ -240,6 +235,7 @@ def main():
     password = get_password()
 
     # Store the Data
+    print(email, password)
 
 
 if __name__ == '__main__':
