@@ -2,6 +2,10 @@ import sqlite3
 import hashlib
 
 
+class UserDoesNotNeedService(Exception):
+    pass
+
+
 class NameTooShortError(Exception):
     pass
 
@@ -26,26 +30,22 @@ class DomainMustContainsDot(Exception):
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
-def greeting() -> bool:
-    """
-    This function is being called by the main, just after running the program.
-    We use it to call the print message function and greet the User.
-    """
-    print_messages(greeting.__name__)
-
-    # Ask the User if he is ready to start
-    answer = input('Are you ready to start? (y/n): ')
-
-    # continue the program if he agrees
-    if answer.lower() == 'y' or answer.lower() == 'yes':
-        return True
-
-    # if the returns that he is not ready raise an exception
-    elif answer.lower() == 'n' or answer.lower() == 'no':
-        raise SystemExit
-
-    else:  # in every other case the program continues
-        print("\nAnyway, let's go")
+def starting():
+    while True:
+        answer = input("Hello, User!\nDo you have an existing account? (y/n): ").lower()
+        if answer == "y" or answer == "yes":
+            login_user()
+            return True
+        elif answer == "n" or answer == "no":
+            choice = input("Would you like to create a new account? (y/n): ").lower()
+            if choice == "y" or choice == "yes":
+                register_user()
+                return True
+            elif choice == "n" or choice == "no":
+                raise UserDoesNotNeedService
+        else:
+            print("Unknown answer: " + answer)
+            continue
 
 
 def print_messages(func_name: str) -> None:
@@ -55,22 +55,6 @@ def print_messages(func_name: str) -> None:
     depending on the function which have called it.
     """
     message = ''
-    # Print a message to greet the User
-    if func_name == "greeting":
-        message = (
-            """
-            Hello, Colleague!
-            Welcome to my improvised User Authentication Project.
-            Hope that you will like it. I will be very happy 
-            to hear or read your recension about it.
-            
-            I know we live in world of imperfection and I am sure
-            that we all have so much to improve, so please tell me:
-            
-            What do you think my mistakes are and how I should
-            improve my code, what else I can add? ;)
-            """
-        )
 
     # Print a message about Valid Email Requirements
     if func_name == "get_email":
@@ -117,7 +101,7 @@ def get_email() -> str:
     print_messages(get_email.__name__)  # pass the current function name as an argument
 
     # Read User email
-    user_email = input("Enter your email address, please: ")
+    user_email = input("Enter an email address, please: ")
 
     # Make validation of the email address
     if is_email_valid(user_email):
@@ -215,7 +199,16 @@ def is_password_valid(password) -> bool:
     return is_valid  # boolean
 
 
-def register_user(name, user_password) -> bool:
+def register_user() -> bool:
+    """
+    This functions take no params. It calls 2 other functions in order to validate the User's input.
+    After that register the user into the database by simply adding its email and encrypted password.
+    It returns bool after all.
+    """
+    # Read data from the User
+    email = get_email()
+    user_password = get_password()
+
     # Connect to the database
     conn = sqlite3.connect("userdata.db")
     cur = conn.cursor()
@@ -230,10 +223,10 @@ def register_user(name, user_password) -> bool:
     """)
 
     # Parse the username and password into bytes
-    username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
+    email, password = email, hashlib.sha256(user_password.encode()).hexdigest()
 
     # Insert data into the database
-    cur.execute("INSERT INTO userdata (username, password) VALUES (?, ?)", (username, password))
+    cur.execute("INSERT INTO userdata (username, password) VALUES (?, ?)", (email, password))
 
     # Commit the changes
     conn.commit()
@@ -242,19 +235,24 @@ def register_user(name, user_password) -> bool:
 
 
 def login_user() -> None:
+    """
+    This functions take and return no parameters.
+    It takes User input and check for matches in the database.
+    If there is a match - give access to the User
+    """
     # Get input from the user - insert functions here
-    name = input('Please, enter your email: ')
+    email = input('Please, enter your email: ')
     user_password = input('Password: ')
 
     # encrypt password and etc...
-    username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
+    email, password = email, hashlib.sha256(user_password.encode()).hexdigest()
 
     # Connect to the database
     conn = sqlite3.connect("userdata.db")
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT * FROM userdata WHERE username = ? AND password = ?", (username, password))
+    cur.execute("SELECT * FROM userdata WHERE username = ? AND password = ?", (email, password))
 
     # If there is a match
     if cur.fetchall():
@@ -265,34 +263,10 @@ def login_user() -> None:
         print("Login failed!")
 
 
-# Read User input
-command = input("reg or log: ")
-
-# In case he doesn't exist in the database
-if command == "reg":
-    # Read User data
-    user_name = input('name: ')
-    user_pass = input('pass: ')
-
-    if register_user(user_name, user_pass):
-        print("User was registered.")
-
-# In case he is already in the database
-elif command == "log":
-    login_user()
-
-else:
-    print(f"Unknown command {command}")
-
-
 def main():
     """
     (1) let the user access something interesting for all that work he did
     passing all the exceptions
-
-    (2) add the User to the database (use one for real or something for improvised)
-
-    (3) add encrypting of saved passwords
 
     (4) Add description of each function
 
@@ -300,16 +274,25 @@ def main():
 
     (5) add a counter if 5 times a password is invalid - throws an exception
     """
-    # First greet the User
-    greeting()
-
-    # Read and Validate input
-    email = get_email()
-    password = get_password()
-
-    # Store the Data
-    print(email, password)
+    # Let the User create or sign in to an account
+    starting()
 
 
 if __name__ == '__main__':
     main()
+
+"""
+    Greet the user
+
+            Hello, Colleague!
+            Welcome to my improvised User Authentication Project.
+            Hope that you will like it. I will be very happy 
+            to hear or read your recension about it.
+            
+            I know we live in world of imperfection and I am sure
+            that we all have so much to improve, so please tell me:
+            
+            What do you think my mistakes are and how I should
+            improve my code, what else I can add? ;)
+
+"""
