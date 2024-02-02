@@ -1,1 +1,3 @@
-what about absolute paths?
+test file
+for working with absolute paths
+What a great day it is!
