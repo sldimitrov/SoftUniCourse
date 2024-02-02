@@ -1,34 +1,22 @@
 import os
 
-# Save the data in each file
-words_file = "words.txt"
-text_file = "text.txt"
+text_path = os.path.join("resources", "input.txt")
+words_path = os.path.join("resources", "words.txt")
 
-path = os.path.join("resources", words_file)
+with open(text_path, "r") as file:
+    text = file.read().lower()
 
-words_dictionary = {}
+with open(words_path, "r") as file:
+    searched_words = file.read().split()
+    searched_words = [word.lower() for word in searched_words]
 
-with open(path, "w") as f:
+count_of_s_words = {}
 
-    searched_words = input("Searched words: ")
+for searched_word in searched_words:
+    number_of_appearance = text.count(searched_word)
+    if searched_word not in count_of_s_words.keys():
+        count_of_s_words[searched_word] = 0
+        count_of_s_words[searched_word] += number_of_appearance
 
-    for word in searched_words.split():
-        if word not in words_dictionary.keys():
-            words_dictionary[word] = 0
 
-    f.write(searched_words)
-
-path = os.path.join("resources", text_file)
-with open(path, "a") as f:
-    f.write(input("Text: "))
-
-with open(path, "r") as f:
-    text = f.readline().split('-')
-
-    for line in text:
-        line = line.strip()
-        for word in line.split():
-            if word.lower() in words_dictionary.keys():
-                words_dictionary[word] += 1
-
-[print(f"{key} - {value}") for key, value in words_dictionary.items()]
+[print(f"{key} - {value}") for key, value in sorted(count_of_s_words.items())]
