@@ -282,10 +282,9 @@ def login_user() -> bool:
 
 def main():
     """
-    (1) let the user access something interesting for all that work he did
-    passing all the exceptions
-
-    (5) add a counter if 3 times a password is invalid - throws an exception
+    # TODO: (2)
+    (1) let the user access something after signin up
+    (2) throws an exception - if 3 times a password is invalid (add a counter for that)
     """
     # Get the User into the server
     choice = reg_or_log_user()
@@ -294,13 +293,14 @@ def main():
     if choice == "reg":
         if register_user():
             print("User was successfully registered!")
-    # There won't be a case reg func. return False, because we catch every of
-    # these case with exception and the program stops.
+            # TODO: HERE I SHOULD GIVE THE USER ACCESS TO SOME FUNCTIONALITY
 
     # The case where the User already has an account
     elif choice == "log_user":
         if login_user():
             print("Login succeeded")
+            # TODO: HERE I SHOULD GIVE THE USER ACCESS TO SOME FUNCTIONALITY
+
         else:
             print("Login failed!")
 
