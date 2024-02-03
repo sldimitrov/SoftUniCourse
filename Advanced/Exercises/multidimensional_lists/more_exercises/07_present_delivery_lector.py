@@ -1,3 +1,4 @@
+
 def eat_cookie(presents_left, nice_kids):  # създаваме фунцкия, първи параметър останалите подаръци и втори добрите деца
     for coordinates in directions.values():  # обхождаме всяка посока от посоките
         r = santa_pos[0] + coordinates[0]  # намираме реда като съберем реда на Дядо Коледа и реда от посоката
