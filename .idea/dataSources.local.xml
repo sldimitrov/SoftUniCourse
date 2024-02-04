@@ -73,5 +73,10 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="userdata [7]" uuid="e2316ee2-3e1b-4dd5-931c-ef04b8217569">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>

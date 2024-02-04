@@ -73,5 +73,17 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="userdata [7]" uuid="e2316ee2-3e1b-4dd5-931c-ef04b8217569">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\github_repositories\SoftUniCourse\Advanced\Projects\learning_system_project\userdata.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.43.0/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>
