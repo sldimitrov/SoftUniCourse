@@ -34,17 +34,27 @@ class EmailHasBeenAlreadyUsed(Exception):
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
+# Define plenty of functions
 def reg_or_log_user():
     while True:
         answer = input("Hello, User!\nDo you have an existing account? (y/n): ").lower()
         if answer == "y" or answer == "yes":
-            return "log"
+            if login_user():
+                print("Login succeeded")
+                return True
+
         elif answer == "n" or answer == "no":
             choice = input("Would you like to create a new account? (y/n): ").lower()
+
             if choice == "y" or choice == "yes":
-                return "reg"
+                if register_user():
+                    print("User was successfully registered!")
+                    if login_user():
+                        return True
+
             elif choice == "n" or choice == "no":
                 raise UserDoesNotNeedService
+
         else:
             print("Unknown answer: " + answer)
             continue
@@ -318,23 +328,9 @@ def main():
     (1) let the user access something after signin up
     (2) throws an exception - if 3 times a password is invalid (add a counter for that)
     """
-    # Get the User into the server
-    choice = reg_or_log_user()
-
-    # The case where the User need to create an account
-    if choice == "reg":
-        if register_user():
-            print("User was successfully registered!")
-            # TODO: HERE I SHOULD GIVE THE USER ACCESS TO SOME FUNCTIONALITY
-
-    # The case where the User already has an account
-    elif choice == "log":
-        if login_user():
-            print("Login succeeded")
-            # TODO: HERE I SHOULD GIVE THE USER ACCESS TO SOME FUNCTIONALITY
-
-        else:
-            print("Login was successful!")
+    # Register and or login the user
+    if reg_or_log_user():
+        print("Software accessed!")
 
 
 if __name__ == '__main__':
