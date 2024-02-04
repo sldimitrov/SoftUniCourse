@@ -157,6 +157,8 @@ def is_email_valid(email: str) -> bool:
     elif email.count('@') > 1:
         raise MoreThanOneAtSymbolError("Email must contain only one At symbol!")
 
+
+
     # The program was not stopped, so we have a valid email address:
     return True
 
