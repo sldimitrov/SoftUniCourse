@@ -92,4 +92,3 @@ if not (is_out_of_bounds(current_position, size) or zero_amount(sum_val)):
     for row in board:
         print(''.join(row))
 
-# TODO: check solution
