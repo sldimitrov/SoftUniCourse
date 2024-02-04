@@ -176,8 +176,10 @@ def get_password():
         print_messages(get_password.__name__)
         user_password = input("Create a password: ")
 
+        output_message = is_password_valid(user_password)
+
         # Make validation of the password
-        if is_password_valid(user_password):
+        if output_message == "":
 
             # Tell the User to repeat his password for security reasons
             repeat_valid_password = input("Repeat your password: ")
@@ -187,10 +189,13 @@ def get_password():
                 return user_password
             else:
                 print('Password does not match the previous one!\n'
-                      'Please try again')
+                      'Please try again.')
+
+        else:
+            print(output_message)
 
 
-def is_password_valid(password) -> bool:
+def is_password_valid(password) -> str:
     """
     This function check if the password given by the User is valid or not.
     if valid: return: True,
@@ -199,21 +204,26 @@ def is_password_valid(password) -> bool:
     # Initialise a boolean in order to know if the password is valid or not
     is_valid = True
 
-    # Check the password length
-    if not (4 < len(password) < 12):
+    invalid_pass_message = ""
+
+    # Check if there is a capital letter in the password
+    capital_letters = [x for x in password if x.isupper()]
+    if len(capital_letters) < 1:
+        invalid_pass_message = "Password must have at least 1 capital letter!"
         is_valid = False
 
     # Check the number of digits in it
     number_of_digits = [x for x in password if x.isdigit()]
     if len(number_of_digits) < 2:
+        invalid_pass_message = "Password must have at least 2 digits!"
         is_valid = False
 
-    # Check if there is a capital letter in the password
-    capital_letters = [x for x in password if x.capitalize()]
-    if len(capital_letters) < 1:
+    # Check the password length
+    if not (4 < len(password) < 12):
+        invalid_pass_message = "Password must have 4 to 12 symbols!"
         is_valid = False
 
-    return is_valid  # boolean
+    return invalid_pass_message  # boolean
 
 
 def register_user() -> bool:
@@ -296,13 +306,13 @@ def main():
             # TODO: HERE I SHOULD GIVE THE USER ACCESS TO SOME FUNCTIONALITY
 
     # The case where the User already has an account
-    elif choice == "log_user":
+    elif choice == "log":
         if login_user():
             print("Login succeeded")
             # TODO: HERE I SHOULD GIVE THE USER ACCESS TO SOME FUNCTIONALITY
 
         else:
-            print("Login failed!")
+            print("Login was successful!")
 
 
 if __name__ == '__main__':
