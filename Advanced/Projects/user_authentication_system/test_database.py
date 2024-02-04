@@ -58,13 +58,12 @@ def is_email_used(email):
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT username FROM userdata WHERE username = ?", email)
+    cur.execute("SELECT * FROM userdata where username = ?", (email,))
 
-    # If there is a match
     if cur.fetchall():
-        print("Email is used!")
+        return True  # if email is used
     else:
-        print("Email is not used!")
+        return False  # if email is not in the database
 
 
 is_email_used(input('Enter email: '))

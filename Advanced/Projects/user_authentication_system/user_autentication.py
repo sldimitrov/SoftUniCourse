@@ -26,6 +26,10 @@ class DomainMustContainsDot(Exception):
     pass
 
 
+class EmailHasBeenAlreadyUsed(Exception):
+    pass
+
+
 # add extension for more
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
@@ -157,10 +161,26 @@ def is_email_valid(email: str) -> bool:
     elif email.count('@') > 1:
         raise MoreThanOneAtSymbolError("Email must contain only one At symbol!")
 
+    # Check if there is a match with the emails in the database and throw an exception
+    elif is_email_used(email):
+        raise EmailHasBeenAlreadyUsed("User has been already used this email address!")
 
-
-    # The program was not stopped, so we have a valid email address:
+    # If the program was not stop, that means we have a valid email
     return True
+
+
+def is_email_used(email):
+    # Connect to the database
+    conn = sqlite3.connect("userdata.db")
+    cur = conn.cursor()
+
+    # Find if there is a match within the database with username, pass
+    cur.execute("SELECT * FROM userdata where username = ?", (email,))
+
+    if cur.fetchall():
+        return True  # if email is used
+    else:
+        return False  # if email is not in the database
 
 
 def get_password():
