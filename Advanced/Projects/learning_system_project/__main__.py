@@ -701,7 +701,7 @@ def handle_invalid_input(some_input: str):
     return f'Error: {some_input} is an invalid input\n'
 
 
-def greet_the_user():
+def say_bye_user():
     print(' Hello, Learner!\n'
           'Are you ready to dive into a world fulfilled with new words and meanings?\n')
 
@@ -711,8 +711,11 @@ def greet_the_user():
           'If you had seen any bugs or if you have any ideas\n'
           'how I should improve my app, please mail me here:\n'
           ' -slavidimitrov54@gmail.com\n'
-          ' ' * 29, 'Best wishes,\n'
-          ' ' * 29, 'SD')
+          '                    Best wishes,\n'
+          '                    SD')
+
+    input('Press any key to continue...')
+    raise SystemExit
 
 
 def program_main():
@@ -720,7 +723,7 @@ def program_main():
     The main function contains the functionalities of the entire program and
     calls other functions based on the user's choice.
     """
-    greet_the_user()
+
     # Print the menu to the User and ask for input
     print(menu())
     choice = get_input()
@@ -752,6 +755,9 @@ def program_main():
         elif choice == 6:
             print(show_info())
 
+        elif choice == 7:
+            say_bye_user()
+
         choice = get_input()
 
 
@@ -759,8 +765,11 @@ def main():
     """
     # TODO: (1) Authentication
     (2) add more extensions for the email
+
     # TODO: (1) English
-    # fix the info
+    # (1) fix the info
+    # (2) record your own voice reading the sentences
+    # (3) test_word_knowledge - 1 minute (quick-game)
     """
     # Register and or login the user
     if reg_or_log_user():
