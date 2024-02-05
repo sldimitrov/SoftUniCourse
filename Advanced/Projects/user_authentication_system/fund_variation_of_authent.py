@@ -64,7 +64,7 @@ def register_user(credentials: dict, user_profile: dict):
                     if counter <= 0:
                         break
                     print('\nIncorrect try to repeat your password!')
-                    print(f'{counter} tries left.')
+                    print(f'{counter} tries left.' if counter > 1 else f'{counter} try left.')
                     continue
         else:
             continue

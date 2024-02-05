@@ -206,25 +206,26 @@ def get_password():
     while True:
         # Read User password
         print_messages(get_password.__name__)
-        user_password = input("Create a password: ")
 
-        output_message = is_password_valid(user_password)
-
-        # Make validation of the password
-        if output_message == "":
-
-            # Tell the User to repeat his password for security reasons
-            repeat_valid_password = input("Repeat your password: ")
-
-            # If password inputted matches return the password to the main
-            if user_password == repeat_valid_password:
-                return user_password
+        while 1:
+            user_password = input("Create a password: ")
+            output_message = is_password_valid(user_password)
+            if output_message == "":
+                counter = 3
+                while True:
+                    repeated_password = input('Enter the same password: ')
+                    if user_password == repeated_password:
+                        return user_password
+                    else:
+                        counter -= 1
+                        if counter <= 0:
+                            print(f'\nUnfortunately you failed to repeat your password. Try again with new one!')
+                            break
+                        print('\nIncorrect try to repeat your password!')
+                        print(f'{counter} tries left.' if counter > 1 else f'{counter} try left.')
+                        continue
             else:
-                print('Password does not match the previous one!\n'
-                      'Please try again.')
-
-        else:
-            print(output_message)
+                print(output_message)
 
 
 def is_password_valid(password) -> str:
@@ -236,26 +237,26 @@ def is_password_valid(password) -> str:
     # Initialise a boolean in order to know if the password is valid or not
     is_valid = True
 
-    invalid_pass_message = ""
+    invalid_pass_message = []
 
-    # Check if there is a capital letter in the password
-    capital_letters = [x for x in password if x.isupper()]
-    if len(capital_letters) < 1:
-        invalid_pass_message = "Password must have at least 1 capital letter!"
+    # Check the password length
+    if not (4 < len(password) < 12):
+        invalid_pass_message.append("Password must have 4 to 12 symbols!")
         is_valid = False
 
     # Check the number of digits in it
     number_of_digits = [x for x in password if x.isdigit()]
     if len(number_of_digits) < 2:
-        invalid_pass_message = "Password must have at least 2 digits!"
+        invalid_pass_message.append("Password must have at least 2 digits!")
         is_valid = False
 
-    # Check the password length
-    if not (4 < len(password) < 12):
-        invalid_pass_message = "Password must have 4 to 12 symbols!"
+    # Check if there is a capital letter in the password
+    capital_letters = [x for x in password if x.isupper()]
+    if len(capital_letters) < 1:
+        invalid_pass_message.append("Password must have at least 1 capital letter!")
         is_valid = False
 
-    return invalid_pass_message  # boolean
+    return '\n'.join(invalid_pass_message)  # boolean
 
 
 def register_user() -> bool:
