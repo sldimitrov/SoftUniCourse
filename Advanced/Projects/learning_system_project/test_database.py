@@ -8,13 +8,13 @@ def register_user(name, user_password) -> bool:
     cur = conn.cursor()
 
     # Add a column to the table
-    cur.execute("""
-    CREATE TABLE IF NOT EXISTS userdata (
-        id INTEGER PRIMARY KEY,
-        username VARCHAR(255) NOT NULL,
-        password VARCHAR(255) NOT NULL
-    )
-    """)
+    # cur.execute("""
+    # CREATE TABLE IF NOT EXISTS userdata (
+    #     id INTEGER PRIMARY KEY,
+    #     username VARCHAR(255) NOT NULL,
+    #     password VARCHAR(255) NOT NULL
+    # )
+    # """)
 
     # Parse the username and password into bytes
     username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
@@ -66,24 +66,23 @@ def is_email_used(email):
         return False  # if email is not in the database
 
 
-is_email_used(input('Enter email: '))
+# is_email_used(input('Enter email: '))
+# Read User input
+command = input("reg or log: ")
 
-# # Read User input
-# command = input("reg or log: ")
-#
-# # In case he doesn't exist in the database
-# if command == "reg":
-#     # Read User data
-#     user_name = input('name: ')
-#     user_pass = input('pass: ')
-#
-#     if register_user(user_name, user_pass):
-#         print("User was registered.")
-#
-# # In case he is already in the database
-# elif command == "log":
-#     login_user()
-#
-#
-# else:
-#     print(f"Unknown command {command}")
+# In case he doesn't exist in the database
+if command == "reg":
+    # Read User data
+    user_name = input('name: ')
+    user_pass = input('pass: ')
+
+    if register_user(user_name, user_pass):
+        print("User was registered.")
+
+# In case he is already in the database
+elif command == "log":
+    login_user()
+
+
+else:
+    print(f"Unknown command {command}")
