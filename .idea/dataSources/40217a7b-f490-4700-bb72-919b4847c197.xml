@@ -446,7 +446,7 @@
     <routine id="176" parent="1" name="fts5"/>
     <schema id="177" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-02-05.09:33:45</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-02-05.09:38:39</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="178" parent="16">
       <ArgumentDirection>R</ArgumentDirection>
@@ -1471,46 +1471,42 @@
     <table id="518" parent="177" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="519" parent="177" name="test_table"/>
-    <table id="520" parent="177" name="userdata"/>
-    <column id="521" parent="518" name="type">
+    <table id="519" parent="177" name="userdata"/>
+    <column id="520" parent="518" name="type">
       <DasType>TEXT|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="522" parent="518" name="name">
+    <column id="521" parent="518" name="name">
       <DasType>TEXT|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="523" parent="518" name="tbl_name">
+    <column id="522" parent="518" name="tbl_name">
       <DasType>TEXT|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="524" parent="518" name="rootpage">
+    <column id="523" parent="518" name="rootpage">
       <DasType>INT|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="525" parent="518" name="sql">
+    <column id="524" parent="518" name="sql">
       <DasType>TEXT|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="526" parent="519" name="NAME">
-      <Position>1</Position>
-    </column>
-    <column id="527" parent="520" name="id">
+    <column id="525" parent="519" name="id">
       <DasType>INTEGER|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="528" parent="520" name="username">
+    <column id="526" parent="519" name="username">
       <DasType>VARCHAR(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="529" parent="520" name="password">
+    <column id="527" parent="519" name="password">
       <DasType>VARCHAR(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <key id="530" parent="520">
+    <key id="528" parent="519">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
