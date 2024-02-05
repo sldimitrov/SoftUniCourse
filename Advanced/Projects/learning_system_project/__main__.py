@@ -624,23 +624,23 @@ def show_info():
     The function "show_info" returns a message that provides an overview of the program and its purpose.
     :return: string (info)
     """
-    message = '\tEverything you need to know' \
-              'This program was born in my head and it was implemented into code by my own hands.\n\n' \
-              '  The mission:' \
-              'To help others. Learning never stops and it makes us better humans. This is the main purpose,\n' \
-              'for which I managed to create something, that will help us to be and earn more!\n\n' \
-              '  How to use it?' \
-              'Everything in this program is separated into sections.\n' \
-              ' Let\'s say that you\'d just inputted the words, that you want to write\n' \
-              'into the (list of words txt) - This is when you want to choose (1)\n' \
-              ' On the other hand, when you had already used this program at least once.\n' \
-              'You\'re not sure which words you have in your text file, choose (2) and find out.\n'\
-              ' Moreover, if you want to see which words you have already learned input (3)\n' \
-              ' Within the forth operation (4) you are not only going to learn. You\'re going to be challenged!\n' \
-              'Choose it and go and face your demons or stay the same forever!\n' \
-              ' (5) is what you had already chosen, so I believe it does not need any explanation\n' \
-              ' If information is all you needed at this point choose (6) to exit the temple.\n' \
-              'I will be waiting for your return, because I hope that your learning will be an endless process!'
+    message = """
+               The idea about this program came up into my mind at the end of 2023. I used my own hands and everything
+              I have learned since my programming journey had started to make my dream come true. The mission is to help
+              others as they develop their skills of learning. In SoftUni they do exactly that - they teach you how to
+              study. My program will help each one of you to rememberer new words and conquer a world full of wonders!
+                   How to use it?
+                First of all, you want to save all of your new words in the <list_of_words.txt>,every one on a single
+              line with dash and its definition - (apple - red fruit) and so on...
+                After the first step is done you will re-run the program and you can start writing sentences with (2)
+              from the menu options.   In no time you'll have learned many new words and each one of them is going to be
+              stored in your imaginary dictionary (3)   Within the forth operation (4) you are not only going to learn. 
+              You're going to be challenged! Choose it and go and face your demons or stay the same forever!
+                Last but not least, the (5) is the latest function of the program in which you can hear all of your 
+              sentences read by the computer with human voice. Yeah, I know it sound strange but today everything 
+              is possible!   If information is all you have needed at this point choose (7) to exit the temple.
+              I will be waiting for your return, because I hope that your learning will be an endless process!
+              """
     return message
 
 
