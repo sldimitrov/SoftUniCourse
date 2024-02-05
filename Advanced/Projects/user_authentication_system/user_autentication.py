@@ -192,9 +192,9 @@ def is_email_valid(email: str) -> bool:
 
     # Check if there is a match with the emails in the database and throw an exception
     elif is_email_used(email):
-        raise EmailHasBeenAlreadyUsed("User has been already used this email address!")
+        raise EmailHasBeenAlreadyUsed("Email address has been already used by another User!")
 
-    # If the program was not stop, that means we have a valid email
+    # In case of a valid email
     return True
 
 
