@@ -51,6 +51,8 @@ def reg_or_log_user():
                       f'-You were successfully logged!\n'
                       f'---------------------------------------\n')
                 return True
+            else:
+                break
 
         elif answer == "n" or answer == "no":
             choice = input("Would you like to create a new account? (y/n): ").lower()
@@ -63,12 +65,17 @@ def reg_or_log_user():
                     if login_user():
                         return True
 
+                    else:
+                        break
+
             elif choice == "n" or choice == "no":
                 raise UserDoesNotNeedService
 
         else:
             print("Unknown answer: " + answer)
             continue
+
+    return False
 
 
 def print_messages(func_name: str) -> None:
