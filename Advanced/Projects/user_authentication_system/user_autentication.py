@@ -1,3 +1,5 @@
+import string
+from string import punctuation
 import sqlite3
 import hashlib
 
@@ -30,17 +32,24 @@ class EmailHasBeenAlreadyUsed(Exception):
     pass
 
 
-# add extension for more
+class AccessDeniedError(Exception):
+    pass
+
+
+# TODO: (2)
 VALID_DOMAINS = ('com', 'bg', 'org', 'net')
 
 
 # Define plenty of functions
 def reg_or_log_user():
+
     while True:
         answer = input("Hello, User!\nDo you have an existing account? (y/n): ").lower()
         if answer == "y" or answer == "yes":
             if login_user():
-                print("Login succeeded")
+                print(f'\n---------------------------------------\n'
+                      f'-You were successfully logged!\n'
+                      f'---------------------------------------\n')
                 return True
 
         elif answer == "n" or answer == "no":
@@ -48,7 +57,9 @@ def reg_or_log_user():
 
             if choice == "y" or choice == "yes":
                 if register_user():
-                    print("User was successfully registered!")
+                    print(f'\n---------------------------------------\n'
+                          f'-You were successfully registered!\n'
+                          f'---------------------------------------\n')
                     if login_user():
                         return True
 
@@ -110,9 +121,10 @@ def print_messages(func_name: str) -> None:
             f"""
         {'<->-<->' * 6}
               !!!Rules about valid password!!!\n
-            (1) Must be between 4 and 12 symbols!
-            (2) At least two digits should be used!
-            (3) One capital letter as well!
+            (1) Must be between 4 and 16 symbols!
+            (2) At least two digits ought to be used!
+            (3) One special character have to be used!
+            (4) One capital letter as well!
         {'<->-<->' * 6}
             """
         )
@@ -240,8 +252,8 @@ def is_password_valid(password) -> str:
     invalid_pass_message = []
 
     # Check the password length
-    if not (4 < len(password) < 12):
-        invalid_pass_message.append("Password must have 4 to 12 symbols!")
+    if not (4 < len(password) < 16):
+        invalid_pass_message.append("Password must have 4 to 16 symbols!")
         is_valid = False
 
     # Check the number of digits in it
@@ -255,6 +267,15 @@ def is_password_valid(password) -> str:
     if len(capital_letters) < 1:
         invalid_pass_message.append("Password must have at least 1 capital letter!")
         is_valid = False
+
+    # Check if there is a special symbol in the password
+    is_valid = False
+    for symbol in list(string.punctuation):
+        if symbol in list(password):
+            is_valid = True
+            break
+    else:
+        invalid_pass_message.append("Password must contain at least one special character!")
 
     return '\n'.join(invalid_pass_message)  # boolean
 
@@ -325,13 +346,19 @@ def login_user() -> bool:
 
 def main():
     """
-    # TODO: (2)
+    # TODO: (0/2)
     (1) let the user access something after signin up
-    (2) throws an exception - if 3 times a password is invalid (add a counter for that)
+    (2) add more extensions for the email
+    (3)
     """
     # Register and or login the user
     if reg_or_log_user():
         print("Software accessed!")
+        # TODO: (1)
+    else:
+        print("Access denied!")
+        # end the termination of the program
+        raise AccessDeniedError
 
 
 if __name__ == '__main__':
