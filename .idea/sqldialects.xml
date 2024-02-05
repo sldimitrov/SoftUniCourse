@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/40217a7b-f490-4700-bb72-919b4847c197/console.sql" dialect="SQLite" />
-    <file url="file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/user_autentication.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Advanced/Projects/user_authentication_system/data_base_testing/test_database.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Advanced/Projects/user_authentication_system/test_database.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Advanced/Projects/user_authentication_system/user_autentication.py" dialect="GenericSQL" />
