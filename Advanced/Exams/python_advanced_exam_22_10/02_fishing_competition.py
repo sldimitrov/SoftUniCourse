@@ -1,7 +1,11 @@
-def initialise_finish_map(size):
-    matrix = []
-    player_pos = []
-    for row in range(size):
+def draw_the_map(length: int):
+    """
+    This function will read the matrix and will find
+    the coordinates of our ship
+    :return: list
+    """
+    matrix, player_pos = [], []
+    for row in range(length):
         line = list(input())
         matrix.append(line)
         if 'S' in matrix[row]:
@@ -10,77 +14,76 @@ def initialise_finish_map(size):
     return matrix, player_pos
 
 
-def move(matrix, position, direction):
-    # Change last position with dash
-    row, col = position
-    matrix[row][col] = '-'
+def move(matrix, direction, position):
 
-    # Move the ship in the current direction
+    matrix[position[0]][position[1]] = '-'
+
     if direction == 'up':
         position[0] -= 1
     elif direction == 'down':
         position[0] += 1
-    elif direction == 'right':
-        position[1] += 1
     elif direction == 'left':
         position[1] -= 1
+    elif direction == 'right':
+        position[1] += 1
 
     return position
 
 
-def check_boundaries(coordinates, length):
+def valid_range(position, length):
     for i in range(2):
-        if coordinates[i] < 0:
-            coordinates[i] = length - 1
-        if coordinates[i] >= length:
-            coordinates[i] = 0
+        if position[i] > length - 1:
+            position[i] = 0
+        if position[i] < 0:
+            position[i] = length - 1
 
 
-def handle_whirlpool(position):
-    pos_1, pos_2 = position
-    print(f"You fell into a whirlpool! The ship sank and you lost the fish you caught."
-          f" Last coordinates of the ship: [{pos_1},{pos_2}]")
+def handle_whirlpool(pos):
+    print("You fell into a whirlpool! The ship sank and you lost the fish you caught."
+          f" Last coordinates of the ship: [{pos[0]},{pos[1]}]")
 
 
-def handle_results(tons_of_fish, vortex, fishing_map):
-    if tons_of_fish >= 20:
+def handle_output(board, vortex, hunt):
+    if hunt >= 20:
         print("Success! You managed to reach the quota!")
     elif not vortex:
-        lack = 20 - tons_of_fish
-        print(f"You didn't catch enough fish and didn't reach the quota! You need {lack} tons of fish more.")
+        lack_of_fish = 20 - hunt
+        print(f"You didn't catch enough fish and didn't reach the quota! You need {lack_of_fish} tons of fish more.")
 
-    if tons_of_fish > 0:
-        print(f"Amount of fish caught: {tons_of_fish} tons.")
-
+    if hunt:
+        print(f"Amount of fish caught: {hunt} tons.")
     if not vortex:
-        for row in fishing_map:
-            print("".join(row))
+        [print(''.join(row)) for row in board]
 
-
-size = int(input())
-fishing_range, ship_pos = initialise_finish_map(size)
-quota = 0
+# Initialise variables to store info
 whirlpool = False
+quota = 0
 
+# Read the size of the map
+size = int(input())
 
-while True:
-    command = input()
+# Get the matrix and the coordinates of the ship
+sea_board, ship_pos = draw_the_map(size)
 
-    if command == 'collect the nets':
-        break
+command = input()
+while command != "collect the nets":
 
-    current_position = move(fishing_range, ship_pos, command)
-    check_boundaries(current_position, size)
+    # Move the player
+    current_position = move(sea_board, command, ship_pos)
+    valid_range(current_position, size)
 
-    current_char = fishing_range[current_position[0]][current_position[1]]
+    curr_el = sea_board[current_position[0]][current_position[1]]
 
-    if current_char.isdigit():
-        quota += int(current_char)
-    elif current_char == 'W':
+    if curr_el.isdigit():
+        quota += int(curr_el)
+    elif curr_el == 'W':
         handle_whirlpool(current_position)
         whirlpool = True
         quota = 0
         break
-    fishing_range[current_position[0]][current_position[1]] = 'S'
 
-handle_results(quota, whirlpool, fishing_range)
+    sea_board[current_position[0]][current_position[1]] = 'S'
+
+    command = input()
+
+handle_output(sea_board, whirlpool, quota)
