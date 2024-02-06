@@ -55,6 +55,7 @@ def handle_output(board, vortex, hunt):
     if not vortex:
         [print(''.join(row)) for row in board]
 
+
 # Initialise variables to store info
 whirlpool = False
 quota = 0
