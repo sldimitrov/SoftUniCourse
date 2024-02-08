@@ -1,72 +1,62 @@
-def move(matrix, direction, pos) -> list:
-    future_pos = [pos[0], pos[1]]
-    if direction == 'up':
-        future_pos[0] -= 1
-    elif direction == 'down':
-        future_pos[0] += 1
-    elif direction == 'left':
-        future_pos[1] -= 1
-    elif direction == 'right':
-        future_pos[1] += 1
-
-    valid_boundaries(future_pos, row_len, col_len)
-    if matrix[future_pos[0]][future_pos[1]] != '*':
-        pos = future_pos
-    return pos
+def valid_range(value, limit) -> bool:
+    return 0 <= value < limit
 
 
-def valid_boundaries(pos, r, c):
-    curr_row, curr_col = pos
-    return 0 <= curr_row < r and 0 <= curr_col < c
+def move(direction, r, c):
+    if direction == 'up' and valid_range(r-1, row):
+        return r-1, c
+    elif direction == 'down' and valid_range(r+1, row):
+        return r+1, c
+    elif direction == 'left' and valid_range(c-1, col):
+        return r, c-1
+    elif direction == 'right' and valid_range(c+1, col):
+        return r, c+1
+    return None, None
 
 
-# Read the size of the matrix
-row_len, col_len = [int(x) for x in input().split()]
+row, col = [int(x) for x in input().split()]
+matrix = []
+start_row, start_col = None, None
+boy_row, boy_col = None, None
 
-# Initialise a boolean
-is_out = False
+for line in range(row):
+    symbols = list(input())
+    matrix.append(symbols)
+    if 'B' in symbols:
+        boy_row = line
+        boy_col = matrix[line].index('B')
+        start_row = boy_row
+        start_col = boy_col
 
-# Save the matrix and the position of the boy
-neighborhood = []
-boy_pos = []
-for row in range(row_len):
-    line = list(input())
-    neighborhood.append(line)
-    if 'B' in neighborhood[row]:
-        boy_pos = [row, neighborhood[row].index('B')]
-
-position = [boy_pos[0], boy_pos[1]]
 
 while True:
     command = input()
-
-    position = move(neighborhood, command, position)
-
-    if not valid_boundaries(position, row_len, col_len):
-        is_out = True
+    next_row, next_col = move(command, boy_row, boy_col)
+    if next_col is None or next_col is None:
+        print("The delivery is late. Order is canceled.")
+        matrix[start_col][start_row] = ' '
         break
-
-    row, col = position
-    element = neighborhood[row][col]
-
-    if element == '*':
+    if matrix[next_row][next_col] == '*':
         continue
-    elif element == 'P':
-        neighborhood[row][col] = 'R'
-        print("Pizza is collected. 10 minutes for delivery.")
-    elif element == 'A':
-        neighborhood[row][col] = 'P'
+
+    elif matrix[next_row][next_col] == 'A':
+        matrix[boy_row][boy_col] = '.'
+        boy_row, boy_col = next_row, next_col
+        matrix[boy_row][boy_col] = 'P'
+        print("Pizza is delivered on time! Next order...")
+        matrix[start_row][start_col] = 'B'
         break
-    else:
-        neighborhood[position[0]][position[1]] = '.'
 
-if is_out:
-    neighborhood[boy_pos[0]][boy_pos[1]] = ' '
-    print("The delivery is late. Order is canceled.")
-else:
-    print("Pizza is delivered on time! Next order...")
+    if matrix[next_row][next_col] == 'P':
+        matrix[boy_row][boy_col] = '.'
+        boy_row, boy_col = next_row, next_col
+        matrix[next_row][next_col] = 'R'
+        print("Pizza is collected. 10 minutes for delivery.")
+        continue
 
-[print(''.join(row)) for row in neighborhood]
+    elif not matrix[boy_row][boy_col] == 'R':
+        matrix[boy_row][boy_col] = '.'
+    boy_row, boy_col = next_row, next_col
+    matrix[boy_row][boy_col] = '.'
 
-
-
+[print(''.join(row)) for row in matrix]
