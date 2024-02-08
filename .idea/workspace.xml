@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update workflow of the project">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/03_file_manipulator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/resources/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/04_directory_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/resources/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/resources/test_dir/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/resources/test_dir/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/resources/test_dir/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/even_lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/01_even_lines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/line_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/02_line_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,6 +41,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/projects_" />
@@ -50,7 +53,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_file_manipulator">
+  <component name="RunManager" selected="Python.04_directory_traversal">
     <configuration name="01_even_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,27 +67,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\github_repositories\SoftUniCourse\Advanced\Exercises\file_handling\more_exercises\01_even_lines.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02_delivery_boy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftUniCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_09_08_23" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_09_08_23/02_delivery_boy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,13 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="04_directory_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUniCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/04_directory_traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04_directory_traversal" />
         <item itemvalue="Python.03_file_manipulator" />
         <item itemvalue="Python.02_line_numbers" />
         <item itemvalue="Python.01_even_lines" />
         <item itemvalue="Python.03_pet_accomondation" />
-        <item itemvalue="Python.02_delivery_boy" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +262,16 @@
           <url>file://$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/03_file_manipulator.py</url>
           <line>20</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/03_file_manipulator.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/file_handling/more_exercises/04_directory_traversal.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
