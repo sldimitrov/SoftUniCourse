@@ -23,9 +23,12 @@ def save_extensions(dir_name, string_to_replace, string_to_replace_with):
 directory = input("Enter a directory: ")
 str_to_replace = input("Enter a string to replace: ")
 str_to_replace_with = input("Enter a string to replace with: ")
+extensions = {}  # [py: [python.py, hello.py], ...}
+result = []
 
 try:
-    save_extensions(directory, str_to_replace, str_to_replace_with)
+    renamed_files = save_extensions(directory, str_to_replace, str_to_replace_with)
+    print(renamed_files)
 except FileNotFoundError:
     print("Directory not found!")
 

@@ -1,12 +1,2 @@
-.html
-- - - view.html
-.py
-- - - file.py
-- - - second_level.py
-.txt
-- - - file.txt
-- - - output.txt
-- - - random.txt
-- - - report.txt
-- - - text.txt
-- - - text.txt
+
+./resources\test dir
