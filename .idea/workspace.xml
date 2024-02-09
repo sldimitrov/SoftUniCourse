@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="rename files" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="add new requirements to the project logic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707422581569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add new requirements to the project logic">
+      <created>1707494608439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707494608440</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +256,8 @@
     <MESSAGE value="rename directory" />
     <MESSAGE value="rename file" />
     <MESSAGE value="rename files" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename files" />
+    <MESSAGE value="add new requirements to the project logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new requirements to the project logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
