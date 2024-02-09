@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the workflow">
-      <change afterPath="$PROJECT_DIR$/break_crypted_message.py" afterDir="false" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload a script to break encrypted messages">
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/workshop/connect_four_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.break_crypted_message">
+  <component name="RunManager" selected="Python.connect_four_game">
     <configuration name="01_temple_of_doom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rename_files_in_dir_script (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="connect_four_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/workshop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rename_files_in_dir_script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/workshop/connect_four_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.connect_four_game" />
         <item itemvalue="Python.break_crypted_message" />
         <item itemvalue="Python.03_enrollment" />
         <item itemvalue="Python.01_temple_of_doom" />
         <item itemvalue="Python.02_delivery_boy" />
-        <item itemvalue="Python.rename_files_in_dir_script (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707510930069</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="upload a script to break encrypted messages">
+      <created>1707511482079</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707511482079</updated>
+    </task>
+    <task id="LOCAL-00011" summary="upload a script to break encrypted messages">
+      <created>1707515375869</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707515375869</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +282,8 @@
     <MESSAGE value="rename files" />
     <MESSAGE value="add new requirements to the project logic" />
     <MESSAGE value="update the workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the workflow" />
+    <MESSAGE value="upload a script to break encrypted messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload a script to break encrypted messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
