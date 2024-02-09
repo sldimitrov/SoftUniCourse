@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="add new requirements to the project logic" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the workflow">
+      <change afterPath="$PROJECT_DIR$/break_crypted_message.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707494608440</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update the workflow">
+      <created>1707510930069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707510930069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +266,8 @@
     <MESSAGE value="rename file" />
     <MESSAGE value="rename files" />
     <MESSAGE value="add new requirements to the project logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new requirements to the project logic" />
+    <MESSAGE value="update the workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the workflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
