@@ -763,11 +763,12 @@ def program_main():
 
 def main():
     """
-    # TODO: (1) Authentication
-    (2) add more extensions for the email
+    # TODO: (3) Authentication
+    (1) add more extensions for the email
+    (2) handle each exception and print it to the User rather than stopping the program
+    (3) you can do exactly the same with the password
 
-    # TODO: (1) English
-    # (1) fix the info
+    # TODO: (2) English
     # (2) record your own voice reading the sentences
     # (3) test_word_knowledge - 1 minute (quick-game)
     """

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="rename files">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="rename files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
