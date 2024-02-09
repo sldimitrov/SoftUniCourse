@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload a script to break encrypted messages">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/workshop/connect_four_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload the start of a workshop project">
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/workshop/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/workshop/connect_four_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/workshop/connect_four_game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707515375869</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="upload the start of a workshop project">
+      <created>1707521562342</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707521562343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +290,8 @@
     <MESSAGE value="add new requirements to the project logic" />
     <MESSAGE value="update the workflow" />
     <MESSAGE value="upload a script to break encrypted messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload a script to break encrypted messages" />
+    <MESSAGE value="upload the start of a workshop project" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload the start of a workshop project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
