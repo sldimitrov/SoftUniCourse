@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload changes of the project">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises/maximal_sum.py" afterDir="false" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload solution of exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +34,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
   <component name="ProjectId" id="2bxs2p7XT6fYlIROM97hnfCfE6Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,31 +41,6 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.2x2_second_solution.executor": "Run",
-    "Python.2x2_squares.executor": "Run",
-    "Python.diagonal_difference.executor": "Run",
-    "Python.diagonals.executor": "Run",
-    "Python.even_matrix.executor": "Run",
-    "Python.flatten_matrix.executor": "Run",
-    "Python.maximal_sum.executor": "Run",
-    "Python.primary_diagonal.executor": "Run",
-    "Python.square_with_maximum_sum.executor": "Run",
-    "Python.sum_matrix_columns.executor": "Run",
-    "Python.sum_matrix_elements.executor": "Run",
-    "Python.symbol_in_matrix.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\project\learning_system_project" />
@@ -85,7 +55,6 @@
   <component name="RunManager" selected="Python.maximal_sum">
     <configuration name="2x2_second_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -108,7 +77,6 @@
     </configuration>
     <configuration name="2x2_squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -131,7 +99,6 @@
     </configuration>
     <configuration name="diagonal_difference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -154,7 +121,6 @@
     </configuration>
     <configuration name="diagonals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -177,7 +143,6 @@
     </configuration>
     <configuration name="maximal_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -223,7 +188,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707167862711</updated>
-      <workItem from="1707572865528" duration="9939000" />
+      <workItem from="1707572865528" duration="10480000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -316,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707522344660</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="upload solution of exercises">
+      <option name="closed" value="true" />
+      <created>1707587469028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707587469028</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +305,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update workflow of the project" />
@@ -345,7 +319,8 @@
     <MESSAGE value="upload a script to break encrypted messages" />
     <MESSAGE value="upload the start of a workshop project" />
     <MESSAGE value="upload changes of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload changes of the project" />
+    <MESSAGE value="upload solution of exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload solution of exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,19 +425,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SoftUniCourse$maximal_sum.coverage" NAME="maximal_sum Coverage Results" MODIFIED="1707586566213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$primary_diagonal.coverage" NAME="primary_diagonal Coverage Results" MODIFIED="1707574942976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$even_matrix.coverage" NAME="even_matrix Coverage Results" MODIFIED="1707573533450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$diagonal_difference.coverage" NAME="diagonal_difference Coverage Results" MODIFIED="1707582430175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$2x2_second_solution.coverage" NAME="2x2_second_solution Coverage Results" MODIFIED="1707585604809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$2x2_squares.coverage" NAME="2x2_squares Coverage Results" MODIFIED="1707585127553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$diagonals.coverage" NAME="diagonals Coverage Results" MODIFIED="1707582147093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$symbol_in_matrix.coverage" NAME="symbol_in_matrix Coverage Results" MODIFIED="1707575702456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$sum_matrix_elements.coverage" NAME="sum_matrix_elements Coverage Results" MODIFIED="1707573115253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$square_with_maximum_sum.coverage" NAME="square_with_maximum_sum Coverage Results" MODIFIED="1707577289614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$flatten_matrix.coverage" NAME="flatten_matrix Coverage Results" MODIFIED="1707573897379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$sum_matrix_columns.coverage" NAME="sum_matrix_columns Coverage Results" MODIFIED="1707574650910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/lab/rewritten_exercises" />
   </component>
 </project>
