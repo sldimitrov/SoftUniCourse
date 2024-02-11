@@ -43,6 +43,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2bxs2p7XT6fYlIROM97hnfCfE6Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,6 +54,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.radioactive_mutant_vamire_bunnies.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\project\learning_system_project" />
@@ -204,6 +221,7 @@
       <updated>1707167862711</updated>
       <workItem from="1707572865528" duration="10480000" />
       <workItem from="1707638898542" duration="19133000" />
+      <workItem from="1707679199450" duration="10064000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -320,7 +338,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707661539597</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update repo configuration">
+      <option name="closed" value="true" />
+      <created>1707679209846</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707679209846</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update repo configuration">
+      <option name="closed" value="true" />
+      <created>1707679271239</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707679271239</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +370,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update workflow of the project" />
@@ -492,10 +525,40 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises/radioactive_mutant_vamire_bunnies.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="59" />
+          <line>32</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises/radioactive_mutant_vamire_bunnies.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises/radioactive_mutant_vamire_bunnies.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises/radioactive_mutant_vamire_bunnies.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="line" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftUniCourse$radioactive_mutant_vamire_bunnies.coverage" NAME="radioactive_mutant_vamire_bunnies Coverage Results" MODIFIED="1707689294307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
   </component>
 </project>
