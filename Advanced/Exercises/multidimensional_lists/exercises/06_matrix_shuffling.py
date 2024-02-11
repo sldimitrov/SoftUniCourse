@@ -8,7 +8,7 @@ def check_indices_valid(indices):
     params: list of indices
     returns: boolean
     """
-    return {indices[0], indices[3]}.issubset(valid_rows) and {indices[1], indices[3]}.issubset(valid_cols)
+    return {indices[0], indices[2]}.issubset(valid_rows) and {indices[1], indices[3]}.issubset(valid_cols)
 
 
 def swap_elements(command, indices):
