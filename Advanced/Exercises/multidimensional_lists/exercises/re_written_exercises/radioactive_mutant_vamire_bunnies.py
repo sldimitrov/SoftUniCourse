@@ -30,11 +30,43 @@ DIAGONALS = {
 
 
 def expand_bunnies(garden, positions, expansion_level):
-    # EACH BUNNY
+    """
+    This function expands each bunny in the matrix in every direction progressively.
+    :param garden: multidimensional list
+    :param positions: M-list
+    :param expansion_level: int
+    :return: multidimensional-L
+    """
+    # FOR EACH BUNNY
     for bunny_pos in positions:
         r, c = bunny_pos  # original coordinates of the bunny
 
+        # MOVE EACH BUNNY TO THE SIDES
         for side, coordinates in STRAIGHTS.items():
+            current_r, current_c = r, c
+            for jump in range(1):  # current coordinates of the expansion
+                step_r, step_c = coordinates  # the coordinates of the given direction
+
+                # Expand on base expansion level
+                if side == 'U':
+                    step_r -= expansion_level
+                elif side == 'D':
+                    step_r += expansion_level
+                elif side == 'L':
+                    step_c -= expansion_level
+                elif side == 'R':
+                    step_c += expansion_level
+
+                # Get the next cell coordinates
+                current_r += step_r
+                current_c += step_c
+
+                # Expand the bunny on the given cell
+                if are_valid_coordinates(current_r, current_c):
+                    garden[current_r][current_c] = 'B'
+
+        # MOVE EACH BUNNY TO THE DIAGONALS
+        for side, coordinates in DIAGONALS.items():
             current_r, current_c = r, c
             for jump in range(1):  # current coordinates of the expansion
                 step_r, step_c = coordinates  # the coordinates of the given direction
@@ -60,6 +92,10 @@ def expand_bunnies(garden, positions, expansion_level):
     return garden
 
 
+def move_player(board, player_position):
+    pass
+
+
 # Read the matrix
 for row in range(rows):
     line = list(input())
@@ -82,7 +118,10 @@ list_of_turns = list(input())
 for turn in list_of_turns:
     # Expand each bunny
     matrix = expand_bunnies(matrix, bunny_positions, bunny_expansion)
+    # Increase the level of expansion by each turn
     bunny_expansion += 1
+
     # Move the player
+    move_player(matrix, player_pos, turn)
 
 [print(*row) for row in matrix]
