@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload the second exercise of a text exam 17.06">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment_rewrite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_13_11_23/01_worms_rewrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_13_11_23/01_worms_rewrite.py" afterDir="false" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload the last exercise for the exam-preparation session">
+      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment_rewrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment_rewrite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     "Python.01_worms_rewrite.executor": "Run",
     "Python.02_fishing_rewrite.executor": "Run",
     "Python.02_mouse_in_the_kitchen.executor": "Run",
-    "Python.03_enrollment_rewrite.executor": "Run",
+    "Python.03_enrollment_rewrite.executor": "Debug",
     "Python.radioactive_mutant_vamire_bunnies.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",
@@ -228,7 +226,7 @@
       <workItem from="1707638898542" duration="19133000" />
       <workItem from="1707679199450" duration="10466000" />
       <workItem from="1707761745179" duration="9499000" />
-      <workItem from="1707823072143" duration="4022000" />
+      <workItem from="1707823072143" duration="4715000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -377,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707772097464</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="upload the last exercise for the exam-preparation session">
+      <option name="closed" value="true" />
+      <created>1707829305673</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707829305673</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +415,8 @@
     <MESSAGE value="upload solution of exercises" />
     <MESSAGE value="update repo configuration" />
     <MESSAGE value="upload the second exercise of a text exam 17.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload the second exercise of a text exam 17.06" />
+    <MESSAGE value="upload the last exercise for the exam-preparation session" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload the last exercise for the exam-preparation session" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,6 +613,6 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_fishing_rewrite.coverage" NAME="02_fishing_rewrite Coverage Results" MODIFIED="1707826711244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_mouse_in_the_kitchen.coverage" NAME="02_mouse_in_the_kitchen Coverage Results" MODIFIED="1707772067761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$radioactive_mutant_vamire_bunnies.coverage" NAME="radioactive_mutant_vamire_bunnies Coverage Results" MODIFIED="1707689456331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$03_enrollment_rewrite.coverage" NAME="03_enrollment_rewrite Coverage Results" MODIFIED="1707829130176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$03_enrollment_rewrite.coverage" NAME="03_enrollment_rewrite Coverage Results" MODIFIED="1707829384151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
   </component>
 </project>

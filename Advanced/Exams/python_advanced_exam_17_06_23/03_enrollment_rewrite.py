@@ -1,20 +1,25 @@
-def gather_credits(number_of_credits_needed, *courses_info):
-    enrolled_courses = []
-    total_credits_gathered = 0
+def gather_credits(number_of_credits_required, *course_data):
+    attended_courses_info = []
+    credits_gathered = 0
 
-    for course, number_of_credits in courses_info:
-        if total_credits_gathered >= number_of_credits_needed:
+    for course, number_of_credits in course_data:
+        if credits_gathered >= number_of_credits_required:
             break
-        elif course in enrolled_courses:
+        elif course in attended_courses_info:
             continue
-        enrolled_courses.append(course)
-        total_credits_gathered += number_of_credits
+        attended_courses_info.append(course)
+        credits_gathered += number_of_credits
 
-    if total_credits_gathered >= number_of_credits_needed:
-        return f"""Enrollment finished! Maximum credits: {total_credits_gathered}.
-Courses: {', '.join(sorted(enrolled_courses))}"""
-    return (f"You need to enroll in more courses! You have to gather"
-            f" {number_of_credits_needed - total_credits_gathered} credits more.")
+    if credits_gathered >= number_of_credits_required:
+        return f"""Enrollment finished! Maximum credits: {credits_gathered}.
+Courses: {', '.join(sorted(attended_courses_info))}"""
+    return (f"You need to enroll in more courses!"
+            f" You have to gather {number_of_credits_required - credits_gathered} credits more.")
+
+print(gather_credits(
+    80,
+    ("Basics", 27),
+))
 
 
 print(gather_credits(
