@@ -11,10 +11,11 @@ worms_with_holes = 0
 
 # Logic
 while worms and holes:
+    # Pop elements
     last_worm = worms.pop()
     first_hole = holes.popleft()
 
-    if last_worm == first_hole:
+    if last_worm == first_hole:  # if elements match
         worms_with_holes += 1
         continue
 
@@ -23,6 +24,7 @@ while worms and holes:
         if last_worm > 0:
             worms.append(last_worm)
 
+# Print User output
 if worms_with_holes:
     print(f"Matches: {worms_with_holes}")
 else:
