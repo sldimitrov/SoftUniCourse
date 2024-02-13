@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="fix a bug like a senior developer">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_rewrite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/01_rubber_duck_debuggers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/02_the_squirrel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_challenge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,10 @@
     "Python.01_worms_rewrite.executor": "Run",
     "Python.02_fishing_rewrite.executor": "Run",
     "Python.02_mouse_in_the_kitchen.executor": "Run",
+    "Python.02_the_squirrel.executor": "Run",
     "Python.03_enrollment_rewrite.executor": "Run",
     "Python.radioactive_mutant_vamire_bunnies.executor": "Run",
+    "Python.rubber_duck_debuggers.executor": "Run",
     "Python.tes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",
@@ -85,7 +87,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_offroad_rewrite">
+  <component name="RunManager" selected="Python.02_the_squirrel">
     <configuration name="01_offroad_rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -109,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01_worms_rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_rubber_duck_debuggers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_13_11_23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_13_11_23/01_worms_rewrite.py" />
+      <option name="SCRIPT_NAME" value="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_12_04_23\01_rubber_duck_debuggers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_fishing_rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_the_squirrel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,12 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/02_fishing_rewrite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/02_the_squirrel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_the_squirrel" />
+        <item itemvalue="Python.01_rubber_duck_debuggers" />
         <item itemvalue="Python.01_offroad_rewrite" />
         <item itemvalue="Python.tes" />
         <item itemvalue="Python.03_enrollment_rewrite" />
-        <item itemvalue="Python.01_worms_rewrite" />
-        <item itemvalue="Python.02_fishing_rewrite" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +232,7 @@
       <workItem from="1707638898542" duration="19133000" />
       <workItem from="1707679199450" duration="10466000" />
       <workItem from="1707761745179" duration="9499000" />
-      <workItem from="1707823072143" duration="12325000" />
+      <workItem from="1707823072143" duration="15391000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -625,6 +627,21 @@
           <line>9</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/02_the_squirrel.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/02_the_squirrel.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/02_the_squirrel.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -641,11 +658,13 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftUniCourse$rubber_duck_debuggers.coverage" NAME="rubber_duck_debuggers Coverage Results" MODIFIED="1707851381763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_worms_rewrite.coverage" NAME="01_worms_rewrite Coverage Results" MODIFIED="1707827428909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_13_11_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_fishing_rewrite.coverage" NAME="02_fishing_rewrite Coverage Results" MODIFIED="1707826711244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_mouse_in_the_kitchen.coverage" NAME="02_mouse_in_the_kitchen Coverage Results" MODIFIED="1707772067761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_offroad_rewrite.coverage" NAME="01_offroad_rewrite Coverage Results" MODIFIED="1707849329983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$tes.coverage" NAME="tes Coverage Results" MODIFIED="1707840454649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$02_the_squirrel.coverage" NAME="02_the_squirrel Coverage Results" MODIFIED="1707853176150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$radioactive_mutant_vamire_bunnies.coverage" NAME="radioactive_mutant_vamire_bunnies Coverage Results" MODIFIED="1707689456331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_enrollment_rewrite.coverage" NAME="03_enrollment_rewrite Coverage Results" MODIFIED="1707830101127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
   </component>
