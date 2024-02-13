@@ -16,6 +16,7 @@ Courses: {', '.join(sorted(attended_courses_info))}"""
     return (f"You need to enroll in more courses!"
             f" You have to gather {number_of_credits_required - credits_gathered} credits more.")
 
+
 print(gather_credits(
     80,
     ("Basics", 27),
