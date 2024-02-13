@@ -26,7 +26,7 @@ while True:
         print(f"John did not reach: Altitude {counter_of_peaks}")
         break
 
-if not is_won :
+if not is_won:
     print("John failed to reach the top.")
     if list_of_peaks:
         print(f"Reached altitudes: {', '.join(list_of_peaks)}")

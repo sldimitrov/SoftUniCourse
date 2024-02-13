@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="upload the last exercise for the exam-preparation session">
-      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment_rewrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment_rewrite.py" afterDir="false" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="fix a bug like a senior developer">
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_rewrite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_challenge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +57,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.01_offroad_rewrite.executor": "Run",
     "Python.01_worms_rewrite.executor": "Run",
     "Python.02_fishing_rewrite.executor": "Run",
     "Python.02_mouse_in_the_kitchen.executor": "Run",
-    "Python.03_enrollment_rewrite.executor": "Debug",
+    "Python.03_enrollment_rewrite.executor": "Run",
     "Python.radioactive_mutant_vamire_bunnies.executor": "Run",
+    "Python.tes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -81,7 +85,30 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_enrollment_rewrite">
+  <component name="RunManager" selected="Python.01_offroad_rewrite">
+    <configuration name="01_offroad_rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_rewrite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01_worms_rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -128,29 +155,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_mouse_in_the_kitchen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/02_mouse_in_the_kitchen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="03_enrollment_rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -174,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="radioactive_mutant_vamire_bunnies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,12 +187,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises/radioactive_mutant_vamire_bunnies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/tes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_offroad_rewrite" />
+        <item itemvalue="Python.tes" />
         <item itemvalue="Python.03_enrollment_rewrite" />
         <item itemvalue="Python.01_worms_rewrite" />
         <item itemvalue="Python.02_fishing_rewrite" />
-        <item itemvalue="Python.02_mouse_in_the_kitchen" />
-        <item itemvalue="Python.radioactive_mutant_vamire_bunnies" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +230,7 @@
       <workItem from="1707638898542" duration="19133000" />
       <workItem from="1707679199450" duration="10466000" />
       <workItem from="1707761745179" duration="9499000" />
-      <workItem from="1707823072143" duration="4715000" />
+      <workItem from="1707823072143" duration="12325000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -383,7 +387,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707829305673</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="re-write a solution. (2000th COMMIT!!!;)">
+      <option name="closed" value="true" />
+      <created>1707830153886</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707830153886</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix a bug like a senior developer">
+      <option name="closed" value="true" />
+      <created>1707830178805</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707830178805</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +436,9 @@
     <MESSAGE value="update repo configuration" />
     <MESSAGE value="upload the second exercise of a text exam 17.06" />
     <MESSAGE value="upload the last exercise for the exam-preparation session" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload the last exercise for the exam-preparation session" />
+    <MESSAGE value="re-write a solution. (2000th COMMIT!!!;)" />
+    <MESSAGE value="fix a bug like a senior developer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix a bug like a senior developer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,6 +615,16 @@
           <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23/03_enrollment_rewrite.py</url>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_rewrite.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23/01_offroad_rewrite.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -612,7 +644,9 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_worms_rewrite.coverage" NAME="01_worms_rewrite Coverage Results" MODIFIED="1707827428909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_13_11_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_fishing_rewrite.coverage" NAME="02_fishing_rewrite Coverage Results" MODIFIED="1707826711244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_mouse_in_the_kitchen.coverage" NAME="02_mouse_in_the_kitchen Coverage Results" MODIFIED="1707772067761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_offroad_rewrite.coverage" NAME="01_offroad_rewrite Coverage Results" MODIFIED="1707849329983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$tes.coverage" NAME="tes Coverage Results" MODIFIED="1707840454649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$radioactive_mutant_vamire_bunnies.coverage" NAME="radioactive_mutant_vamire_bunnies Coverage Results" MODIFIED="1707689456331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/multidimensional_lists/exercises/re_written_exercises" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$03_enrollment_rewrite.coverage" NAME="03_enrollment_rewrite Coverage Results" MODIFIED="1707829384151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$03_enrollment_rewrite.coverage" NAME="03_enrollment_rewrite Coverage Results" MODIFIED="1707830101127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_06_23" />
   </component>
 </project>
