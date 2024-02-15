@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="fix a bug like a senior developer">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22/01_climb_the_peaks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22/02_navy_battle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22/03_student_credits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/01_energy_drinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/02_rally_racing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/03_hourly_forecast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23/01_apocalypse_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23/01_apocalypse_preparation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +45,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bxs2p7XT6fYlIROM97hnfCfE6Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,9 +60,12 @@
   "keyToString": {
     "Python.01_apocalypse_preparation (1).executor": "Run",
     "Python.01_climb_the_peaks.executor": "Run",
+    "Python.01_energy_drinks.executor": "Run",
     "Python.02_blind_mans_buff.executor": "Run",
     "Python.02_navy_battle.executor": "Run",
+    "Python.02_rally_racing.executor": "Run",
     "Python.03_grocery_shop.executor": "Run",
+    "Python.03_hourly_forecast.executor": "Run",
     "Python.03_student_credits.executor": "Run",
     "Python.apocalypse_preparation.executor": "Run",
     "Python.blind_mans_buff.executor": "Run",
@@ -88,7 +90,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_student_credits">
+  <component name="RunManager" selected="Python.03_hourly_forecast">
     <configuration name="01_apocalypse_preparation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -112,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01_climb_the_peaks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_energy_drinks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22/01_climb_the_peaks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/01_energy_drinks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_navy_battle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_rally_racing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,12 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22/02_navy_battle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/02_rally_racing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_grocery_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_hourly_forecast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23/03_grocery_shop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/03_hourly_forecast.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_hourly_forecast" />
+        <item itemvalue="Python.02_rally_racing" />
+        <item itemvalue="Python.01_energy_drinks" />
         <item itemvalue="Python.03_student_credits" />
         <item itemvalue="Python.01_apocalypse_preparation (1)" />
-        <item itemvalue="Python.02_navy_battle" />
-        <item itemvalue="Python.01_climb_the_peaks" />
-        <item itemvalue="Python.03_grocery_shop" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +236,8 @@
       <workItem from="1707679199450" duration="10466000" />
       <workItem from="1707761745179" duration="9499000" />
       <workItem from="1707823072143" duration="17619000" />
-      <workItem from="1707915999074" duration="16134000" />
+      <workItem from="1707915999074" duration="16294000" />
+      <workItem from="1708004963853" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -669,6 +672,21 @@
           <line>13</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/01_energy_drinks.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/02_rally_racing.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/02_rally_racing.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -686,11 +704,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_apocalypse_preparation__1_.coverage" NAME="01_apocalypse_preparation (1) Coverage Results" MODIFIED="1707947059711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_energy_drinks.coverage" NAME="01_energy_drinks Coverage Results" MODIFIED="1708008143310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_climb_the_peaks.coverage" NAME="01_climb_the_peaks Coverage Results" MODIFIED="1707939681888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$apocalypse_preparation.coverage" NAME="apocalypse_preparation Coverage Results" MODIFIED="1707917815529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$03_student_credits.coverage" NAME="03_student_credits Coverage Results" MODIFIED="1707947414573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$03_hourly_forecast.coverage" NAME="03_hourly_forecast Coverage Results" MODIFIED="1708010411832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$03_student_credits.coverage" NAME="03_student_credits Coverage Results" MODIFIED="1707947582654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_grocery_shop.coverage" NAME="03_grocery_shop Coverage Results" MODIFIED="1707930758921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$blind_mans_buff.coverage" NAME="02_blind_mans_buff Coverage Results" MODIFIED="1707930519343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$02_rally_racing.coverage" NAME="02_rally_racing Coverage Results" MODIFIED="1708009900292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_navy_battle.coverage" NAME="02_navy_battle Coverage Results" MODIFIED="1707945841817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
   </component>
 </project>
