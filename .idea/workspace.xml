@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="fix a bug like a senior developer">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/01_collect_eggs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/02_exit_founder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "Python.01_energy_drinks.executor": "Run",
     "Python.02_blind_mans_buff.executor": "Run",
     "Python.02_crud.executor": "Run",
+    "Python.02_exit_founder.executor": "Run",
     "Python.02_navy_battle.executor": "Run",
     "Python.02_rally_racing.executor": "Run",
     "Python.03_grocery_shop.executor": "Run",
@@ -92,7 +93,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_collect_eggs">
+  <component name="RunManager" selected="Python.02_exit_founder">
     <configuration name="01_collect_eggs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -162,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_hourly_forecast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_exit_founder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22/03_hourly_forecast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/02_exit_founder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_exit_founder" />
         <item itemvalue="Python.01_collect_eggs" />
         <item itemvalue="Python.03_song_creator" />
         <item itemvalue="Python.02_crud" />
         <item itemvalue="Python.01_stewards" />
-        <item itemvalue="Python.03_hourly_forecast" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,7 @@
       <workItem from="1707915999074" duration="16294000" />
       <workItem from="1708004963853" duration="7343000" />
       <workItem from="1708024795511" duration="5337000" />
-      <workItem from="1708107670189" duration="2372000" />
+      <workItem from="1708107670189" duration="5988000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -716,6 +717,16 @@
           <line>3</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/02_exit_founder.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/02_exit_founder.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -732,6 +743,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftUniCourse$02_exit_founder.coverage" NAME="02_exit_founder Coverage Results" MODIFIED="1708114160375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_song_creator.coverage" NAME="03_song_creator Coverage Results" MODIFIED="1708031238794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$stewards.coverage" NAME="stewards Coverage Results" MODIFIED="1708011824049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_climb_the_peaks.coverage" NAME="01_climb_the_peaks Coverage Results" MODIFIED="1707939681888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
@@ -745,6 +757,6 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$blind_mans_buff.coverage" NAME="02_blind_mans_buff Coverage Results" MODIFIED="1707930519343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_rally_racing.coverage" NAME="02_rally_racing Coverage Results" MODIFIED="1708009900292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_navy_battle.coverage" NAME="02_navy_battle Coverage Results" MODIFIED="1707945841817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$01_collect_eggs.coverage" NAME="01_collect_eggs Coverage Results" MODIFIED="1708109034536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_collect_eggs.coverage" NAME="01_collect_eggs Coverage Results" MODIFIED="1708111420780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
   </component>
 </project>
