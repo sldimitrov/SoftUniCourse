@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="repo config structure &amp; upload solution for an exercise" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/01_chicken_snack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/02_clear_skies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/03_cookbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,14 +60,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.01_apocalypse_preparation (1).executor": "Run",
+    "Python.01_chicken_snack.executor": "Run",
     "Python.01_climb_the_peaks.executor": "Run",
     "Python.01_collect_eggs.executor": "Run",
     "Python.01_energy_drinks.executor": "Run",
     "Python.02_blind_mans_buff.executor": "Run",
+    "Python.02_clear_skies.executor": "Run",
     "Python.02_crud.executor": "Run",
     "Python.02_exit_founder.executor": "Run",
     "Python.02_navy_battle.executor": "Run",
     "Python.02_rally_racing.executor": "Run",
+    "Python.03_cookbook.executor": "Run",
     "Python.03_grocery_shop.executor": "Run",
     "Python.03_hourly_forecast.executor": "Run",
     "Python.03_shopping_cart.executor": "Run",
@@ -70,6 +79,7 @@
     "Python.apocalypse_preparation.executor": "Run",
     "Python.blind_mans_buff.executor": "Run",
     "Python.stewards.executor": "Run",
+    "Python.text.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -91,8 +101,8 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_shopping_cart">
-    <configuration name="01_collect_eggs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.text">
+    <configuration name="01_chicken_snack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,12 +111,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/01_collect_eggs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/01_chicken_snack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_crud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_clear_skies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,12 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22/02_crud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/02_clear_skies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_exit_founder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_cookbook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,12 +157,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/02_exit_founder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/03_cookbook.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_song_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,12 +203,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22/03_song_creator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.text" />
+        <item itemvalue="Python.03_cookbook" />
+        <item itemvalue="Python.02_clear_skies" />
+        <item itemvalue="Python.01_chicken_snack" />
         <item itemvalue="Python.03_shopping_cart" />
-        <item itemvalue="Python.02_exit_founder" />
-        <item itemvalue="Python.01_collect_eggs" />
-        <item itemvalue="Python.03_song_creator" />
-        <item itemvalue="Python.02_crud" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +251,7 @@
       <workItem from="1708004963853" duration="7343000" />
       <workItem from="1708024795511" duration="5337000" />
       <workItem from="1708107670189" duration="7925000" />
+      <workItem from="1708172632731" duration="6140000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -421,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708116890413</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update the repo configuration">
+      <option name="closed" value="true" />
+      <created>1708172652376</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708172652376</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +476,8 @@
     <MESSAGE value="re-write a solution. (2000th COMMIT!!!;)" />
     <MESSAGE value="fix a bug like a senior developer" />
     <MESSAGE value="repo config structure &amp; upload solution for an exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="repo config structure &amp; upload solution for an exercise" />
+    <MESSAGE value="update the repo configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the repo configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,6 +769,16 @@
           <line>1</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/01_chicken_snack.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/02_clear_skies.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -765,15 +795,19 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftUniCourse$02_clear_skies.coverage" NAME="02_clear_skies Coverage Results" MODIFIED="1708176144167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_exit_founder.coverage" NAME="02_exit_founder Coverage Results" MODIFIED="1708114160375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$03_cookbook.coverage" NAME="03_cookbook Coverage Results" MODIFIED="1708177007585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_song_creator.coverage" NAME="03_song_creator Coverage Results" MODIFIED="1708031238794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$stewards.coverage" NAME="stewards Coverage Results" MODIFIED="1708011824049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_climb_the_peaks.coverage" NAME="01_climb_the_peaks Coverage Results" MODIFIED="1707939681888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$apocalypse_preparation.coverage" NAME="apocalypse_preparation Coverage Results" MODIFIED="1707917815529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_student_credits.coverage" NAME="03_student_credits Coverage Results" MODIFIED="1707947582654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_chicken_snack.coverage" NAME="01_chicken_snack Coverage Results" MODIFIED="1708173477130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_shopping_cart.coverage" NAME="03_shopping_cart Coverage Results" MODIFIED="1708116829072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_apocalypse_preparation__1_.coverage" NAME="01_apocalypse_preparation (1) Coverage Results" MODIFIED="1707947059711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_energy_drinks.coverage" NAME="01_energy_drinks Coverage Results" MODIFIED="1708008143310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$text.coverage" NAME="text Coverage Results" MODIFIED="1708181014793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_crud.coverage" NAME="02_crud Coverage Results" MODIFIED="1708028615075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_hourly_forecast.coverage" NAME="03_hourly_forecast Coverage Results" MODIFIED="1708010454481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_grocery_shop.coverage" NAME="03_grocery_shop Coverage Results" MODIFIED="1707930758921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
