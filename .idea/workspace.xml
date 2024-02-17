@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="fix a bug like a senior developer">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22/03_shopping_cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/movie_organizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_12_04_23/03_movie_organizer.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="repo config structure &amp; upload solution for an exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,7 +240,7 @@
       <workItem from="1707915999074" duration="16294000" />
       <workItem from="1708004963853" duration="7343000" />
       <workItem from="1708024795511" duration="5337000" />
-      <workItem from="1708107670189" duration="7846000" />
+      <workItem from="1708107670189" duration="7925000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -417,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707830178805</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="repo config structure &amp; upload solution for an exercise">
+      <option name="closed" value="true" />
+      <created>1708116890413</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1708116890413</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +456,8 @@
     <MESSAGE value="upload the last exercise for the exam-preparation session" />
     <MESSAGE value="re-write a solution. (2000th COMMIT!!!;)" />
     <MESSAGE value="fix a bug like a senior developer" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix a bug like a senior developer" />
+    <MESSAGE value="repo config structure &amp; upload solution for an exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="repo config structure &amp; upload solution for an exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,7 +771,7 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_climb_the_peaks.coverage" NAME="01_climb_the_peaks Coverage Results" MODIFIED="1707939681888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$apocalypse_preparation.coverage" NAME="apocalypse_preparation Coverage Results" MODIFIED="1707917815529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$03_student_credits.coverage" NAME="03_student_credits Coverage Results" MODIFIED="1707947582654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_14_12_22" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$03_shopping_cart.coverage" NAME="03_shopping_cart Coverage Results" MODIFIED="1708116760341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$03_shopping_cart.coverage" NAME="03_shopping_cart Coverage Results" MODIFIED="1708116829072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_25_06_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_apocalypse_preparation__1_.coverage" NAME="01_apocalypse_preparation (1) Coverage Results" MODIFIED="1707947059711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam__18_02_23" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_energy_drinks.coverage" NAME="01_energy_drinks Coverage Results" MODIFIED="1708008143310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_22_10_22" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_crud.coverage" NAME="02_crud Coverage Results" MODIFIED="1708028615075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_18_08_22" />
