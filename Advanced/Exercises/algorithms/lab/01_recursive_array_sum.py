@@ -13,4 +13,5 @@ def recursive_array_sum(array, index=0):
 
 
 # Read User input - call the function - print the result
-print(recursive_array_sum([1, 2, 3, 4]))
+list_of_nums = [int(x) for x in input().split()]
+print(recursive_array_sum(list_of_nums))
