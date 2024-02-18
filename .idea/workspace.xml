@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
-      <change afterPath="$PROJECT_DIR$/Advanced/Projects/workshop/connect_four.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/01_recursive_array_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/02_recursive_factorial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/workshop/connect_four_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/workshop/connect_four_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Projects/workshop/connect_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/workshop/connect_four.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2bxs2p7XT6fYlIROM97hnfCfE6Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +56,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_recursive_array_sum.executor": "Debug",
+    "Python.02_recursive_factorial.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects" />
@@ -63,21 +82,22 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.connect_four_game">
-    <configuration name="01_chicken_snack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.03_recursive_drawing">
+    <configuration name="01_recursive_array_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/01_chicken_snack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/01_recursive_array_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,20 +106,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_clear_skies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_recursive_factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/02_clear_skies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/02_recursive_factorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,20 +129,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_cookbook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_recursive_drawing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exams/python_advanced_exam_17_02_24/03_cookbook.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/03_recursive_drawing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,6 +154,7 @@
     </configuration>
     <configuration name="connect_four_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -154,6 +177,7 @@
     </configuration>
     <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -176,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_recursive_drawing" />
+        <item itemvalue="Python.02_recursive_factorial" />
+        <item itemvalue="Python.01_recursive_array_sum" />
         <item itemvalue="Python.connect_four_game" />
         <item itemvalue="Python.text" />
-        <item itemvalue="Python.03_cookbook" />
-        <item itemvalue="Python.02_clear_skies" />
-        <item itemvalue="Python.01_chicken_snack" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +233,7 @@
       <workItem from="1708024795511" duration="5337000" />
       <workItem from="1708107670189" duration="7925000" />
       <workItem from="1708172632731" duration="8516000" />
+      <workItem from="1708275972127" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -421,7 +446,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update workflow of the project" />
@@ -775,6 +799,16 @@
           <line>88</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/01_recursive_array_sum.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/02_recursive_factorial.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -789,5 +823,9 @@
         <watch expression="line" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftUniCourse$02_recursive_factorial.coverage" NAME="02_recursive_factorial Coverage Results" MODIFIED="1708277241309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_recursive_array_sum.coverage" NAME="01_recursive_array_sum Coverage Results" MODIFIED="1708277078748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
   </component>
 </project>
