@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/04_sum_of_coins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/simple_sorting_algorithms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +236,7 @@
       <workItem from="1708107670189" duration="7925000" />
       <workItem from="1708172632731" duration="8516000" />
       <workItem from="1708275972127" duration="3523000" />
-      <workItem from="1708366510979" duration="12552000" />
+      <workItem from="1708366510979" duration="12742000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
