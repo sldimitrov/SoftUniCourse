@@ -2,38 +2,39 @@
  # SOFTWARE UNIVERSITY 🎓
 
 * Here I am going to upload all of my Courses from SoftUni. ✅
-* Every one of them follows my goal - becoming the Ultimate Python Developer! </>
+* Every one of them follows my goal - becoming the Ultimate Software Developer! </>
 
 Who I am? - Slavi Dimitrov⚡
 
 Where I am learning? - *https://softuni.bg/* 💡
 
-Where you can find me? 
+Where you can keep-in-touch with me? 
 - Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 
-- email - *slavidimitrov54@gmail.com* 🧠
+- email - *slavidimitrov54@gmail.com* 
 
-# Software Engineering
+# Software Engineering 🧠
 ## If you want to see all of my projects:
 - [You can find here]()
 
 ## Basics Module - Finished:
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
 ## Fundamentals Module - Finished:
-- [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+- [My exercises/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
-## Advanced Module - Begun
+## Advanced Module - Finished:
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
-- *Sertificate*...
+- [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
-## OOP Module - Pending...
-- 
+## OOP Module - Begun
+- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- Sertificate soon...
 
-# Quality Assurance
+##
 
-## QA Basics - Pending...
--
+![image](https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg)
+
