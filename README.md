@@ -31,6 +31,6 @@ Where you can find me?
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## OOP Module - Begun
-- [My homeworks](a)
-- [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
+- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- [Sertificate]...
 
