@@ -32,5 +32,5 @@ Where you can find me?
 
 ## OOP Module - Begun
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
-- [Sertificate]...
+- Sertificate soon...
 
