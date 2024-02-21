@@ -10,9 +10,9 @@ Where I am learning? - *https://softuni.bg/* 💡
 
 Where you can keep-in-touch with me? 
 - Linkedln - *https://www.linkedin.com/in/trick-er-311982292/* 
-- email - *slavidimitrov54@gmail.com* 🧠
+- email - *slavidimitrov54@gmail.com* 
 
-# Software Engineering
+# Software Engineering 🧠
 ## If you want to see all of my projects:
 - [You can find here]()
 
