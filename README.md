@@ -26,11 +26,11 @@ Where you can find me?
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
-## Advanced Module - Begun
+## Advanced Module - Finished:
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - *Sertificate*...
 
-## OOP Module - Pending...
+## OOP Module - Begun
 - 
 
 # Quality Assurance
