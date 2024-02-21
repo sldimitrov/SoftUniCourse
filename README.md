@@ -17,12 +17,12 @@ Where you can find me?
 - [You can find here]()
 
 ## Basics Module - Finished:
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
 ## Fundamentals Module - Finished:
-- [My homeworks/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+- [My exercises/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
