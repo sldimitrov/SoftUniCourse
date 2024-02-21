@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/ascii_art/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/ascii_art/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/triangle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/triangle/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/triangle/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/operattion_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/operattion_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2023.3/python_stubs/-1803753836/math.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/pyfiglet/__init__.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,6 +70,8 @@
     "Python.core.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Debug",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -91,30 +97,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="04_sum_of_coins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/04_sum_of_coins.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="core" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -184,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,12 +176,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/modules/calculate_logarithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/modules/calculate_logarithm/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.core" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.04_sum_of_coins" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +251,7 @@
       <workItem from="1708275972127" duration="3523000" />
       <workItem from="1708366510979" duration="12742000" />
       <workItem from="1708457238390" duration="914000" />
-      <workItem from="1708534154477" duration="4578000" />
+      <workItem from="1708534154477" duration="7550000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -877,6 +883,29 @@
           <line>1</line>
           <option name="timeStamp" value="161" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/constants.py</url>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/operattion_helper.py</url>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/constants.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -897,6 +926,8 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1708537958580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/ascii_art" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1708535098949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/calculate_logarithm" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1708538891319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1708540288443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$core.coverage" NAME="core Coverage Results" MODIFIED="1708538883135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1708540678571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations" />
   </component>
 </project>
