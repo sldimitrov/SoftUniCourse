@@ -28,12 +28,9 @@ Where you can find me?
 
 ## Advanced Module - Finished:
 - [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
-- *Sertificate*...
+- [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## OOP Module - Begun
-- 
+- [My homeworks](a)
+- [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
-# Quality Assurance
-
-## QA Basics - Pending...
--
