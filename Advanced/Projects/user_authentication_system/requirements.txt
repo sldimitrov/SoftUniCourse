@@ -1,1 +1,0 @@
-Add the version of the libraries
