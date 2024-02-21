@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/operattion_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations/operattion_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +247,7 @@
       <workItem from="1708275972127" duration="3523000" />
       <workItem from="1708366510979" duration="12742000" />
       <workItem from="1708457238390" duration="914000" />
-      <workItem from="1708534154477" duration="7550000" />
+      <workItem from="1708534154477" duration="7853000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -464,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708535719809</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update the repo configuration">
+      <option name="closed" value="true" />
+      <created>1708555475892</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1708555475892</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -903,7 +907,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations/main.py</url>
-          <line>15</line>
+          <line>6</line>
           <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
@@ -928,6 +932,6 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1708538891319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1708540288443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$core.coverage" NAME="core Coverage Results" MODIFIED="1708538883135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1708540678571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1708555656267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations" />
   </component>
 </project>
