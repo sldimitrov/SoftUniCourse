@@ -14,24 +14,24 @@ Where you can keep-in-touch with me?
 
 # Software Engineering 🧠
 ## If you want to see all of my projects:
-- [You can find here]()
+- [You can find here](add link...)
 
-## Basics Module - Finished:
-- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+## Basics Module - Passed (6,00):
+- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
-## Fundamentals Module - Finished:
-- [My exercises/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+## Fundamentals Module - Passed (6,00):
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
-## Advanced Module - Finished:
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+## Advanced Module - Passed (6,00):
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## OOP Module - Begun
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- [My exercises](add link...)
 - Sertificate soon...
 
 ##
