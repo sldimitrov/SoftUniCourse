@@ -14,7 +14,7 @@ Where you can keep-in-touch with me?
 
 # Software Engineering 🧠
 ## If you want to see all of my projects:
-- [You can find here]()
+- [You can find here](add link...)
 
 ## Basics Module - Finished:
 - [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
