@@ -27,11 +27,11 @@ Where you can keep-in-touch with me?
 
 
 ## Advanced Module - Finished:
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## OOP Module - Begun
-- [My homeworks](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - Sertificate soon...
 
 ##
