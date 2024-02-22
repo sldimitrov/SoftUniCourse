@@ -16,17 +16,17 @@ Where you can keep-in-touch with me?
 ## If you want to see all of my projects:
 - [You can find here](add link...)
 
-## Basics Module - Finished:
+## Basics Module - Passed (6,00):
 - [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
-## Fundamentals Module - Finished:
+## Fundamentals Module - Passed (6,00):
 - [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
-## Advanced Module - Finished:
+## Advanced Module - Passed (6,00):
 - [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
