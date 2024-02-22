@@ -17,17 +17,17 @@ Where you can keep-in-touch with me?
 - [You can find here](add link...)
 
 ## Basics Module - Finished:
-- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
 ## Fundamentals Module - Finished:
-- [My exercises/projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
 ## Advanced Module - Finished:
-- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## OOP Module - Begun
