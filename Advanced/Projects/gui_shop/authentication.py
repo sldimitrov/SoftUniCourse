@@ -4,6 +4,9 @@ from canvas import root
 
 
 def render_entry():
+    """
+    This function create a button on the screen
+    """
     register_button = Button(
         root,
         text="Register",
@@ -11,4 +14,6 @@ def render_entry():
         fg="white",  # font color
 
     )
+
+
 
