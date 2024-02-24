@@ -11,3 +11,4 @@ def render_entry():
         fg="white",  # font color
 
     )
+
