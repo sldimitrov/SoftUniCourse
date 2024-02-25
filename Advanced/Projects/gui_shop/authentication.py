@@ -44,7 +44,30 @@ def register():
     frame.create_window(200, 150, window=username_box)
     frame.create_window(200, 200, window=password_box)
 
-    print("Register")
+    register_button= Button(
+        root,
+        text="Register",
+        bg="green",
+        fg="white",
+        bd=0,
+        command=registration
+    )
+
+    frame.create_window(250, 230, window=register_button)
+
+
+def registration():
+    info_dict = {
+        "First name": first_name_box.get(),
+        "Last name": last_name_box.get(),
+        "Username": username_box.get(),
+        "Password": password_box.get(),
+    }
+
+    with open("db/users_information.txt", "a") as user_file:
+        user_file.write("text")
+
+    print(info_dict)
 
 
 def login():
@@ -66,4 +89,4 @@ def login():
 first_name_box = Entry(root, bd=0)
 last_name_box = Entry(root, bd=0)
 username_box = Entry(root, bd=0)
-password_box = Entry(root, bd=0)
+password_box = Entry(root, bd=0, show="*")
