@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/server.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/db_server.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Advanced/Projects/user_authentication_system/data_base_testing/samples.py" dialect="GenericSQL" />
   </component>
 </project>
