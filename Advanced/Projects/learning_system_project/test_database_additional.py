@@ -4,17 +4,17 @@ import hashlib
 
 def register_user(name, user_password) -> bool:
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Add a column to the table
-    cur.execute("""
-    CREATE TABLE IF NOT EXISTS userdata (
-        id INTEGER PRIMARY KEY,
-        username VARCHAR(255) NOT NULL,
-        password VARCHAR(255) NOT NULL
-    )
-    """)
+    # cur.execute("""
+    # CREATE TABLE IF NOT EXISTS userdata (
+    #     id INTEGER PRIMARY KEY,
+    #     username VARCHAR(255) NOT NULL,
+    #     password VARCHAR(255) NOT NULL
+    # )
+    # """)
 
     # Parse the username and password into bytes
     username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
@@ -66,8 +66,7 @@ def is_email_used(email):
         return False  # if email is not in the database
 
 
-is_email_used(input('Enter email: '))
-
+# is_email_used(input('Enter email: '))
 # Read User input
 command = input("reg or log: ")
 
@@ -84,6 +83,6 @@ if command == "reg":
 elif command == "log":
     login_user()
 
-#
-# else:
-#     print(f"Unknown command {command}")
+
+else:
+    print(f"Unknown command {command}")

@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/samples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/test_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/userdata.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/samples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/test_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/userdata2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_shop/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/gui_shop/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_shop/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/gui_shop/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/additional_test_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/test_database_additional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Projects/user_authentication_system/test_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/user_authentication_system/test_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Projects/user_authentication_system/userdata.db" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/user_authentication_system/userdata.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +80,26 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.__main__.executor": "Run",
+    "Python.additional_test_db.executor": "Run",
     "Python.authentication.executor": "Run",
     "Python.canvas.executor": "Run",
+    "Python.client.executor": "Run",
     "Python.core (1).executor": "Run",
     "Python.core.executor": "Run",
-    "Python.main (1).executor": "Debug",
+    "Python.helpers.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
     "Python.main (3).executor": "Run",
     "Python.main (4).executor": "Debug",
     "Python.main.executor": "Run",
+    "Python.samples.executor": "Run",
+    "Python.server.executor": "Run",
+    "Python.test_database (1).executor": "Run",
     "Python.test_database.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github_repositories",
+    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/Advanced/Projects/learning_system_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,18 +110,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\learning_system_project" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\user_authentication_system" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exercises\algorithms\lab" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\project\learning_system_project" />
-      <recent name="D:\github_repositories\SoftUniCourse\opa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.helpers">
-    <configuration name="authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_database">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,12 +130,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/gui_shop/authentication.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="canvas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="samples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,12 +153,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/gui_shop/canvas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project/samples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,12 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/gui_shop/helpers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_database (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,12 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/gui_shop/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing/test_database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,12 +222,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/picture_generator_ai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/picture_generator_ai/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/learning_system_project/test_database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.helpers" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.authentication" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.canvas" />
+        <item itemvalue="Python.test_database" />
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.samples" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.test_database (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +281,8 @@
       <workItem from="1708734043552" duration="343000" />
       <workItem from="1708735203769" duration="222000" />
       <workItem from="1708791428232" duration="3252000" />
-      <workItem from="1708851164878" duration="2436000" />
+      <workItem from="1708851164878" duration="2674000" />
+      <workItem from="1708868020147" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -947,6 +969,11 @@
           <line>6</line>
           <option name="timeStamp" value="166" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/test_database.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -964,16 +991,22 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1708852752238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1708853692069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1708538891319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1708735293524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/picture_generator_ai" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$authentication.coverage" NAME="authentication Coverage Results" MODIFIED="1708792936238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1708540288443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1708734283841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/user_authentication_system" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$core__1_.coverage" NAME="core (1) Coverage Results" MODIFIED="1708556963076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/fibonacci_sequence" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$test_database__1_.coverage" NAME="test_database (1) Coverage Results" MODIFIED="1708869108391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1708869727054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$helpers.coverage" NAME="helpers Coverage Results" MODIFIED="1708853726092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$core.coverage" NAME="core Coverage Results" MODIFIED="1708538883135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$canvas.coverage" NAME="canvas Coverage Results" MODIFIED="1708735238772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1708734053866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1708868937304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1708555792062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$client.coverage" NAME="client Coverage Results" MODIFIED="1708869606978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$additional_test_db.coverage" NAME="additional_test_db Coverage Results" MODIFIED="1708868689140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1708540288443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$core__1_.coverage" NAME="core (1) Coverage Results" MODIFIED="1708556963076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/fibonacci_sequence" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$server.coverage" NAME="server Coverage Results" MODIFIED="1708869582962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$samples.coverage" NAME="samples Coverage Results" MODIFIED="1708869589220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
   </component>
 </project>

@@ -252,11 +252,11 @@ def is_email_valid(email: str) -> bool:
 
 def is_email_used(email):
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT * FROM userdata where username = ?", (email,))
+    cur.execute("SELECT * FROM userdata2 where username = ?", (email,))
 
     if cur.fetchall():
         return True  # if email is used
@@ -350,12 +350,12 @@ def register_user() -> bool:
     user_password = get_password()
 
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Add a row to the table
     cur.execute("""
-    CREATE TABLE IF NOT EXISTS userdata (
+    CREATE TABLE IF NOT EXISTS userdata2 (
         id INTEGER PRIMARY KEY,
         username VARCHAR(255) NOT NULL,
         password VARCHAR(255) NOT NULL
@@ -366,7 +366,7 @@ def register_user() -> bool:
     email, password = email, hashlib.sha256(user_password.encode()).hexdigest()
 
     # Insert data into the database
-    cur.execute("INSERT INTO userdata (username, password) VALUES (?, ?)", (email, password))
+    cur.execute("INSERT INTO userdata2 (username, password) VALUES (?, ?)", (email, password))
 
     # Commit the changes
     conn.commit()
@@ -388,11 +388,11 @@ def login_user() -> bool:
     email, password = email, hashlib.sha256(user_password.encode()).hexdigest()
 
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT * FROM userdata WHERE username = ? AND password = ?", (email, password))
+    cur.execute("SELECT * FROM userdata2 WHERE username = ? AND password = ?", (email, password))
 
     # If there is a match
     if cur.fetchall():

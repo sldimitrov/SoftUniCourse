@@ -8,13 +8,13 @@ def register_user(name, user_password) -> bool:
     cur = conn.cursor()
 
     # Add a column to the table
-    # cur.execute("""
-    # CREATE TABLE IF NOT EXISTS userdata (
-    #     id INTEGER PRIMARY KEY,
-    #     username VARCHAR(255) NOT NULL,
-    #     password VARCHAR(255) NOT NULL
-    # )
-    # """)
+    cur.execute("""
+    CREATE TABLE IF NOT EXISTS userdata (
+        id INTEGER PRIMARY KEY,
+        username VARCHAR(255) NOT NULL,
+        password VARCHAR(255) NOT NULL
+    )
+    """)
 
     # Parse the username and password into bytes
     username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
@@ -58,15 +58,17 @@ def is_email_used(email):
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT * FROM userdata where username = ?", (email,))
+    cur.execute("SELECT username FROM userdata WHERE username = ?", email)
 
+    # If there is a match
     if cur.fetchall():
-        return True  # if email is used
+        print("Email is used!")
     else:
-        return False  # if email is not in the database
+        print("Email is not used!")
 
 
 # is_email_used(input('Enter email: '))
+
 # Read User input
 command = input("reg or log: ")
 

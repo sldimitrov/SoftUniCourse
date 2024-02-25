@@ -4,12 +4,12 @@ import hashlib
 
 def register_user(name, user_password) -> bool:
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Add a column to the table
     cur.execute("""
-    CREATE TABLE IF NOT EXISTS userdata (
+    CREATE TABLE IF NOT EXISTS userdata2 (
         id INTEGER PRIMARY KEY,
         username VARCHAR(255) NOT NULL,
         password VARCHAR(255) NOT NULL
@@ -20,7 +20,7 @@ def register_user(name, user_password) -> bool:
     username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
 
     # Insert data into the database
-    cur.execute("INSERT INTO userdata (username, password) VALUES (?, ?)", (username, password))
+    cur.execute("INSERT INTO userdata2 (username, password) VALUES (?, ?)", (username, password))
 
     # Commit the changes
     conn.commit()
@@ -37,11 +37,11 @@ def login_user() -> None:
     username, password = name, hashlib.sha256(user_password.encode()).hexdigest()
 
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT * FROM userdata WHERE username = ? AND password = ?", (username, password))
+    cur.execute("SELECT * FROM userdata2 WHERE username = ? AND password = ?", (username, password))
 
     # If there is a match
     if cur.fetchall():
@@ -54,19 +54,20 @@ def login_user() -> None:
 
 def is_email_used(email):
     # Connect to the database
-    conn = sqlite3.connect("userdata.db")
+    conn = sqlite3.connect("userdata2.db")
     cur = conn.cursor()
 
     # Find if there is a match within the database with username, pass
-    cur.execute("SELECT * FROM userdata where username = ?", (email,))
+    cur.execute("SELECT username FROM userdata2 WHERE username = ?", email)
 
+    # If there is a match
     if cur.fetchall():
-        return True  # if email is used
+        print("Email is used!")
     else:
-        return False  # if email is not in the database
+        print("Email is not used!")
 
 
-is_email_used(input('Enter email: '))
+# is_email_used(input('Enter email: '))
 
 # Read User input
 command = input("reg or log: ")
@@ -84,6 +85,6 @@ if command == "reg":
 elif command == "log":
     login_user()
 
-#
-# else:
-#     print(f"Unknown command {command}")
+
+else:
+    print(f"Unknown command {command}")
