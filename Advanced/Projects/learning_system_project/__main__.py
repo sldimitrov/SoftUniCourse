@@ -6,6 +6,34 @@ import random
 import time
 
 
+# TODO: (2)
+VALID_DOMAINS = ('com', 'bg', 'org', 'net')
+
+
+class NameTooShortError(Exception):
+    pass
+
+
+class DomainWithoutDotError(Exception):
+    pass
+
+
+class InvalidDomainError(Exception):
+    pass
+
+
+class MoreThanOneAtSymbolError(Exception):
+    pass
+
+
+class DomainMustContainsDot(Exception):
+    pass
+
+
+class EmailHasBeenAlreadyUsedError(Exception):
+    pass
+
+
 class TextToSpeech:
     """
     The functionality that this class applies to the project is that it open the dictionary
@@ -56,42 +84,6 @@ class TextToSpeech:
         return True
 
 
-class UserDoesNotNeedService(Exception):
-    pass
-
-
-class NameTooShortError(Exception):
-    pass
-
-
-class MustContainAtSymbolError(Exception):
-    pass
-
-
-class InvalidDomainError(Exception):
-    pass
-
-
-class MoreThanOneAtSymbolError(Exception):
-    pass
-
-
-class DomainMustContainsDot(Exception):
-    pass
-
-
-class EmailHasBeenAlreadyUsed(Exception):
-    pass
-
-
-class AccessDeniedError(Exception):
-    pass
-
-
-# TODO: (2)
-VALID_DOMAINS = ('com', 'bg', 'org', 'net')
-
-
 # Define plenty of functions
 def reg_or_log_user():
 
@@ -99,9 +91,6 @@ def reg_or_log_user():
         answer = input("Hello, User!\nDo you have an existing account? (y/n): ").lower()
         if answer == "y" or answer == "yes":
             if login_user():
-                print(f'\n---------------------------------------\n'
-                      f'-You were successfully logged!\n'
-                      f'---------------------------------------\n')
                 return True
             else:
                 break
@@ -111,9 +100,7 @@ def reg_or_log_user():
 
             if choice == "y" or choice == "yes":
                 if register_user():
-                    print(f'\n---------------------------------------\n'
-                          f'-You were successfully registered!\n'
-                          f'---------------------------------------\n')
+                    print(f'-You were successfully registered!\n')
                     if login_user():
                         return True
 
@@ -121,7 +108,7 @@ def reg_or_log_user():
                         break
 
             elif choice == "n" or choice == "no":
-                raise UserDoesNotNeedService
+                raise SystemExit
 
         else:
             print("Unknown answer: " + answer)
@@ -162,15 +149,14 @@ def print_messages(func_name: str) -> None:
         message = (
             f"""
         {'<->-<->' * 6}
-              !!!Valid Email Requirements!!!\n
+            Valid email requirements!\n
             (1) It must consist only 1 At symbol '@'!
             (2) The length of its first part should
             be more than 4 characters!
-            (3) Last but not least, the domain must
-            be one of the following: {', '.join(VALID_DOMAINS)}!
+            (3) The domain must be one of the following: 
+                {', '.join(VALID_DOMAINS)}!
                        !!!Warning!!!
-            If your email is invalid the program will
-            throw you just like an exception!
+             THERE ARE 3 REQUIREMENTS ABOUT THE PASSWORD
         {'<->-<->' * 6}
             """
         )
@@ -179,7 +165,7 @@ def print_messages(func_name: str) -> None:
         message = (
             f"""
         {'<->-<->' * 6}
-              !!!Rules about valid password!!!\n
+            Rules about valid password!\n
             (1) Must be between 4 and 16 symbols!
             (2) At least two digits ought to be used!
             (3) One special character have to be used!
@@ -213,41 +199,54 @@ def get_email() -> str:
 
 def is_email_valid(email: str) -> bool:
     """
-    This function is being called by the (get_email) one.
-
+    This function is being called by the (get_email) one
     It checks if the email is invalid and if it is - the program stops.
-
     Otherwise, it returns True
     """
+    is_valid_email = False
 
-    # If there is not an At symbol - throw an exception
-    if '@' not in email:
-        raise MustContainAtSymbolError("Email must contain at least one '@' symbol!")
+    while True:
+        try:
+            # If there is not an At symbol - prints out a message
+            if '@' not in email:
+                print("Email must contain at least one '@' symbol!")
 
-    # Split the email into 2 parts
-    name, domain = email.split('@')
+            # Split the email into 2 parts
+            name, domain = email.split('@')
 
-    if '.' not in domain:
-        raise DomainMustContainsDot("Domain must contain a dot! '.com'")
+            if '.' not in domain:
+                raise DomainMustContainsDot("Domain must contain a dot! '.com'")
 
-    # Check if the length of the first part is shorter or equal to 4 and if it is - throw an exception
-    if len(name) <= 4:
-        raise NameTooShortError("Name must be more than 4 characters!")
+            # Check if the length of the first part is shorter or equal to 4 and if it is - throw an exception
+            if len(name) <= 4:
+                raise NameTooShortError("Name must be more than 4 characters!")
 
-    # Check if the last part of the domain is not in Valid Domains and if it is not - raise an exception
-    elif domain.split('.')[1] not in VALID_DOMAINS:
-        raise InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
+            # Check if the last part of the domain is not in Valid Domains and if it is not - raise an exception
+            elif domain.split('.')[1] not in VALID_DOMAINS:
+                raise InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
 
-    # Check if there is more than 1 At symbol - stop the program
-    elif email.count('@') > 1:
-        raise MoreThanOneAtSymbolError("Email must contain only one At symbol!")
+            # Check if there is more than 1 At symbol - stop the program
+            elif email.count('@') > 1:
+                raise MoreThanOneAtSymbolError("Email must contain only one At symbol!")
 
-    # Check if there is a match with the emails in the database and throw an exception
-    elif is_email_used(email):
-        raise EmailHasBeenAlreadyUsed("Email address has been already used by another User!")
+            # Check if there is a match with the emails in the database and throw an exception
+            elif is_email_used(email):
+                raise EmailHasBeenAlreadyUsedError("Email address has been already used by another User!")
+        except DomainWithoutDotError as dmcd:
+            print(dmcd)
+        except NameTooShortError as ntse:
+            print(ntse)
+        except InvalidDomainError as ide:
+            print(ide)
+        except MoreThanOneAtSymbolError as mtoase:
+            print(mtoase)
+        except EmailHasBeenAlreadyUsedError as ehbaue:
+            print(ehbaue)
+        else:
+            is_valid_email = True
 
-    # In case of a valid email
-    return True
+        if is_valid_email:
+            return True
 
 
 def is_email_used(email):
@@ -306,37 +305,31 @@ def is_password_valid(password) -> str:
     if not valid: return False,
     """
     # Initialise a boolean in order to know if the password is valid or not
-    is_valid = True
 
-    invalid_pass_message = []
+    invalid_pass_messages = []
 
     # Check the password length
     if not (4 < len(password) < 16):
-        invalid_pass_message.append("Password must have 4 to 16 symbols!")
-        is_valid = False
+        invalid_pass_messages.append("Password must have 4 to 16 symbols!")
 
     # Check the number of digits in it
     number_of_digits = [x for x in password if x.isdigit()]
     if len(number_of_digits) < 2:
-        invalid_pass_message.append("Password must have at least 2 digits!")
-        is_valid = False
+        invalid_pass_messages.append("Password must have at least 2 digits!")
 
     # Check if there is a capital letter in the password
     capital_letters = [x for x in password if x.isupper()]
     if len(capital_letters) < 1:
-        invalid_pass_message.append("Password must have at least 1 capital letter!")
-        is_valid = False
+        invalid_pass_messages.append("Password must have at least 1 capital letter!")
 
     # Check if there is a special symbol in the password
-    is_valid = False
     for symbol in list(string.punctuation):
         if symbol in list(password):
-            is_valid = True
             break
     else:
-        invalid_pass_message.append("Password must contain at least one special character!")
+        invalid_pass_messages.append("Password must contain at least one special character!")
 
-    return '\n'.join(invalid_pass_message)  # boolean
+    return '\n'.join(invalid_pass_messages)  # boolean
 
 
 def register_user() -> bool:
@@ -381,8 +374,9 @@ def login_user() -> bool:
     If there is a match - give access to the User
     """
     # Get input from the user - insert functions here
-    email = input('Please, enter your email: ')
-    user_password = input('Password: ')
+    print("\nPlease input login info.")
+    email = input("Your email address: ")
+    user_password = input("Your password: ")
 
     # encrypt password and etc...
     email, password = email, hashlib.sha256(user_password.encode()).hexdigest()
@@ -702,11 +696,8 @@ def handle_invalid_input(some_input: str):
 
 
 def say_bye_user():
-    print(' Hello, Learner!\n'
-          'Are you ready to dive into a world fulfilled with new words and meanings?\n')
-
     # Greetings for an end
-    print('\nThank yourself for the time you spent learning!\n'
+    print('\n\tThank yourself for the time you spent learning!\n'
           'I am so happy that you just used my program!\n'
           'If you had seen any bugs or if you have any ideas\n'
           'how I should improve my app, please mail me here:\n'
@@ -718,7 +709,7 @@ def say_bye_user():
     raise SystemExit
 
 
-def program_main():
+def access_learning():
     """
     The main function contains the functionalities of the entire program and
     calls other functions based on the user's choice.
@@ -729,11 +720,11 @@ def program_main():
     choice = get_input()
     while True:
         if choice == 'm':
-            program_main()
+            access_learning()
 
         if choice not in string.digits:
             print(f"Please, enter a valid choice!\n")
-            program_main()
+            access_learning()
 
         choice = int(choice)
 
@@ -774,12 +765,12 @@ def main():
     """
     # Register and or login the user
     if reg_or_log_user():
-        print("Software accessed!")
-        program_main()
+        print("\nSoftware accessed...")
+        access_learning()
     else:
-        print("Access denied!")
+        print("Authentication failed!")
         # end the termination of the program
-        raise AccessDeniedError
+        raise SystemExit
 
 
 if __name__ == '__main__':
