@@ -88,7 +88,7 @@ class TextToSpeech:
 def reg_or_log_user():
 
     while True:
-        answer = input("Hello, User!\nDo you have an existing account? (y/n): ").lower()
+        answer = input("\nDo you have an existing account? (y/n): ").lower()
         if answer == "y" or answer == "yes":
             if login_user():
                 return True
@@ -695,6 +695,15 @@ def handle_invalid_input(some_input: str):
     return f'Error: {some_input} is an invalid input\n'
 
 
+def greet_user():
+    print("Welcome to my application.\n"
+          "\nOnly learning foreign languages can give you the wings to conquer the world.\n"
+          "Here we offer you a perfect way to master your Vocabulary by Learning new worlds.\n"
+          "Taking this major step can give you many challenges and much more opportunities.\n"
+          "Are you ready to sink in a world fulfilled with many wonders and wise knowledge? ")
+
+    _press_continue = input("\nPress any key if you are...")
+
 def say_bye_user():
     # Greetings for an end
     print('\n\tThank yourself for the time you spent learning!\n'
@@ -756,20 +765,20 @@ def main():
     """
     # TODO: (3) Authentication
     (1) add more extensions for the email
-    (2) handle each exception and print it to the User rather than stopping the program
     (3) you can do exactly the same with the password
 
     # TODO: (2) English
     # (2) record your own voice reading the sentences
     # (3) test_word_knowledge - 1 minute (quick-game)
     """
+    greet_user()
+
     # Register and or login the user
     if reg_or_log_user():
         print("\nSoftware accessed...")
         access_learning()
     else:
         print("Authentication failed!")
-        # end the termination of the program
         raise SystemExit
 
 
