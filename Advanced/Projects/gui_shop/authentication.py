@@ -1,7 +1,18 @@
 from tkinter import Button, Entry
 
-from Advanced.Projects.gui_shop.helpers import clean_screen
+from json import dump, loads
 from canvas import root, frame
+from helpers import clean_screen, get_password_hash
+
+
+def get_users_data():
+    info_data = []
+
+    with open("db/users_information.txt", "r") as users_file:
+        for line in users_file:
+            info_data.append(loads(line))
+
+    return info_data
 
 
 def render_entry():
@@ -64,29 +75,89 @@ def registration():
         "Password": password_box.get(),
     }
 
-    with open("db/users_information.txt", "a") as user_file:
-        user_file.write("text")
+    if check_registration(info_dict):
+        with open("db/users_information.txt", "a+") as user_file:
+            info_dict["Password"] = get_password_hash(info_dict["Password"])
+            dump(info_dict, user_file)
+            user_file.write("\n")
+            # TODO: display products
 
-    print(info_dict)
+
+def check_registration(info_dict):
+    frame.delete("error")
+
+    for key, value in info_dict.items():
+        if not value.strip():
+            frame.create_text(
+                250,
+                260,
+                text=f"{key} cannot be empty!",
+                fill="red",
+                tags="error",
+            )
+
+            return False
+    users_data = get_users_data()
+
+    for user in users_data:
+        if user["Username"] == info_dict["Username"]:
+            frame.create_text(
+                250,
+                260,
+                text="Username is already taken!",
+                fill="red",
+                tags="error",
+            )
+            return False
+
+    return True
 
 
 def login():
     clean_screen()
 
-    frame.create_text(100, 50, text="First name:")
-    frame.create_text(100, 100, text="Last name:")
-    frame.create_text(100, 150, text="Username:")
-    frame.create_text(100, 200, text="Password:")
+    frame.create_text(100, 50, text="Username:")
+    frame.create_text(100, 100, text="Password:")
 
-    frame.create_window(200, 50, window=first_name_box)
-    frame.create_window(200, 100, window=last_name_box)
-    frame.create_window(200, 150, window=username_box)
-    frame.create_window(200, 200, window=password_box)  
+    frame.create_window(200, 50, window=username_box)
+    frame.create_window(200, 100, window=password_box)
+    frame.create_window(230, 130, window=login_button)
 
-    print("Login")
+
+def logging():
+    print("Log")
+
+
+def change_login_button_state(event):
+    info = [
+        username_box.get(),
+        password_box.get(),
+    ]
+
+    for el in info:
+        if not el.strip():
+            login_button["state"] = "disabled"
+            break
+
+    else:
+        login_button["state"] = "normal"
 
 
 first_name_box = Entry(root, bd=0)
 last_name_box = Entry(root, bd=0)
 username_box = Entry(root, bd=0)
 password_box = Entry(root, bd=0, show="*")
+
+login_button = Button(
+    root,
+    text="Login",
+    bg="blue",
+    fg="white",
+    bd=0,
+    command=logging
+)
+
+
+login_button["state"] = "disabled"
+
+root.bind("<KeyRelease>", change_login_button_state)

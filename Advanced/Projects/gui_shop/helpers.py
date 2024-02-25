@@ -9,7 +9,7 @@ def clean_screen():
 
 def get_password_hash(password):
     hash_object = sha256(password.encode("UTF-8"))
-    print(hash_object.hexdigest())
+    return hash_object.hexdigest()
 
 
 get_password_hash("hello")
