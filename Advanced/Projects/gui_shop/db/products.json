@@ -1,0 +1,18 @@
+{
+    "Nike T-shirt": {
+        "quantity": 10,
+        "image": "images/black_t_shirt.jpg"
+     },
+    "Puma T-shirt": {
+        "quantity": 5,
+        "image": "images/white_t_shirt.jpg"
+    },
+    "Vans Shoes": {
+        "quantity": 3,
+        "image": "images/shoes.jpg"
+    },
+    "Jeans": {
+        "quantity": 2,
+        "image": "images/black_jeans.jpg"
+    }
+}

@@ -1,6 +1,8 @@
 from tkinter import Button, Entry
+
 from json import dump, loads
-from Advanced.Projects.gui_shop.buying_page import display_products
+
+from Advanced.Projects.gui_authentication.buying_page import display_products
 from canvas import root, frame
 from helpers import clean_screen, get_password_hash
 
@@ -126,6 +128,7 @@ def login():
 
 def logging():
     if check_login():
+        print("Log")
         display_products()
         pass
     else:
