@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop/05_music.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop/05_music.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/02_hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/02_hero.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.01_phombus_of_stars.executor": "Run",
+    "Python.01_shop.executor": "Run",
     "Python.02_scope_mess_broken.executor": "Run",
     "Python.02_scope_mess_fixed.executor": "Run",
     "Python.03_class_book.executor": "Run",
@@ -113,7 +113,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_shop">
+  <component name="RunManager" selected="Python.02_hero">
     <configuration name="01_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -137,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_scope_mess_fixed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_hero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,12 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop/02_scope_mess_fixed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/02_hero.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_hero" />
         <item itemvalue="Python.01_shop" />
         <item itemvalue="Python.05_music" />
         <item itemvalue="Python.04_car" />
         <item itemvalue="Python.03_class_book" />
-        <item itemvalue="Python.02_scope_mess_fixed" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +278,7 @@
       <workItem from="1708868020147" duration="2572000" />
       <workItem from="1708880417496" duration="12354000" />
       <workItem from="1708951606850" duration="2920000" />
-      <workItem from="1709048260363" duration="4561000" />
+      <workItem from="1709048260363" duration="4944000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -1052,6 +1052,7 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1708538891319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_scope_mess_broken.coverage" NAME="02_scope_mess_broken Coverage Results" MODIFIED="1709049846876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$authentication.coverage" NAME="authentication Coverage Results" MODIFIED="1708888498144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_shop.coverage" NAME="01_shop Coverage Results" MODIFIED="1709059566866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$test_database__1_.coverage" NAME="test_database (1) Coverage Results" MODIFIED="1708869108391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$05_music.coverage" NAME="05_music Coverage Results" MODIFIED="1709057125654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1708952638071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
