@@ -1,8 +1,9 @@
 x = "global"
 
+
 def outer():
-    x = "local"    
-    
+    x = "local"
+
     def inner():
         x = "nonlocal"
         print("inner:", x)
@@ -14,6 +15,7 @@ def outer():
     inner()
     print("outer:", x)
     change_global()
+
 
 print(x)
 outer()
