@@ -406,7 +406,7 @@ def text_to_speech():
     tts = TextToSpeech('HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_DAVID_11.0',
                        200, 1.0)
     # tts.list_available_voices()
-    f = open('txt_files/sentences_list.txt', 'r')
+    f = open('knowledge_data/sentences_list.txt', 'r')
     data = f.read()
     if data:
         counter = 1
@@ -434,7 +434,7 @@ def write_sentences() -> bool:
     lines = []
 
     # Read the data from the text file and append it into a list
-    data = open('txt_files/list_of_words.txt', 'r')
+    data = open('knowledge_data/list_of_words.txt', 'r')
     for d in data:
         if '\n' in d:
             d = d.replace('\n', '')
@@ -460,11 +460,11 @@ def write_sentences() -> bool:
                 words_dictionary[word] = definition
 
                 # Remove the written words from the (words text file)
-                f = open('txt_files/list_of_words.txt', 'r')
+                f = open('knowledge_data/list_of_words.txt', 'r')
                 text = f.read()
                 text = text.replace(line, '')
                 f.close()
-                f = open('txt_files/list_of_words.txt', 'w')
+                f = open('knowledge_data/list_of_words.txt', 'w')
                 f.write(text)
                 f.close()
                 print()
@@ -472,13 +472,13 @@ def write_sentences() -> bool:
         print('There are not any new words in order to write sentences with them.')
 
     # Save the sentences into a text file
-    file = open('txt_files/sentences_list.txt', 'a')
+    file = open('knowledge_data/sentences_list.txt', 'a')
     file.write('\n')
     file.write('\n'.join(sentences))
     file.close()
 
     # Save the words and their definitions into the dictionary
-    file = open('txt_files/dictionary.txt', 'a')
+    file = open('knowledge_data/dictionary.txt', 'a')
     for key, value in words_dictionary.items():
         file.write(f'{key} - {value}\n')
     file.close()
@@ -491,7 +491,7 @@ def access_dictionary() -> bool:
     True if it does and printing the line if they are alphabetical.
     :return: a boolean value.
     """
-    f = open('txt_files/dictionary.txt', 'r')
+    f = open('knowledge_data/dictionary.txt', 'r')
     data = f.read()
     if data:
         print("\nAll the words that are in the dictionary:")
@@ -512,7 +512,7 @@ def show_new_words() -> bool:
     list is empty.
     :return: a boolean value.
     """
-    f = open('txt_files/list_of_words.txt', 'r')
+    f = open('knowledge_data/list_of_words.txt', 'r')
     data = f.read()
     for _ in data:
         if _.isalpha():
@@ -531,7 +531,7 @@ def test_knowledge():
     its definition.
     :return: The function `test_knowledge` returns a boolean value `True`.
     """
-    data = open('txt_files/dictionary.txt', 'r')   # Open the text file
+    data = open('knowledge_data/dictionary.txt', 'r')   # Open the text file
     lines = []
     # Remove all the new lines from the data in order to save each line in a list
     # Save the data into a list
@@ -696,7 +696,8 @@ def handle_invalid_input(some_input: str):
 
 
 def greet_user():
-    print("Welcome to my application.\n"
+    print("Hello Dear User, \n"
+          "Welcome to my English Learning System\n"
           "\nOnly learning foreign languages can give you the wings to conquer the world.\n"
           "Here we offer you a perfect way to master your Vocabulary by Learning new worlds.\n"
           "Taking this major step can give you many challenges and much more opportunities.\n"

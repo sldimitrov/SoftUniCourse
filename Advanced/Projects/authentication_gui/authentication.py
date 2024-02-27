@@ -2,7 +2,7 @@ from tkinter import Button, Entry
 
 from json import dump, loads
 
-from Advanced.Projects.gui_authentication.buying_page import display_products
+from Advanced.Projects.authentication_gui.buying_page import display_products
 from canvas import root, frame
 from helpers import clean_screen, get_password_hash
 
