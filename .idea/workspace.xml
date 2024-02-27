@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="update the repo configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_authentication/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/authentication_gui/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_authentication/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/authentication_gui/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_authentication/canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/authentication_gui/canvas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_authentication/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/authentication_gui/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/gui_authentication/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/authentication_gui/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/txt_files/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/knowledge_data/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/txt_files/list_of_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/list_of_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/txt_files/sentences_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/knowledge_data/sentences_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/txt_files/user_account.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Projects/learning_system_project/knowledge_data/user_account.txt" afterDir="false" />
-    </list>
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,53 +57,78 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.additional_test_db.executor&quot;: &quot;Run&quot;,
-    &quot;Python.authentication.executor&quot;: &quot;Run&quot;,
-    &quot;Python.canvas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.core (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.core.executor&quot;: &quot;Run&quot;,
-    &quot;Python.helpers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (4).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.samples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_database (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_database.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_database_additional.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/Desktop/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.01_phombus_of_stars.executor": "Run",
+    "Python.__main__.executor": "Run",
+    "Python.additional_test_db.executor": "Run",
+    "Python.authentication.executor": "Run",
+    "Python.canvas.executor": "Run",
+    "Python.client.executor": "Run",
+    "Python.core (1).executor": "Run",
+    "Python.core.executor": "Run",
+    "Python.helpers.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Debug",
+    "Python.main.executor": "Run",
+    "Python.samples.executor": "Run",
+    "Python.server.executor": "Run",
+    "Python.test_database (1).executor": "Run",
+    "Python.test_database.executor": "Run",
+    "Python.test_database_additional.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/OOP/Exercises/first_steps_in_oop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\learning_system_project" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop\db" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_authentication" />
-      <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop\authentication_part" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop\images" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__main__">
+  <component name="RunManager" selected="Python.01_phombus_of_stars">
+    <configuration name="01_phombus_of_stars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUniCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop/01_phombus_of_stars.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -154,29 +167,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/gui_shop/authentication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Projects/gui_shop/helpers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_phombus_of_stars" />
         <item itemvalue="Python.__main__" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.authentication" />
-        <item itemvalue="Python.helpers" />
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +270,7 @@
       <workItem from="1708868020147" duration="2572000" />
       <workItem from="1708880417496" duration="12354000" />
       <workItem from="1708951606850" duration="2920000" />
+      <workItem from="1709048260363" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -532,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708952391586</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="git update files">
+      <option name="closed" value="true" />
+      <created>1709048283070</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709048283070</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +569,8 @@
     <MESSAGE value="fix a bug like a senior developer" />
     <MESSAGE value="repo config structure &amp; upload solution for an exercise" />
     <MESSAGE value="update the repo configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the repo configuration" />
+    <MESSAGE value="git update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="git update files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
