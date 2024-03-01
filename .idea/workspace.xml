@@ -44,10 +44,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
   <component name="ProjectId" id="2bxs2p7XT6fYlIROM97hnfCfE6Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,64 +53,6 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for testing.PokemonTest.executor": "Run",
-    "Python tests.Python tests for testing.PokemonTest.test_adding_already_added_pokemon (1).executor": "Run",
-    "Python tests.Python tests for testing.PokemonTest.test_adding_already_added_pokemon.executor": "Run",
-    "Python tests.Python tests for testing.PokemonTest.test_releasing_pokemon.executor": "Run",
-    "Python tests.Python tests in testing.py (1).executor": "Run",
-    "Python tests.Python tests in testing.py.executor": "Run",
-    "Python.01_phombus_of_stars.executor": "Run",
-    "Python.01_shop.executor": "Run",
-    "Python.01_vehicle.executor": "Run",
-    "Python.02_hero.executor": "Run",
-    "Python.02_point.executor": "Run",
-    "Python.02_scope_mess_broken.executor": "Run",
-    "Python.02_scope_mess_fixed.executor": "Run",
-    "Python.03_circle.executor": "Run",
-    "Python.03_class_book.executor": "Run",
-    "Python.04_car.executor": "Run",
-    "Python.04_cup.executor": "Run",
-    "Python.04_glass.executor": "Run",
-    "Python.05_flower.executor": "Run",
-    "Python.05_music.executor": "Run",
-    "Python.05_smartphone.executor": "Run",
-    "Python.06_steam_user.executor": "Run",
-    "Python.07_programmer.executor": "Run",
-    "Python.__main__.executor": "Run",
-    "Python.additional_test_db.executor": "Run",
-    "Python.authentication.executor": "Run",
-    "Python.canvas.executor": "Run",
-    "Python.client.executor": "Run",
-    "Python.core (1).executor": "Run",
-    "Python.core.executor": "Run",
-    "Python.helpers.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main (4).executor": "Debug",
-    "Python.main.executor": "Run",
-    "Python.pokemon_py.executor": "Run",
-    "Python.samples.executor": "Run",
-    "Python.server.executor": "Run",
-    "Python.test_database (1).executor": "Run",
-    "Python.test_database.executor": "Run",
-    "Python.test_database_additional.executor": "Run",
-    "Python.trainer_py.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/OOP/Exercises/first_step_in_oop_exercise",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_step_in_oop_exercise" />
@@ -132,7 +70,6 @@
   <component name="RunManager" selected="Python.05_smartphone">
     <configuration name="01_vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -155,7 +92,6 @@
     </configuration>
     <configuration name="02_point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -178,7 +114,6 @@
     </configuration>
     <configuration name="03_circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -201,7 +136,6 @@
     </configuration>
     <configuration name="04_glass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -224,7 +158,6 @@
     </configuration>
     <configuration name="05_smartphone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
