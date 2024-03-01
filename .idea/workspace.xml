@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files">
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/01_vet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/02_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/01_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/01_vehicle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/02_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/02_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/03_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/03_circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/04_glass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/05_smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/05_smartphone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/01_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/01_shop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/02_hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/02_hero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/03_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/03_employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/04_cup.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/04_cup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/05_flower.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/05_flower.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/06_steam_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/06_steam_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/07_programmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/07_programmer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/project.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_vet">
+  <component name="RunManager" selected="Python.account">
     <configuration name="01_vet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,56 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/02_point.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03_circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftUniCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/03_circle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04_glass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftUniCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/02_time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,13 +140,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUniCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/account.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUniCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.account" />
+        <item itemvalue="Python.02_time" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.01_vet" />
         <item itemvalue="Python.05_smartphone" />
-        <item itemvalue="Python.03_circle" />
-        <item itemvalue="Python.04_glass" />
-        <item itemvalue="Python.02_point" />
       </list>
     </recent_temporary>
   </component>
