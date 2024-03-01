@@ -18,6 +18,12 @@ class Time:
 
     def next_second(self):
         self.seconds += 1
+
+        self.update_valid_time()
+
+        return self.get_time()
+
+    def update_valid_time(self) -> None:
         if self.seconds > Time.max_seconds:
             self.seconds = 0
             self.minutes += 1
@@ -28,8 +34,6 @@ class Time:
 
                 if self.hours > Time.max_hours:
                     self.hours = 0
-
-        return self.get_time()
 
 
 time = Time(9, 30, 59)
