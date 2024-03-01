@@ -1,4 +1,7 @@
 class Time:
+    """
+    Initialise a timer - class Time
+    """
     max_hours = 23
     max_minutes = 59
     max_seconds = 59
@@ -36,7 +39,9 @@ class Time:
                     self.hours = 0
 
 
+# Initialise a attribute / object /
 time = Time(9, 30, 59)
+# Call attribute's method
 print(time.next_second())
 
 time = Time(10, 59, 59)

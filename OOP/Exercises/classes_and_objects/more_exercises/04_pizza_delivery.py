@@ -6,41 +6,35 @@ class PizzaDelivery:
         self.ingredients = ingredients
         self.ordered = False
 
-    def invalid_changes(self):
+    def get_ordered_message(self):
         return f"Pizza {self.name} already prepared, and we can't make any changes!"
 
     def add_extra(self, ingredient: str, qnt: int, price_per_qnt: float):
         if self.ordered:
-            return self.invalid_changes()
+            return self.get_ordered_message()
 
-        if ingredient in self.ingredients:
-            self.ingredients[ingredient] += qnt
-            total_sum = qnt * price_per_qnt
-            self.price += total_sum
-        else:
-            self.ingredients[ingredient] = qnt
-            total_sum = qnt * price_per_qnt
-            self.price += total_sum
+        self.ingredients[ingredient] = self.ingredients.get(ingredient, 0) + qnt
+        self.price += qnt * price_per_qnt
 
     def remove_ingredient(self, ingredient: str, qnt: int, price_per_qnt: float):
         if self.ordered:
-            return self.invalid_changes()
+            return self.get_ordered_message()
 
-        if ingredient not in self.ingredients:
+        ingredient_quantity = self.ingredients.get(ingredient)
+
+        if ingredient_quantity:
             return f"Wrong ingredient selected! We do not use {ingredient} in {self.name}!"
-        elif qnt > self.ingredients[ingredient]:
+
+        if ingredient_quantity < qnt:
             return f"Please check again the desired quantity of {ingredient}!"
-        else:
-            self.ingredients[ingredient] -= qnt
-            price_diff = qnt * price_per_qnt
-            self.price -= price_diff
+
+        self.ingredients[ingredient] -= qnt
+        self.price -= qnt * price_per_qnt
 
     def make_order(self):
-        if not self.ordered:
-            self.ordered = True
-            return f"You've ordered pizza {self.name} prepared with {', '.join([f'{k}: {v}' for k, v in self.ingredients.items()])} and the price will be {self.price}lv."
-        else:
-            self.invalid_changes()
+        self.ordered = True
+        ingredients = ', '.join(f'{k}: {v}' for k, v in self.ingredients.items())
+        return f"You've ordered pizza {self.name} prepared with {ingredients} and the price will be {self.price}lv."
 
 
 margarita = PizzaDelivery('Margarita', 11, {'cheese': 2, 'tomatoes': 1})
