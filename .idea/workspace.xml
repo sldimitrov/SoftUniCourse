@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files">
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/01_vet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/01_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/01_vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/02_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/02_point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/03_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/03_circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/04_glass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/05_smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/exercises/05_smartphone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/01_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/01_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/02_hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/02_hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/03_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/03_employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/04_cup.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/04_cup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/05_flower.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/05_flower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/06_steam_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/06_steam_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/07_programmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/exercises/07_programmer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/testing.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,13 +72,16 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop/exercises" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop\exercises" />
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_step_in_oop_exercise\exercises" />
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\classes_and_objects\exercises" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_step_in_oop_exercise" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
-      <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\learning_system_project" />
-      <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop\db" />
-      <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
@@ -67,8 +89,8 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_smartphone">
-    <configuration name="01_vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01_vet">
+    <configuration name="01_vet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,12 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/01_vehicle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/01_vet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_vet" />
         <item itemvalue="Python.05_smartphone" />
         <item itemvalue="Python.03_circle" />
         <item itemvalue="Python.04_glass" />
         <item itemvalue="Python.02_point" />
-        <item itemvalue="Python.01_vehicle" />
       </list>
     </recent_temporary>
   </component>
@@ -505,6 +526,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -535,7 +557,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>36</line>
+          <line>64</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -939,32 +961,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>251</line>
+          <line>250</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>334</line>
+          <line>327</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>369</line>
+          <line>362</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>673</line>
+          <line>667</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>426</line>
+          <line>420</line>
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/Projects/learning_system_project/__main__.py</url>
-          <line>166</line>
+          <line>153</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -983,66 +1005,23 @@
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/04_cup.py</url>
-          <option name="timeStamp" value="186" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/07_programmer.py</url>
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/07_programmer.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/07_programmer.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="189" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/07_programmer.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project/trainer.py</url>
+          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/project/trainer.py</url>
           <line>15</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project/trainer.py</url>
+          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/project/trainer.py</url>
           <line>24</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project/trainer.py</url>
+          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/project/trainer.py</url>
           <line>41</line>
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/testing.py</url>
+          <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/testing.py</url>
           <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/04_glass.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="201" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1059,45 +1038,5 @@
         <watch expression="used_coins[50]" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SoftUniCourse$02_scope_mess_broken.coverage" NAME="02_scope_mess_broken Coverage Results" MODIFIED="1709049846876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1708538891319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$authentication.coverage" NAME="authentication Coverage Results" MODIFIED="1708888498144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$01_vehicle.coverage" NAME="01_vehicle Coverage Results" MODIFIED="1709158523505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$01_shop.coverage" NAME="01_shop Coverage Results" MODIFIED="1709059566866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$test_database__1_.coverage" NAME="test_database (1) Coverage Results" MODIFIED="1708869108391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project/data_base_testing" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$05_music.coverage" NAME="05_music Coverage Results" MODIFIED="1709057125654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1708952638071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$test_database_additional.coverage" NAME="test_database_additional Coverage Results" MODIFIED="1708869792520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$trainer_py.coverage" NAME="trainer_py Coverage Results" MODIFIED="1709064275043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$07_programmer.coverage" NAME="07_programmer Coverage Results" MODIFIED="1709061915115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$client.coverage" NAME="client Coverage Results" MODIFIED="1708869606978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$additional_test_db.coverage" NAME="additional_test_db Coverage Results" MODIFIED="1708868689140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$04_glass.coverage" NAME="04_glass Coverage Results" MODIFIED="1709159390257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$01_phombus_of_stars.coverage" NAME="01_phombus_of_stars Coverage Results" MODIFIED="1709048734873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$02_point.coverage" NAME="02_point Coverage Results" MODIFIED="1709158677855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$core__1_.coverage" NAME="core (1) Coverage Results" MODIFIED="1708556963076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/fibonacci_sequence" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$server.coverage" NAME="server Coverage Results" MODIFIED="1708869582962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$samples.coverage" NAME="samples Coverage Results" MODIFIED="1708869589220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$05_flower.coverage" NAME="05_flower Coverage Results" MODIFIED="1709060808941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$.coverage" NAME=" Coverage Results" MODIFIED="1709064808453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1708952455623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/picture_generator_ai" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1708893253501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$pokemon_py.coverage" NAME="pokemon_py Coverage Results" MODIFIED="1709062912397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise/project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1708869727054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/learning_system_project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$helpers.coverage" NAME="helpers Coverage Results" MODIFIED="1708885980759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$core.coverage" NAME="core Coverage Results" MODIFIED="1708538883135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/triangle" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$canvas.coverage" NAME="canvas Coverage Results" MODIFIED="1708735238772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Projects/gui_shop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$04_cup.coverage" NAME="04_cup Coverage Results" MODIFIED="1709060790694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1708555792062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/modules/mathematical_operations" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$05_smartphone.coverage" NAME="05_smartphone Coverage Results" MODIFIED="1709159797517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$04_car.coverage" NAME="04_car Coverage Results" MODIFIED="1709056841407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$06_steam_user.coverage" NAME="06_steam_user Coverage Results" MODIFIED="1709061199978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$02_scope_mess_fixed.coverage" NAME="02_scope_mess_fixed Coverage Results" MODIFIED="1709049851686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1708540288443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/lecture_materials/PythonAdvancedMay2021/advanced_modules/math_operations" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$03_circle.coverage" NAME="03_circle Coverage Results" MODIFIED="1709159450748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$03_class_book.coverage" NAME="03_class_book Coverage Results" MODIFIED="1709055999363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_steps_in_oop" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$02_hero.coverage" NAME="02_hero Coverage Results" MODIFIED="1709060493522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercise" />
   </component>
 </project>
