@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files">
-      <change beforePath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/03_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +72,8 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for pizza_delivery.Tests.test_add_extra_with_available_ingredient_should_increase_the_quantity">
-    <configuration name="03_account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01_vet">
+    <configuration name="01_vet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\github_repositories\SoftUniCourse\OOP\Exercises\classes_and_objects\more_exercises\03_account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/01_vet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pizza_delivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_pizza_delivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/pizza_delivery.py" />
+      <option name="SCRIPT_NAME" value="D:\github_repositories\SoftUniCourse\OOP\Exercises\classes_and_objects\more_exercises\04_pizza_delivery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +143,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in pizza_delivery.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in 04_pizza_delivery.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,17 +153,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/pizza_delivery.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/04_pizza_delivery.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_vet" />
         <item itemvalue="Python tests.Python tests for pizza_delivery.Tests.test_add_extra_with_available_ingredient_should_increase_the_quantity" />
         <item itemvalue="Python tests.Python tests for pizza_delivery.Tests" />
-        <item itemvalue="Python tests.Python tests in pizza_delivery.py" />
-        <item itemvalue="Python.pizza_delivery" />
-        <item itemvalue="Python.03_account" />
+        <item itemvalue="Python tests.Python tests in 04_pizza_delivery.py" />
+        <item itemvalue="Python.04_pizza_delivery" />
       </list>
     </recent_temporary>
   </component>
@@ -982,7 +982,7 @@
           <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/pizza_delivery.py</url>
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/04_pizza_delivery.py</url>
           <line>54</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
