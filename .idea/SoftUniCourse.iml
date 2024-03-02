@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
