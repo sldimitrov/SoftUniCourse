@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="git update files">
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project/section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project/task.py" afterDir="false" />
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file">
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/album.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/band.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/song.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +54,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bxs2p7XT6fYlIROM97hnfCfE6Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,9 +69,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test.SongTest.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_add_song_already_added.executor": "Debug",
+    "Python tests.Python tests for test.SongTest.test_publish.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_remove_song_not_in_album.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_remove_song_working.executor": "Run",
+    "Python tests.Python tests in test.py (1).executor": "Run",
+    "Python tests.Python tests in test.py.executor": "Run",
+    "Python.band.executor": "Run",
+    "Python.guild.executor": "Run",
+    "Python.player.executor": "Debug",
+    "Python.test (1).executor": "Debug",
+    "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github_repositories/github_projects",
+    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/OOP/Exercises/first_steps_in_oop/exercises",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -75,140 +96,106 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop\exercises" />
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_step_in_oop_exercise\exercises" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\classes_and_objects\exercises" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_step_in_oop_exercise" />
-      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop\more_exercises" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Projects\gui_shop\images" />
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.section">
-    <configuration name="01_vet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.SongTest.test_remove_album_published">
+    <configuration name="Python tests for test.SongTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/01_vet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.SongTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="02_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.SongTest.test_publish" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/02_time.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.SongTest.test_publish&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="03_account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.SongTest.test_remove_album_published" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/03_account.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.SongTest.test_remove_album_published&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="section" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.SongTest.test_remove_song_not_in_album" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project/section.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.SongTest.test_remove_song_not_in_album&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test.py (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/05_task/project/task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.section" />
-        <item itemvalue="Python.task" />
-        <item itemvalue="Python.03_account" />
-        <item itemvalue="Python.02_time" />
-        <item itemvalue="Python.01_vet" />
+        <item itemvalue="Python tests.Python tests for test.SongTest.test_remove_album_published" />
+        <item itemvalue="Python tests.Python tests for test.SongTest.test_publish" />
+        <item itemvalue="Python tests.Python tests in test.py (1)" />
+        <item itemvalue="Python tests.Python tests for test.SongTest.test_remove_song_not_in_album" />
+        <item itemvalue="Python tests.Python tests for test.SongTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +241,7 @@
       <workItem from="1709048260363" duration="10101000" />
       <workItem from="1709139148831" duration="2123000" />
       <workItem from="1709363957158" duration="119000" />
+      <workItem from="1709374197235" duration="9140000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -514,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709048283070</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="delete file">
+      <option name="closed" value="true" />
+      <created>1709374365793</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1709374365793</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +549,8 @@
     <MESSAGE value="repo config structure &amp; upload solution for an exercise" />
     <MESSAGE value="update the repo configuration" />
     <MESSAGE value="git update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="git update files" />
+    <MESSAGE value="delete file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,6 +1023,41 @@
           <url>file://$PROJECT_DIR$/OOP/Exercises/first_step_in_oop_exercises/testing.py</url>
           <option name="timeStamp" value="197" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project/guild.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project/player.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/song.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/album.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/test.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/test.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project/test.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1041,5 +1073,13 @@
         <watch expression="used_coins[50]" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftUniCourse$.coverage" NAME=" Coverage Results" MODIFIED="1709384927305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$player.coverage" NAME="player Coverage Results" MODIFIED="1709376174723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1709381905004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$guild.coverage" NAME="guild Coverage Results" MODIFIED="1709376651623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$band.coverage" NAME="band Coverage Results" MODIFIED="1709381772438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$test.coverage" NAME="test Coverage Results" MODIFIED="1709376678628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" />
   </component>
 </project>
