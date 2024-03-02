@@ -31,7 +31,7 @@ Where you can keep-in-touch with me?
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## OOP Module - Begun
-- [My exercises](add link...)
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/OOP/Exercises)
 - Sertificate soon...
 
 ##
