@@ -16,8 +16,17 @@ def binary_search(nums, target):
             right = middle_index - 1
 
 
+# Read the numbers
 nums = [int(x) for x in input().split(', ')]
+sorted_nums = sorted(nums)  # SORT the collection
+
+# Read the number which index we are looking for
 target = int(input())
+
+# Save the index into a variable
+index = binary_search(sorted_nums, target)  # Pass arguments to the function
+
 # Print User output
-print(binary_search(nums, target))
+print(index)
+
 
