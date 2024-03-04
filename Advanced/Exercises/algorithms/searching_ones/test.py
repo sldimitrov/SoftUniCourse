@@ -1,26 +1,10 @@
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+new_dict = {}
+for key, value in my_dict.items():
+    if value % 2 == 0:
+        new_dict.setdefault('even', []).append(key)
+    else:
+        new_dict.setdefault('odd', []).append(key)
 
-def binary_search(nums):
-    left = 0
-    right = len(nums) - 1
+print(new_dict)
 
-    while left <= right:
-
-        mid_idx = (left + right) // 2
-        curr_element = nums[mid_idx]
-
-        if curr_element == target:
-            return mid_idx
-        elif curr_element < target:
-            left = mid_idx
-        elif curr_element > target:
-            right = mid_idx
-
-
-numbers = [int(x) for x in input().split()]
-numbers = sorted(numbers)
-
-target = int(input())
-
-index = binary_search(numbers)
-
-print(f"Target index within the list: {index}")

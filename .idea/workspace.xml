@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file">
-      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +284,7 @@
       <workItem from="1709363957158" duration="119000" />
       <workItem from="1709374197235" duration="15644000" />
       <workItem from="1709470325104" duration="6788000" />
-      <workItem from="1709556618273" duration="10063000" />
+      <workItem from="1709556618273" duration="13783000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -1104,16 +1105,6 @@
           <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/linear_search.py</url>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/test.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="215" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/test.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="216" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1138,7 +1129,7 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$07_selection_sort.coverage" NAME="07_selection_sort Coverage Results" MODIFIED="1709565696482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$01_recursive_array_sum.coverage" NAME="01_recursive_array_sum Coverage Results" MODIFIED="1709565562540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$06_selection_sort_test.coverage" NAME="06_selection_sort_test Coverage Results" MODIFIED="1709566247962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$test.coverage" NAME="test Coverage Results" MODIFIED="1709576685489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$test.coverage" NAME="test Coverage Results" MODIFIED="1709581472103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$binary_search_algorithm.coverage" NAME="binary_search_algorithm Coverage Results" MODIFIED="1709557847276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$simple_sorting_algorithms.coverage" NAME="simple_sorting_algorithms Coverage Results" MODIFIED="1709567878685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$player.coverage" NAME="player Coverage Results" MODIFIED="1709376174723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" />
