@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file">
+      <change afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/testing_algorithms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/InterviewPrep/delete_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/InterviewPrep/delete_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/08_bubble_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/08_bubble_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +71,21 @@
     "Python tests.Python tests for test.SongTest.test_remove_song_working.executor": "Run",
     "Python tests.Python tests in test.py (1).executor": "Run",
     "Python tests.Python tests in test.py.executor": "Run",
+    "Python.01_recursive_array_sum.executor": "Debug",
+    "Python.06_selection_sort_test.executor": "Run",
+    "Python.07_selection_sort.executor": "Debug",
+    "Python.08_bubble_sort.executor": "Run",
+    "Python.09_insertion_sort.executor": "Run",
     "Python.band.executor": "Run",
     "Python.binary_search.executor": "Run",
     "Python.binary_search_algorithm.executor": "Run",
-    "Python.delete_files.executor": "Debug",
+    "Python.delete_files.executor": "Run",
     "Python.guild.executor": "Run",
     "Python.implementing_stack.executor": "Run",
     "Python.player.executor": "Debug",
     "Python.test (1).executor": "Debug",
     "Python.test.executor": "Run",
+    "Python.testing_algorithms (1).executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -106,8 +113,8 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.delete_files">
-    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.09_insertion_sort">
+    <configuration name="07_selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exercises/algorithms/binary_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/07_selection_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_search_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="08_bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,12 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exercises/algorithms/binary_search_algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/08_bubble_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="delete_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="09_insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/InterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/InterviewPrep/delete_files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/09_insertion_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="implementing_stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testing_algorithms (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,12 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exercises/algorithms/implementing_stack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/testing_algorithms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testing_algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,12 +215,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/08_task/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/08_task/project/test.py" />
+      <option name="SCRIPT_NAME" value="D:\github_repositories\SoftUniCourse\Advanced\Exercises\algorithms\lab\testing_algorithms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.delete_files" />
-        <item itemvalue="Python.implementing_stack" />
-        <item itemvalue="Python.binary_search" />
-        <item itemvalue="Python.binary_search_algorithm" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.09_insertion_sort" />
+        <item itemvalue="Python.testing_algorithms (1)" />
+        <item itemvalue="Python.08_bubble_sort" />
+        <item itemvalue="Python.testing_algorithms" />
+        <item itemvalue="Python.07_selection_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +283,7 @@
       <workItem from="1709363957158" duration="119000" />
       <workItem from="1709374197235" duration="15644000" />
       <workItem from="1709470325104" duration="6788000" />
-      <workItem from="1709556618273" duration="5646000" />
+      <workItem from="1709556618273" duration="8202000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -1084,9 +1091,14 @@
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OOP/InterviewPrep/delete_files.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="211" />
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/testing_algorithms.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/Exercises/algorithms/lab/08_bubble_sort.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="213" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1106,14 +1118,20 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftUniCourse$.coverage" NAME=" Coverage Results" MODIFIED="1709385007633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1709559608167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$08_bubble_sort.coverage" NAME="08_bubble_sort Coverage Results" MODIFIED="1709566619142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$07_selection_sort.coverage" NAME="07_selection_sort Coverage Results" MODIFIED="1709565696482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$01_recursive_array_sum.coverage" NAME="01_recursive_array_sum Coverage Results" MODIFIED="1709565562540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$06_selection_sort_test.coverage" NAME="06_selection_sort_test Coverage Results" MODIFIED="1709566247962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$test.coverage" NAME="test Coverage Results" MODIFIED="1709391596539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/08_task/project" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$binary_search_algorithm.coverage" NAME="binary_search_algorithm Coverage Results" MODIFIED="1709557847276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$player.coverage" NAME="player Coverage Results" MODIFIED="1709376174723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$implementing_stack.coverage" NAME="implementing_stack Coverage Results" MODIFIED="1709560705375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$delete_files.coverage" NAME="delete_files Coverage Results" MODIFIED="1709564796880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/InterviewPrep" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$delete_files.coverage" NAME="delete_files Coverage Results" MODIFIED="1709565383898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/InterviewPrep" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1709381905004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1709559608167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$testing_algorithms__1_.coverage" NAME="testing_algorithms (1) Coverage Results" MODIFIED="1709566763591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$guild.coverage" NAME="guild Coverage Results" MODIFIED="1709376651623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$band.coverage" NAME="band Coverage Results" MODIFIED="1709381772438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
-    <SUITE FILE_PATH="coverage/SoftUniCourse$test.coverage" NAME="test Coverage Results" MODIFIED="1709391596539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/08_task/project" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$09_insertion_sort.coverage" NAME="09_insertion_sort Coverage Results" MODIFIED="1709567106633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
   </component>
 </project>
