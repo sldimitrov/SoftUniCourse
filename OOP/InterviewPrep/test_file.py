@@ -1,7 +1,12 @@
+import os
 
+path = os.path.join(r"D:\github_repositories\SoftUniCourse\OOP\InterviewPrep\text.txt")
 
-len = 5
-some_list = [1, 2, 3]
-
-print(len)
-print(len(some_list))
+try:
+    os.remove(path)
+except FileNotFoundError as f:
+    print(f)
+else:
+    print(f"File was successfully removed.")
+finally:
+    print(f"Final statement..")

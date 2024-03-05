@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/InterviewPrep/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/InterviewPrep/test_file.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,46 +57,46 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test.SongTest.executor": "Run",
-    "Python tests.Python tests for test.SongTest.test_add_song_already_added.executor": "Debug",
-    "Python tests.Python tests for test.SongTest.test_publish.executor": "Run",
-    "Python tests.Python tests for test.SongTest.test_remove_album_published.executor": "Run",
-    "Python tests.Python tests for test.SongTest.test_remove_song_not_in_album.executor": "Run",
-    "Python tests.Python tests for test.SongTest.test_remove_song_working.executor": "Run",
-    "Python tests.Python tests in test.py (1).executor": "Run",
-    "Python tests.Python tests in test.py.executor": "Run",
-    "Python.01_recursive_array_sum.executor": "Debug",
-    "Python.06_selection_sort_test.executor": "Run",
-    "Python.07_selection_sort.executor": "Debug",
-    "Python.08_bubble_sort.executor": "Run",
-    "Python.09_insertion_sort.executor": "Run",
-    "Python.band.executor": "Run",
-    "Python.binary_search.executor": "Run",
-    "Python.binary_search_algorithm.executor": "Run",
-    "Python.delete_files.executor": "Run",
-    "Python.guild.executor": "Run",
-    "Python.implementing_stack.executor": "Run",
-    "Python.linear_search.executor": "Debug",
-    "Python.player.executor": "Debug",
-    "Python.simple_sorting_algorithms.executor": "Run",
-    "Python.test (1).executor": "Debug",
-    "Python.test.executor": "Run",
-    "Python.test_file.executor": "Run",
-    "Python.testing_algorithms (1).executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/OOP/Exercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test.SongTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.SongTest.test_add_song_already_added.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test.SongTest.test_publish.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.SongTest.test_remove_album_published.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.SongTest.test_remove_song_not_in_album.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.SongTest.test_remove_song_working.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_recursive_array_sum.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.06_selection_sort_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_selection_sort.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.08_bubble_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.band.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_search_algorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guild.executor&quot;: &quot;Run&quot;,
+    &quot;Python.implementing_stack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linear_search.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.player.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.simple_sorting_algorithms.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_algorithms (1).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github_repositories/SoftUniCourse/OOP/Exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises" />
@@ -287,6 +284,7 @@
       <workItem from="1709470325104" duration="6788000" />
       <workItem from="1709556618273" duration="14394000" />
       <workItem from="1709639917605" duration="1279000" />
+      <workItem from="1709657857358" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
