@@ -17,24 +17,24 @@ Where you can keep-in-touch with me?
 - [You can find here](add link...)
 
 ## Java Course - Passed:
-- [Exercises]()
+- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/JavaBasics)
 
 ## Python Basics Module - Passed (6,00):
-- [Exercises]()
+- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonBasics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
 ## Python Fundamentals Module - Passed (6,00):
-- [Exercises & projects]()
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonFundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
 ## Python Advanced Module - Passed (6,00):
-- [Exercises & projects]()
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonAdvanced)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## Python OOP Module - Begun
-- [My exercises]()
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonOOP)
 - Sertificate soon...
 
 ##
