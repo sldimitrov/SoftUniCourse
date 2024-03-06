@@ -45,4 +45,3 @@ print(f"After popping element {stack_object}")
 print(f"Is our stack empty? {stack_object.empty()}")
 
 print(f"The size of our stack: {stack_object.size()}")
-
