@@ -14,7 +14,7 @@ Where you can keep-in-touch with me?
 
 # Software Engineering 🧠
 ## If you want to see all of my projects:
-- [You can find here](add link...)
+- [You can find here](https://github.com/sldimitrov/Projects)
 
 ## Java Course - Passed:
 - [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/JavaBasics)
@@ -37,7 +37,7 @@ Where you can keep-in-touch with me?
 - [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonOOP)
 - Sertificate soon...
 
-##
+## 
 
 ![image](https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg)
 
