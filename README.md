@@ -16,8 +16,9 @@ Where you can keep-in-touch with me?
 ## If you want to see all of my projects:
 - [You can find here](https://github.com/sldimitrov/Projects)
 
-## Java Course - Passed:
+## Java Course by Svetlin Nakov - Passed:
 - [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/JavaBasics)
+- [Free Java Course](https://www.youtube.com/watch?v=sXM31yfsj04&list=PLIF8tJJOPz9K6jzNveBVwssQ6B6xVvcDN)
 
 ## Python Basics Module - Passed (6,00):
 - [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonBasics)
