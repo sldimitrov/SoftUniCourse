@@ -5,6 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/classes_and_objects/more_exercises/06_task/project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/classes_and_objects/more_exercises/08_task" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/inheritance/lab/02_exercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOP/Exercises/inheritance/lab/project" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file">
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project/fruit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project/dog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +30,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sldimitrov&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -59,56 +74,57 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test.SongTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.SongTest.test_add_song_already_added.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test.SongTest.test_publish.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.SongTest.test_remove_album_published.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.SongTest.test_remove_song_not_in_album.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.SongTest.test_remove_song_working.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test.py (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_recursive_array_sum.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.02_recursive_factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_selection_sort_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_selection_sort.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.08_bubble_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_insertion_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.band.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_search_algorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.delete_files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guild.executor&quot;: &quot;Run&quot;,
-    &quot;Python.implementing_stack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.linear_search.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.player.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.simple_sorting_algorithms.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_algorithms (1).executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/github_repositories/SoftUniCourse/OOP/Exercises&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test.SongTest.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_add_song_already_added.executor": "Debug",
+    "Python tests.Python tests for test.SongTest.test_publish.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_remove_album_published.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_remove_song_not_in_album.executor": "Run",
+    "Python tests.Python tests for test.SongTest.test_remove_song_working.executor": "Run",
+    "Python tests.Python tests in test.py (1).executor": "Run",
+    "Python tests.Python tests in test.py.executor": "Run",
+    "Python.01_recursive_array_sum.executor": "Debug",
+    "Python.02_recursive_factorial.executor": "Run",
+    "Python.06_selection_sort_test.executor": "Run",
+    "Python.07_selection_sort.executor": "Debug",
+    "Python.08_bubble_sort.executor": "Run",
+    "Python.09_insertion_sort.executor": "Run",
+    "Python.band.executor": "Run",
+    "Python.binary_search.executor": "Run",
+    "Python.binary_search_algorithm.executor": "Run",
+    "Python.delete_files.executor": "Run",
+    "Python.fruit.executor": "Run",
+    "Python.guild.executor": "Run",
+    "Python.implementing_stack.executor": "Run",
+    "Python.linear_search.executor": "Debug",
+    "Python.player.executor": "Debug",
+    "Python.simple_sorting_algorithms.executor": "Run",
+    "Python.test (1).executor": "Debug",
+    "Python.test.executor": "Run",
+    "Python.test_2.executor": "Run",
+    "Python.test_file.executor": "Run",
+    "Python.testing_algorithms (1).executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/OOP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\inheritance\lab\01_exercise" />
+      <recent name="D:\github_repositories\SoftUniCourse\OOP" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop\exercises" />
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
-      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_step_in_oop_exercise\exercises" />
-      <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\classes_and_objects\exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github_repositories\SoftUniCourse\OOP\Exercises\first_steps_in_oop" />
@@ -117,7 +133,7 @@
       <recent name="D:\github_repositories\SoftUniCourse\Advanced\Exams\python_advanced_exam_22_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_2">
+  <component name="RunManager" selected="Python.fruit">
     <configuration name="02_recursive_factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
@@ -141,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fruit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftUniCourse" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,12 +166,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones/linear_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/project/fruit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fruit" />
         <item itemvalue="Python.test_2" />
         <item itemvalue="Python.02_recursive_factorial" />
         <item itemvalue="Python.test_file" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.linear_search" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +308,9 @@
       <workItem from="1709657857358" duration="26000" />
       <workItem from="1709668829836" duration="2033000" />
       <workItem from="1709717331052" duration="2352000" />
-      <workItem from="1709737616550" duration="308000" />
+      <workItem from="1709737616550" duration="2325000" />
+      <workItem from="1709740206969" duration="14000" />
+      <workItem from="1709740221667" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
@@ -1138,6 +1156,7 @@
     <SUITE FILE_PATH="coverage/SoftUniCourse$.coverage" NAME=" Coverage Results" MODIFIED="1709385007633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/classes_and_objects/more_exercises/07_task/project" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$02_recursive_factorial.coverage" NAME="02_recursive_factorial Coverage Results" MODIFIED="1709718249025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$linear_search.coverage" NAME="linear_search Coverage Results" MODIFIED="1709576169649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/searching_ones" />
+    <SUITE FILE_PATH="coverage/SoftUniCourse$fruit.coverage" NAME="fruit Coverage Results" MODIFIED="1709739333121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/project" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1709559608167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fundamentals/Exercises/algorithms" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$08_bubble_sort.coverage" NAME="08_bubble_sort Coverage Results" MODIFIED="1709566619142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
     <SUITE FILE_PATH="coverage/SoftUniCourse$07_selection_sort.coverage" NAME="07_selection_sort Coverage Results" MODIFIED="1709565696482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced/Exercises/algorithms/lab" />
