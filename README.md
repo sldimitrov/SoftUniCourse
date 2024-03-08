@@ -14,27 +14,31 @@ Where you can keep-in-touch with me?
 
 # Software Engineering 🧠
 ## If you want to see all of my projects:
-- [You can find here](add link...)
+- [You can find here](https://github.com/sldimitrov/Projects)
 
-## Basics Module - Passed (6,00):
-- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/Basics)
+## Java Course by Svetlin Nakov - Passed:
+- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/JavaBasics)
+- [Free Java Course](https://www.youtube.com/watch?v=sXM31yfsj04&list=PLIF8tJJOPz9K6jzNveBVwssQ6B6xVvcDN)
+
+## Python Basics Module - Passed (6,00):
+- [Exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonBasics)
 - [Sertificate](https://softuni.bg/certificates/details/178317/f0052ba7)
 
 
-## Fundamentals Module - Passed (6,00):
-- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Fundamentals)
+## Python Fundamentals Module - Passed (6,00):
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonFundamentals)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 
-## Advanced Module - Passed (6,00):
-- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/Advanced)
+## Python Advanced Module - Passed (6,00):
+- [Exercises & projects](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonAdvanced)
 - [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
-## OOP Module - Begun
-- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/OOP/Exercises)
+## Python OOP Module - Begun
+- [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonOOP)
 - Sertificate soon...
 
-##
+## 
 
 ![image](https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg)
 
