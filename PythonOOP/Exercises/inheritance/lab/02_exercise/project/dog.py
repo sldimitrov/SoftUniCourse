@@ -2,5 +2,7 @@ from project.animal import Animal
 
 
 class Dog(Animal):
-    pass
+
+    def bark(self):
+        return "barking..."
 
