@@ -7,19 +7,13 @@ class EmailValidator:
         self.domains: list[str] = domains
 
     def __is_name_valid(self, name):
-        if self.min_length <= len(name):
-            return True
-        return False
+        return self.min_length <= len(name)
 
     def __is_mail_valid(self, mail):
-        if mail in self.mails:
-            return True
-        return False
+        return mail in self.mails
 
     def __is_domain_valid(self, domain):
-        if domain in self.domains:
-            return True
-        return False
+        return domain in self.domains
 
     def validate(self, email):
         # Validate name
@@ -34,11 +28,10 @@ class EmailValidator:
         domain = email.split('@')[1].split('.')[1]
         third_validation = self.__is_domain_valid(domain)
 
-        if first_validation and second_validation and third_validation:
-            return True
-        return False
+        return first_validation and second_validation and third_validation
 
 
+# Test Code
 mails = ["gmail", "softuni"]
 domains = ["com", "bg"]
 email_validator = EmailValidator(6, mails, domains)
