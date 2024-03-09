@@ -6,27 +6,24 @@ from project.food import Food
 class ProductRepository:
 
     def __init__(self):
-        self.products: list[Product] = []
+        self.products: list[Food, Drink] = []
 
     def add(self, product: Product):
         self.products.append(product)
 
     def find(self, product_name: str):
         for product in self.products:
-            product_as_str = product.__str__()
-            if product_as_str == product_name:
+            if product.name == product_name:
                 return product
 
     def remove(self, product_name: str):
-        for product in self.products:
-            product_as_str = product.__str__()
-            if product_as_str == product_name:
-                self.products.remove(product)
+
+        product = self.find(product_name)
+
+        if product:
+            self.products.remove(product)
 
     def __repr__(self):
-        result = []
+        return "\n".join(f"{p.name}: {p.quantity}" for p in self.products)
 
-        for product in self.products:
-            result.append(f"{product.name}: {product.quantity}")
 
-        return '\n'.join(result)
