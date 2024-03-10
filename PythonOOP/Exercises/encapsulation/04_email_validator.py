@@ -7,7 +7,7 @@ class EmailValidator:
         self.domains: list[str] = domains
 
     def __is_name_valid(self, name):
-        return self.min_length <= len(name)
+        return len(name) >= self.min_length
 
     def __is_mail_valid(self, mail):
         return mail in self.mails
@@ -16,19 +16,12 @@ class EmailValidator:
         return domain in self.domains
 
     def validate(self, email):
-        # Validate name
-        name = email.split('@')[0]
-        first_validation = self.__is_name_valid(name)
+        username, data = email.split('@')
+        provider, domain = data.split('.')
 
-        # Validate mail
-        mail = email.split('@')[1].split('.')[0]
-        second_validation = self.__is_mail_valid(mail)
-
-        # Validate domain
-        domain = email.split('@')[1].split('.')[1]
-        third_validation = self.__is_domain_valid(domain)
-
-        return first_validation and second_validation and third_validation
+        return (self.__is_name_valid(username) and
+                self.__is_mail_valid(provider) and
+                self.__is_domain_valid(domain))
 
 
 # Test Code
