@@ -8,8 +8,9 @@ class Person:
 
     @classmethod
     def __validate_age(cls, value):
-        raise ValueError(f'{value} must be between '
-                         f'{cls.min_age} and {cls.max_age}')
+        if not (Person.min_age <= value <= Person.max_age):
+            raise ValueError(f'{value} must be between '
+                             f'{cls.min_age} and {cls.max_age}')
 
     @property
     def age(self):
@@ -19,3 +20,4 @@ class Person:
     def age(self, value):
         self.__validate_age(value)
         self.__age = value
+
