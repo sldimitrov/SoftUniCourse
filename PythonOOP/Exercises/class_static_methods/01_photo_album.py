@@ -1,15 +1,15 @@
-from math import ceil
 from typing import List
+from math import ceil
 
 
 class PhotoAlbum:
     PHOTOS_PER_PAGE = 4
-    DASHES_COUNT: int = 11
-    SYMBOL_FOR_LINE: str = '-'
+    SYMBOL_COUNT = 11
+    SPACE_SYMBOL = '-'
 
     def __init__(self, pages: int):
         self.pages: int = pages
-        self.photos: [List[str]] = [[] for _ in range(self.pages)]
+        self.photos: List[List[str]] = [[] for _ in range(self.pages)]
 
     @classmethod
     def from_photos_count(cls, photos_count: int):
@@ -18,21 +18,22 @@ class PhotoAlbum:
     def add_photo(self, label: str):
         for page in range(self.pages):
             if len(self.photos[page]) < self.PHOTOS_PER_PAGE:
-                slot = len(self.photos[page]) + 1
+                slot = page + 1
                 self.photos[page].append(label)
 
-                return f"{label} photo added successfully on page {page + 1} slot {slot}"
+                return (f"{label} photo added successfully on page {page}"
+                        f" slot {slot}")
 
-        return "No more free slots"
+        return f"No more free slots"
 
     def display(self):
         result = [
-            self.SYMBOL_FOR_LINE * self.DASHES_COUNT
+            f"{self.SPACE_SYMBOL * self.SYMBOL_COUNT}"
         ]
 
         for page in self.photos:
             result.append(("[] " * len(page)).rstrip())
-            result.append(self.DASHES_COUNT * self.SYMBOL_FOR_LINE)
+            result.append(f"{self.SPACE_SYMBOL * self.SYMBOL_COUNT}")
 
         return "\n".join(result)
 
@@ -48,4 +49,3 @@ print(album.add_photo("prom"))
 print(album.add_photo("wedding"))
 
 print(album.display())
-
