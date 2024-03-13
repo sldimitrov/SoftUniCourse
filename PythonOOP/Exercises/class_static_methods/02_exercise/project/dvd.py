@@ -1,3 +1,4 @@
+import calendar
 
 class DVD:
     MONTHS = {
@@ -19,15 +20,11 @@ class DVD:
     @classmethod
     def from_date(cls, _id: int, name: str, date: str, age_restriction: int):
         # Extract the month and the year of creation
-        day, month, year = date.split('.')
-
-        month, year = int(month), int(year)
-
-        # Convert the month into string
-        month_as_str = cls.MONTHS[month]
+        day, month, year = [int(x) for x in date.split('.')]
+        month_str = calendar.month_name[month]
 
         # Initialise a new instance of the class
-        return cls(name, _id, year, month_as_str, age_restriction)
+        return cls(name, _id, year, month_str, age_restriction)
 
     def __repr__(self):
         # Override the repr method in order to improve the presentation of the printed instances

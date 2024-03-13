@@ -44,33 +44,29 @@ class MovieWorld:
             return f"DVD is already rented"
         elif customer.age < dvd.age_restriction:  # Customer is age restricted
             return f"{customer.name} should be at least {dvd.age_restriction} to rent this movie"
-        else:  # We actually rent the DVD
-            customer.rented_dvds.append(dvd)
-            dvd.is_rented = True
-            return f"{customer.name} has successfully rented {dvd.name}"
+
+        customer.rented_dvds.append(dvd)
+        dvd.is_rented = True
+
+        return f"{customer.name} has successfully rented {dvd.name}"
 
     def return_dvd(self, customer_id: int, dvd_id: int):
         """ This method checks if the DVD is in the Customer list and removes it if so """
         customer = next(filter(lambda x: x.id == customer_id, self.customers))
         dvd = next(filter(lambda y: y.id == dvd_id, self.dvds))
 
-        if dvd in customer.rented_dvds:
-            customer.rented_dvds.pop(dvd)
-            self.dvds.append(dvd)
-            return f"{customer.name} has successfully returned {dvd.name}"
-        else:
+        if dvd not in customer.rented_dvds:
             return f"{customer.name} does not have that DVD"
 
+        customer.rented_dvds.pop(dvd)
+        dvd.is_rented = False
+
+        return f"{customer.name} has successfully returned {dvd.name}"
+
     def __repr__(self):
-
-        result = []
-
-        customer_info = (c.__repr__() for c in self.customers)
-        dvds_info = (d.__repr__() for d in self.dvds)
-
-        result.append('\n'.join(customer_info))
-        result.append('\n'.join(dvds_info))
-
-        return "\n".join(result)
+        return "/n".join([
+            *[str(c) for c in self.customers],
+            *[str(d) for d in self.dvds],
+        ])
 
 
