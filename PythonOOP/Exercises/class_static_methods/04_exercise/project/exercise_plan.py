@@ -8,7 +8,7 @@ class ExercisePlan(NextIdMixin):
         self.trainer_id = trainer_id
         self.equipment_id = equipment_id
         self.duration = duration
-        self.id = self.next_id()
+        self.id = self.get_next_id()
         self.increment_id()
 
     @classmethod

@@ -3,7 +3,7 @@ class NextIdMixin:
     id = -1
 
     @classmethod
-    def next_id(cls):
+    def get_next_id(cls):
         return cls.id
 
     @classmethod

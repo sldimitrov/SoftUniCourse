@@ -6,7 +6,7 @@ class Equipment(NextIdMixin):
 
     def __init__(self, name: str):
         self.name = name
-        self.id = self.next_id()
+        self.id = self.get_next_id()
         self.increment_id()
 
     def __repr__(self):
