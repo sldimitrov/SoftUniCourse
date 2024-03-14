@@ -14,20 +14,21 @@ class Document:
         self.tags: List[str] = []
 
     @classmethod
-    def from_instance(cls, _id: int, category: Category, topic: Topic, file_name: str):
+    def from_instances(cls, _id: int, category: Category, topic: Topic, file_name: str):
         return cls(_id, category.id, topic.id, file_name)
 
-    def add_tag(self, tag_content: str):
-        if tag_content not in self.tags:
-            self.tags.append(tag_content)
+    def add_tag(self, tag: str) -> None:
+        if tag not in self.tags:
+            self.tags.append(tag)
 
-    def remove_tag(self, tag_content: str):
-        if tag_content in self.tags:
-            self.tags.remove(tag_content)
+    def remove_tag(self, tag: str) -> None:
+        if tag in self.tags:
+            self.tags.remove(tag)
 
-    def edit(self, file_name: str):
-        self.file_name = file_name
+    def edit(self, new_file_name: str) -> None:
+        self.file_name = new_file_name
 
     def __repr__(self):
-        return (f"Document {self.id}: {self.file_name}; category {self.category_id}, topic {self.topic_id},"
-                f" tags: {', '.join(self.tags)}")
+        return (f"Document {self.id}: {self.file_name}; "
+                f"category {self.category_id}, topic {self.topic_id}, "
+                f"tags: {', '.join(self.tags)}")
