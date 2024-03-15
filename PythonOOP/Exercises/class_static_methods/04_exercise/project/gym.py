@@ -41,11 +41,8 @@ class Gym:
         customer = next(filter(lambda c: c.id == subscription.customer_id, self.customers))
         trainer = next(filter(lambda t: t.id == subscription.trainer_id, self.trainers))
         plan = next(filter(lambda p: p.id == subscription.exercise_id, self.plans))
-        equipment_id = plan.equipment_id
+        equipment = next(filter(lambda e: e.id == plan.equipment_id, self.equipment))
 
-        equipment = next(filter(lambda e: e.id == equipment_id, self.equipment))
+        return f"{str(subscription)}\n{str(customer)}\n{str(trainer)}\n{str(plan)}\n{str(equipment)}"
 
-        result = [subscription, customer, trainer, equipment, plan]
-
-        return "\n".join(str(x) for x in result)
 
