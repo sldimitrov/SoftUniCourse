@@ -5,10 +5,10 @@ from project.food import Food
 
 class Animal(ABC):
 
-    def __init__(self, name: str, weight: float, food_eaten: int = 0):
+    def __init__(self, name: str, weight: float):
         self.name = name
         self.weight = weight
-        self.food_eaten = food_eaten
+        self.food_eaten = 0
 
     @property
     @abstractmethod
@@ -17,27 +17,27 @@ class Animal(ABC):
 
     @property
     @abstractmethod
-    def weight_increase(self):
+    def weight_increase(self) -> float:
         pass
 
+    @staticmethod
     @abstractmethod
-    def make_sound(self):
+    def make_sound() -> str:
         pass
 
-    def feed(self, food: Food):
+    def feed(self, food: Food) -> str or None:
         if type(food) not in self.food_to_consume:
             return f"{self.__class__.__name__} does not eat {food.__class__.__name__}!"
 
-        gained_weight = self.weight_increase * food.quantity
+        self.weight += self.weight_increase * food.quantity
         self.food_eaten += food.quantity
-        self.weight += gained_weight
 
 
 class Bird(Animal, ABC):
 
-    def __init__(self, name: str, weight: float, wing_size, food_eaten: int = 0):
-        super().__init__(name, weight, food_eaten)
-        self.wing_size: float = wing_size
+    def __init__(self, name: str, weight: float, wing_size: float):
+        super().__init__(name, weight)
+        self.wing_size = wing_size
 
     def __repr__(self):
         return f"{self.__class__.__name__} [{self.name}, {self.wing_size}, {self.weight}, {self.food_eaten}]"
@@ -45,13 +45,9 @@ class Bird(Animal, ABC):
 
 class Mammal(Animal, ABC):
 
-    def __init__(self, name: str, weight: float, living_region: str, food_eaten: int = 0):
-        super().__init__(name, weight, food_eaten)
-        self.living_region: str = living_region
+    def __init__(self, name: str, weight: float, living_region: str):
+        super().__init__(name, weight)
+        self.living_region = living_region
 
     def __repr__(self):
-        return f"{self.__class__.__name__} [{self.name}, {self.name}, {self.living_region}, {self.food_eaten}]"
-
-
-
-
+        return f"{self.__class__.__name__} [{self.name}, {self.weight}, {self.living_region}, {self.food_eaten}]"
