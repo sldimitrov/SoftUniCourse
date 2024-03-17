@@ -38,6 +38,10 @@ Where you can keep-in-touch with me?
 - [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonOOP)
 - Sertificate soon...
 
+## Algorithms with Python - soon
+- Exercises
+- Sertificate soon...
+
 ## 
 
 ![image](https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg)
