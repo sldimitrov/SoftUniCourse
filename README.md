@@ -39,7 +39,7 @@ Where you can keep-in-touch with me?
 - Sertificate soon...
 
 ## Algorithms with Python - soon
-- [Exercises]()
+- Exercises
 - Sertificate soon...
 
 ## 
