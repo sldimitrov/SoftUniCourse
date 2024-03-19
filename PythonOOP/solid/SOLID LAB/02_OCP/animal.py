@@ -1,22 +1,40 @@
-class Animal:
-    def __init__(self, species):
-        self.species = species
-
-    def get_species(self):
-        return self.species
+from abc import ABC, abstractmethod
+from typing import List
 
 
-def animal_sound(animals: list):
+class Animal(ABC):
+    @abstractmethod
+    def make_sound(self):
+        pass
+
+
+class Dog(Animal):
+    def __init__(self, name):
+        self.name = name
+
+    def make_sound(self):
+        return "woof woof"
+
+
+class Cat(Animal):
+    def __init__(self, name):
+        self.name = name
+
+    def make_sound(self):
+        return "meow"
+
+
+def animal_sound(animals: List[Animal]):
     for animal in animals:
-        if animal.species == 'cat':
-            print('meow')
-        elif animal.species == 'dog':
-            print('woof-woof')
+        print(animal.make_sound())
 
 
-animals = [Animal('cat'), Animal('dog')]
-animal_sound(animals)
+"""
+2nd principle of Solid : OPEN CLOSE 
+--- classes, funcs. should be opened for extension but closed for modification
+"""
 
-## добавете ново животно и рефакторирайте кода да работи без да се налага да се правят промени по него
-## при добавяне на нови животни
-# animals = [Animal('cat'), Animal('dog'), Animal('chicken')]
+
+animal_list = [Cat('cat'), Dog('dog')]
+animal_sound(animal_list)
+
