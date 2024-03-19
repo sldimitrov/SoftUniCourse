@@ -1,6 +1,8 @@
-class EntertainmentDevice:
+class EntertainmentDevice:  # MIXIN is the solution
+    """
+    A client should not depend on methods it does not use.
+    """
     def connect_device_to_power_outlet(self, device): pass
-
 
 
 class ConnectRCA:
@@ -16,6 +18,7 @@ class ConnectHDMI:
 class ConnectEthernet:
     def ethernet_connect(self, obj):
         pass
+
 
 class Television(EntertainmentDevice, ConnectRCA, ConnectHDMI):
     def connect_to_dvd(self, dvd_player):
