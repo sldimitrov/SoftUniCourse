@@ -12,6 +12,7 @@ class AbstractWorker:
     def eat(self):
         pass
 
+
 class Worker(AbstractWorker):
 
     def work(self):
@@ -20,6 +21,7 @@ class Worker(AbstractWorker):
     def eat(self):
         print("Lunch break....(5 secs)")
         time.sleep(5)
+
 
 class SuperWorker(AbstractWorker):
 
