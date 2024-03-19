@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 import time
+from typing import List
 
 
 class Workable(ABC):
@@ -50,19 +51,20 @@ class LazyPerson(Eatable):
 class BaseManager(ABC):
 
     def __init__(self):
-        self.workers: list = []
+        self.workers: List[Workable] = []
 
     @abstractmethod
-    def set_worker(self, worker):
+    def set_workers(self, workers):
         ...
 
 
 class WorkerManager(BaseManager):
 
-    def set_worker(self, worker):
-        assert isinstance(worker, Workable), f"`worker` must be of type {Workable}"
+    def set_workers(self, workers: List[Workable]):
+        for worker in workers:
+            assert isinstance(worker, Workable), f"`worker` must be of type {Workable}"
 
-        self.workers.append(worker)
+        self.workers = workers
 
     def manage(self):
         [worker.work() for worker in self.workers]
@@ -70,10 +72,11 @@ class WorkerManager(BaseManager):
 
 class EatManager(BaseManager):
 
-    def set_worker(self, worker):
-        assert isinstance(worker, Eatable), f"`worker` must be of type {Eatable}"
+    def set_workers(self, workers: List[Eatable]):
+        for worker in workers:
+            assert isinstance(worker, Eatable), f"`worker` must be of type {Eatable}"
 
-        self.workers.append(worker)
+        self.workers = workers
 
     def lunch_break(self):
         [worker.eat() for worker in self.workers]
@@ -84,13 +87,20 @@ work_manager = WorkerManager()
 eat_manager = EatManager()
 
 # Set each worker
-work_manager.set_worker(Worker())
-eat_manager.set_worker(Worker())
+# work_manager.set_worker(Worker())
+# eat_manager.set_worker(Worker())
 
-work_manager.set_worker(SuperWorker())
-eat_manager.set_worker(SuperWorker())
+worker = Worker()
+super_worker = SuperWorker()
+robot = Robot()
 
-work_manager.set_worker(Robot())
+work_manager.set_workers([worker, super_worker, robot])
+eat_manager.set_workers([worker, super_worker])
+
+# work_manager.set_worker(SuperWorker())
+# eat_manager.set_worker(SuperWorker())
+#
+# work_manager.set_worker(Robot())
 # The robot do NOT eat anything
 
 # Manage all
