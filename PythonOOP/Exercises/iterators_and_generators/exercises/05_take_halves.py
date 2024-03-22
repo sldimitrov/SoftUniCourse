@@ -1,16 +1,26 @@
 def solution():
 
     def integers():
-        max_level = float('inf')
-        integers = (i for i in range(int(max_level)))
-
+        num = 1
+        while True:
+            yield num
+            num += 1
 
     def halves():
-        halves = []
-        for i in integers:
-            halves.append(i / 2)
+
+        for i in integers():
+            yield i / 2
 
     def take(n, seq):
-        # TODO: Implement
+        numbers = []
+        for num in range(n):
+            numbers.append(next(seq))
+
+        return numbers
 
     return (take, halves, integers)
+
+
+take = solution()[0]
+halves = solution()[1]
+print(take(5, halves()))
