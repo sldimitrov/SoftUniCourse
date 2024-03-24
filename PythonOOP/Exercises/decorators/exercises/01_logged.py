@@ -1,10 +1,7 @@
 def logged(func):
-    def wrapper(*args):
-        result = func(*args)
-        function = f"{func.__name__}{args}"
-
-        info = f"you called {function}\n" \
-               f"it returned {result})"
+    def wrapper(*args, **kwargs):
+        info = f"you called {func.__name__}{args}\n" \
+               f"it returned {func(*args, **kwargs)}"
 
         return info
 
@@ -14,4 +11,6 @@ def logged(func):
 @logged
 def func(*args):
     return 3 + len(args)
+
+
 print(func(4, 4, 4))

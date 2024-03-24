@@ -1,12 +1,17 @@
+import unittest
+
+
 def even_parameters(func):
     def wrapper(*args):
-        numeric_values = [v for v in args if str(v).isnumeric()]
-        even_numbers = [v for v in numeric_values if v % 2 == 0]
+        for number in args:
+            if isinstance(number, int):
+                if number % 2 == 0:
+                    continue
 
-        if len(even_numbers) == len(args):
-            return func(*args)
+            return f"Please use only even numbers!"
+
         else:
-            return "Please use only even numbers!"
+            return func(*args)
 
     return wrapper
 
@@ -14,7 +19,3 @@ def even_parameters(func):
 @even_parameters
 def add(a, b):
     return a + b
-
-
-print(add(2, 4))
-print(add("Peter", 1))
