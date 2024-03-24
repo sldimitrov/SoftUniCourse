@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd530adf-445c-4583-aabd-bb2927bc4473" name="Changes" comment="delete file">
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/01_exercise/project/fruit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Exercises/inheritance/lab/02_exercise/project/dog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftUniCourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InesOOP/advanced2024Jan" beforeDir="false" afterPath="$PROJECT_DIR$/InesOOP/advanced2024Jan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOOP/Exercises/solid/SOLID_exercises/exercise-resources/emails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOOP/Exercises/solid/SOLID_exercises/exercise-resources/prisoner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOOP/Exercises/solid/SOLID_exercises/exercise-resources/shapes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOOP/Exercises/solid/SOLID_exercises/exercise-resources/workers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOOP/Exercises/solid/SOLID_exercises/exercise-resources/workers_updated.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github_repositories/SoftUniCourse/OOP",
+    "last_opened_file_path": "D:/repos/SoftUniCourse/PythonOOP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -311,6 +311,8 @@
       <workItem from="1709737616550" duration="2325000" />
       <workItem from="1709740206969" duration="14000" />
       <workItem from="1709740221667" duration="14000" />
+      <workItem from="1710926095058" duration="22000" />
+      <workItem from="1710937377658" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="update workflow of the project">
       <created>1707168998109</created>
