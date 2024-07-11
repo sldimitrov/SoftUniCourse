@@ -36,7 +36,7 @@ Where you can keep-in-touch with me?
 
 ## Python OOP Module - Begun
 - [My exercises](https://github.com/sldimitrov/SoftUniCourse/tree/main/PythonOOP)
-- Sertificate soon...
+- [Sertificate](https://softuni.bg/users/profile/certificates?username=sldimitrov)
 
 ## Algorithms with Python - soon
 - Exercises
